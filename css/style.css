@@ -6685,3 +6685,11 @@ span#contin-home {
 li.tag-chain-item.first.last.titolo_gc_asia_pacific a{
 	color: #ed6ea7 !important;
 }
+
+.person-link {
+    position: relative;
+    top: -96px;
+    display: block;
+    height: 0;
+    width: 0;
+}
