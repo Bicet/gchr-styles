@@ -48,7 +48,7 @@
                     <br>
                     <p id="ip304">“Acknowledging memory’s mobile, fluid character humanises memory; it humanises the use to which memory is put and it gives dignity and strength to memory.”<br>Hear more from Justice Albie Sachs about the benefits and challenges of memorialisation, truth and reconciliation processes and reparation in the #GCHumanRights #MOOC on Memory Sites and Human Rights ➡ gchumanrights.org/mshr<br><br>#HumanRightsEducation #HumanRights #Democratisation<br>@gchumanrights
                     </p><br>
-                    <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/moocs/mshr/ig/ig4.png" target="_blank" download="">Download Video</a>
+                    <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/moocs/mshr/ig/ig4.png" target="_blank" download="">Download Pic</a>
                 </div>
             </div>
         </div>
