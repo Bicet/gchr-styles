@@ -105,7 +105,8 @@ function copyToClipboard(element) {
 /* USELESS CODE AS #error-details is not defined but could be used in futture
     $( "#FailCopy" ).click(function() {
       alert("Well done! div #error-details has been copy to your clipboard, now paste it in the notepad or email!");
-    });
+    }
 */
+);
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
