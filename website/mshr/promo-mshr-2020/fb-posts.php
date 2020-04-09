@@ -1,11 +1,12 @@
 <style type="text/css">
-.riga{
+.riga {
     display:flex;
     flex-wrap: wrap;
     border-spacing: 20px 10px; /*Optional*/
 
 }
-.tweet2{
+
+.tweet2 {
     flex: 1 274px;
     flex-grow: 1;
     flex-shrink: 1;
@@ -16,6 +17,18 @@
     border-radius: 5px;
     -moz-border-radius: 5px;
 }
+
+#cf3 {
+    position:relative;
+    height: 420px;
+    max-width: 500px;
+    margin:0 auto;
+    }
+#cf3 img {
+    position:absolute;
+    left:0;
+}
+
 </style>
 
 <div class="table_accordion_cell">
@@ -38,50 +51,50 @@
 
             <div class="list_accordion">
             
-				
-				<!-- ROW #1 -->
+                
+                <!-- ROW #1 -->
                 <div class="riga">
-	                
+                    
                     <!-- POST #1 -->
                     <div class="tweet2">
-	                    <div class="video169_container"><iframe class="video169" src="https://www.youtube.com/embed/4PZB6TcyXDc" frameborder="0" allowfullscreen=""></iframe></div>
-						<br>
-                        <p id="fp1">The Global Campus of Human Rights is launching the second edition of its #MOOC “Monitoring the Human Rights of LGBTI Persons” 🌈 <br><br>The MOOC provides an overview of human rights standards, mechanisms and practices for the protection of LGBTI persons around the world.<br>Enrol now! 👉 https://gchumanrights.org/mooc-lgbti<br><br>#GCHumanRights #LoveIsLove #LGBTRightsAreHumanRights<br>@gchumanrights</p>
-                        <br><br><br>
-                        <a onclick="copyToClipboard('#fp1')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1RaQgBC7lGf0JmHunUK6Uov4x9mKjxLGA" class="titolo_gc_europe" download target="_blank">Download Video</a>
+                        <div class="video169_container"><iframe class="video169" src="https://player.vimeo.com/video/252703080?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen=""></iframe></div>
+                        <br>
+                        <p id="fp1">Remembrance is a way to acknowledge past suffering and to prevent it from happening again. In the aftermath of gross and systematic violations of human rights, memorialisation can be a crucial tool in the process of reconciliation and justice.<br><br>Join renowned lecturers and experts discussing Memory Sites and Human Rights in the #GCHumanRights #MOOC: https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
+                        <br><br>
+                        <a onclick="copyToClipboard('#fp1')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1KcWUTc8meBWVHqun7rINtcmBHTNRaV3Z" class="titolo_gc_europe" download target="_blank">Download Video</a>
                     </div><!-- CLOSE POST #1 -->
-					
+                    
                     <!-- POST #2 -->
                     <div class="tweet2">
-		                <div class="video169_container"><iframe class="video169" src="https://www.youtube.com/embed/Gk4yXxBwlmw" frameborder="0" allowfullscreen=""></iframe></div>
-			            <br>
-	                    <p id="fp2">“Monitoring and reporting are at the core of our work because not only do the results shape us, but we also use them to change the system and society.” Marta Ramos, Executive Director of ILGA Portugal, will share her experience and advice in our MOOC on Monitoring the human rights of LGBTI persons.<br><br>Meet the faculty of lecturers and experts we gathered for our online course: https://gchumanrights.org/mooc-lgbti<br><br>#GCHumanRights #LoveIsLove #LGBTRightsAreHumanRights<br>@gchumanrights</p>
-		   				<br>
-	                    <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=10KRGItiUrqKp2ul-ruHqQynCo9y9h29K" class="titolo_gc_europe" download target="_blank">Download Video</a>
+                        <div class="video169_container"><iframe class="video169" src="https://player.vimeo.com/video/257472922?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen=""></iframe></div>
+                        <br>
+                        <p id="fp2">“Acknowledging memory’s mobile, fluid character humanises memory; it humanises the use to which memory is put and it gives dignity and strength to memory.” <br><br>Hear more from Justice Albie Sachs about the benefits and challenges of memorialisation, truth and reconciliation processes and reparation in the #GCHumanRights #MOOC on Memory Sites and Human Rights: https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
+                        <br>
+                        <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1wM64v2fpV2pbptI3vELcID_AFYWse1-P" class="titolo_gc_europe" download target="_blank">Download Video</a>
                     </div>
-                    <!-- CLOSE POST #2 -->					
-				</div><!-- Close ROW #1 -->
+                    <!-- CLOSE POST #2 -->                  
+                </div><!-- Close ROW #1 -->
                 
 
                 <!-- ROW #2 -->
-				<div class="riga">
+                <div class="riga">
 
-	                <!-- POST #3 -->
+                    <!-- POST #3 -->
                     <div class="tweet2">
-	                     <div class="video169_container"><a href="https://gchumanrights.org/files/eiuc/mooclgbti/mediakit-2020/pics/fb-post.jpg" class="titolo_gc_europe" download target="_blank"><img class="video169" src="https://gchumanrights.org/files/eiuc/mooclgbti/mediakit-2020/pics/fb-post.jpg"></a></div>
-	                    <br>
-                        <p id="fp3">Do you know the @amsterdamrainbowdress? It’s a work of art made from the flags of all the countries in the world where homosexuality is illegal.<br><br>💻 Learn more about human rights standards, mechanisms and practices for the protection of LGBTI persons around the world: https://gchumanrights.org/mooc-lgbti<br><br>#GCHumanRights #LoveIsLove #LGBTRightsAreHumanRights<br>@gchumanrights</p>
-                        <br><br><br><br><br>
-                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://gchumanrights.org/files/eiuc/mooclgbti/mediakit-2020/pics/fb-post.jpg" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                        <div id="cf3"><a href="files/eiuc/moocs/mshr/fb/fb3.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/fb/fb3-small.jpg" alt="" width="100%"></div>
+                        <br>
+                        <p id="fp3">Free enrolment in the #GCHumanrights #MOOC on Memory Sites and Human Rights is open!<br>Learn about the links between history, memory, art and human rights.<br>Study conceptual frameworks, examples of memorials in diverse political and cultural contexts, their influence in shaping communities and identities.<br>Discover the impact of artistic language and design on memorialisation, democratisation and justice.<br><br>https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
+                        <br>
+                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/moocs/mshr/fb/fb3.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
                     </div><!-- CLOSE POST #3 -->
 
-					<!-- POST #4 -->
+                    <!-- POST #4 -->
                     <div class="tweet2">
-	                   <div class="video169_container"><a href="https://gchumanrights.org/files/eiuc/mooclgbti/mediakit-2020/pics/MOOC_finalframe.jpg" class="titolo_gc_europe" download target="_blank"><img class="video169" src="https://gchumanrights.org/files/eiuc/mooclgbti/mediakit-2020/pics/MOOC_finalframe.jpg"></a></div>
-					   <br>
-                        <p id="fp4">“Every day, millions of lesbians, gays, bisexual, trans and other gender non-conforming people are subjected to acts of great cruelty based solely on who they are or who they choose to love or desire. Denying this fact is offensive to the dignity of those targeted, as well as the global conscience." <br>Victor Madrigal-Borloz, UN Independent Expert on protection against violence and discrimination based on sexual orientation and gender identity<br>Learn how you can help in breaking this cycle of violence in our #MOOC on Monitoring the human rights of LGBTI persons: https://gchumanrights.org/mooc-lgbti<br><br>#GCHumanRights #LoveIsLove #LGBTRightsAreHumanRights<br>@gchumanrights</p>
-                        <br>
-                        <a onclick="copyToClipboard('#fp4')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://gchumanrights.org/files/eiuc/mooclgbti/mediakit-2020/pics/MOOC_finalframe.jpg" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <div id="cf3"><a href="files/eiuc/moocs/mshr/fb/fb2.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/fb/fb2-small.jpg" alt="" width="100%"></div>
+                       <br>
+                        <p id="fp4">How do we remember past atrocities and human rights violations? Why and what is important to remember? How are memories shaped and who is involved in ‘building memory’?<br>Enrol in the #GCHumanRights #MOOC on Memory Sites and Human Rights to find out!<br><br>https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
+                        <br><br><br><br>
+                        <a onclick="copyToClipboard('#fp4')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/moocs/mshr/fb/fb2.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
                     </div><!-- CLOSE POST #4 -->
 
@@ -107,7 +120,8 @@ function copyToClipboard(element) {
     $( "#FailCopy" ).click(function() {
       alert("Well done! div #error-details has been copy to your clipboard, now paste it in the notepad or email!");
     }
+    );
 */
-);
+
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
