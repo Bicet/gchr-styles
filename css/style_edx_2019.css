@@ -8031,12 +8031,15 @@ a:not(.btn), a:visited:not(.btn) {
 .dashboard .main-container .my-courses .course .details {
     padding: 0px !important;
 }
-
-
 }
 
 .xmodule_display.xmodule_HtmlModule a:link, .xmodule_display.xmodule_HtmlModule a:visited, .xmodule_display.xmodule_HtmlModule a:hover, .xmodule_display.xmodule_HtmlModule div.info-wrapper section.handouts ol li div.hitarea:hover+h4, div.info-wrapper section.handouts ol li .xmodule_display.xmodule_HtmlModule div.hitarea:hover+h4, .xmodule_display.xmodule_HtmlModule div.info-wrapper section.handouts ol li div.hitarea:focus+h4, div.info-wrapper section.handouts ol li .xmodule_display.xmodule_HtmlModule div.hitarea:focus+h4, .xmodule_display.xmodule_HtmlModule a:active, .xmodule_display.xmodule_HtmlModule a:focus {
     color: #009fe3 !important;
 }
 
+.xmodule_display.xmodule_HtmlModule h4 {
+    font-size: 1em;
+    font-weight: 400 !important;
+    color: #75716e !important;
+}
 
