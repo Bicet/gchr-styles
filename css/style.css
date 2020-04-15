@@ -6679,6 +6679,22 @@ span#contin-home {
 	}
 	*/
 
+	.level_1 li.prima_voce a, .level_1 li.seconda_voce a, .level_1 li.terza_voce a, .level_1 li.quarta_voce a, .level_1 li.quinta_voce a, .level_1 li.sesta_voce a {
+		color: #e8e6e3;
+	}
+
+	.linea_verticale, .linea {
+    	background-image: initial;
+    	background-color: #e8e6e3;
+	}
+
+	.colonna_menu ul li a {
+    	color: #e8e6e3;
+	}
+
+	.colonna_menu a {
+    color: #e8e6e3;
+}
 
 }
 
