@@ -1,0 +1,56 @@
+#================================================================================
+# Website-Template : Eiuc_Global_Campus.sql
+#================================================================================
+# Contao-Website   : Eiuc - Global Campus
+# Contao-Database  : eiuc_2
+# Saved by User    : gianluca (Gianluca Canton)
+# Time stamp       : 2018-01-04 at 15:34:51
+#
+# Contao Extension : BackupDB, Version 3.2.0
+# Copyright        : Softleister (www.softleister.de)
+# Author           : Hagen Klemp
+# Licence          : LGPL
+#
+# Visit Contao project page http://www.contao.org for more information
+#
+#-----------------------------------------------------
+# Contao Version 3.5.30
+# I seguenti moduli devono essere installati
+#-----------------------------------------------------
+#   - cfg_autoloader              : Version 1.0.0 stable, Build 20
+#   - conditionalselectmenu       : Version 3.0.4 stable, Build 1
+#   - dlh_geocode                 : Version 1.1.1 stable, Build 3
+#   - dlh_googlemaps              : Version 2.3.2 stable, Build 4
+#   - galerie                     : Version 2.5.0 stable, Build 5
+#   - mega_menu                   : Version 1.0.5 stable, Build 2
+#   - NamespaceClassLoader        : Version 1.0.2 stable, Build 45
+#   - news_categories             : Version 2.8.6 stable, Build 3
+#   - social_images               : Version 3.4.0 stable, Build 1
+#   - tags                        : Version 3.5.2 stable, Build 4
+#   - widget_tree_picker          : Version 2.3.4 stable, Build 4
+#   - conditionalformfields
+#   - slick
+#   - m17StickyBEFooter
+#   - conditionalfields
+#
+#================================================================================
+
+#------------------------------------------
+# Installazione
+#------------------------------------------
+
+ 1. Installa la versione standard di Contao sul tuo spazio web.
+ (es. estrai il file zip e caricalo sul tuo spazio web)
+ Non utilizzare lo strumento di installazione ora, verrà usato al punto 5
+
+ 2. Installare tutte le estensioni elencate.
+
+ 3. Salva il template del sito nel percorso /templates/.
+
+ 4. Salva tutti i file necessari al template del sito in
+ /templates/ e /tl_files/.
+    in the template creation).
+
+ 5. Avvia lo strumento di installazione di Contao ed importa
+ il file tempalte del sito.
+

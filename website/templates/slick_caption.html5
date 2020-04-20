@@ -1,0 +1,22 @@
+<?php 
+	global $regularN;
+	foreach ($this->body as $item): 
+?>
+		<?php if ($item->addImage): ?>
+			<div class="slider_recensioni" style="background: url(<?php echo  ($item->picture['img']['src']); ?>) center center no-repeat; background-size:cover;">
+				<?php if ($item->caption): ?>
+                                       <div class="link_before_info_caption">
+
+ <p class="info_caption"><?php echo $item->caption; ?></p>
+
+</div>
+                <?php endif; ?>
+				<div class="overlay_img_page">&nbsp;</div>
+			
+			</div>
+				
+		<?php endif; ?>
+<?php 
+	endforeach;
+	$regularN = $regularN + 1; 
+?>

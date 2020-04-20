@@ -1,0 +1,49 @@
+
+<div class="layout_latest arc_<?= $this->archive->id ?> block<?= $this->class ?>">
+
+  
+
+  <?php if ($this->addImage): ?>
+      <?php $this->link; ?><figure class="image_container<?php $this->floatClass ?>"<?php if ($this->margin): ?> style="<?= $this->margin ?>"<?php endif; ?>>
+
+      <?php if ($this->href): ?>
+        <a href="<?= $this->href ?>"<?= $this->attributes ?> title="<?= $this->alt ?>">
+      <?php endif; ?>
+	  <a href="<?= $this-> link ?>">
+      <?php $this->insert('picture_default', $this->picture); ?>
+	  </a>
+      <?php if ($this->href): ?>
+        </a>
+      <?php endif; ?>
+
+      <?php if ($this->caption): ?>
+        <figcaption class="caption"><?= $this->caption ?></figcaption>
+      <?php endif; ?>
+
+    </figure>
+  <?php endif; ?>
+
+
+	<div class="cat_evento">
+		<div class="testo_evento">
+			
+			
+			<p class="cat_titolo"><?= $this->subheadline ?></p>
+			
+			<a href="javascript:void(0);"><h3 class="titolo_programma"><?= $this->linkHeadline ?></h3></a>
+			
+			
+			<?php if ($this->hasMetaFields): ?>
+			    <p class="data_news"><?= $this->teaser ?></p>
+			  <?php endif; ?>
+			
+			
+			<?php if ($this->hasText || $this->hasTeaser): ?>
+			    <p class="more freccia_dx"><?= $this->more ?></p>
+			 <?php endif; ?>
+			 
+		</div>
+	</div>
+
+
+</div>

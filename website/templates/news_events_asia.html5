@@ -1,0 +1,98 @@
+	
+	<div class="container_con_spalla container_con_spalla_dettaglio_news no_margin_bottom">
+	
+		<aside class="spalla_sx spalla_dettaglio_news">
+			<div class="spalla_box_border_bottom">
+				<p class="text_popup margin_bottom_15">Posted on</p>
+				<?php if ($this->hasMetaFields): ?>
+				    	  	<!--<?php
+		  	$date = new DateTime( $this->datetime );		  	
+	  	?>-->
+	    
+				    <p class="data_news"><time datetime="<?= $this->datetime ?>"><? echo $date->format('d.m.Y'); ?></time> <?= $this->author ?> <?= $this->commentCount ?></p>
+		  <?php endif; ?>
+			</div>
+			<p class="text_popup margin_bottom_15">Share on</p>
+			
+			
+			<div class="socialnt" style="font-size:16px; padding-right: 15px;">
+    <ul class="social-share">
+        <li class="facebook">
+           <a href="share/?p=facebook&amp;u=<?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" rel="nofollow" title="<?= $this->facebookTitle ?>" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">
+               <em class="fa fa-facebook fa-4"></em>
+            </a>
+        </li>
+
+        <li class="twitter">
+            <a href="share/?p=twitter&amp;u=<?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" rel="nofollow" title="<?= $this->twitterTitle ?>" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">
+                <em class="fa fa-twitter fa-4"></em>
+            </a>
+        </li>
+
+       
+        <li class="linkedin">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" rel="nofollow" title="<?= $this->gplusTitle ?>" onclick="window.open(this.href,'','width=600,height=200,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">
+                <em class="fa fa-linkedin fa-4"></em>
+            </a>
+        </li>
+
+        <li class="print" >
+           <a href="<?= $this->print ?>" rel="nofollow" title="<?= $this->printTitle ?>" onclick="window.print();return false">
+               <em class="fa fa-print fa-4"></em>
+           </a>
+        </li>
+    </ul>
+</div>				
+				
+		</aside>
+		
+		
+		<div class="container no_margin_bottom">
+
+		<h1 class="title_page_programme titolo_gc_asia_pacific no_margin_top margin_bottom_40"><?= $this->newsHeadline ?></h1>
+		
+		<div class="description_page_programme">
+		  
+
+		  <!-- <?php if ($this->hasSubHeadline): ?>
+		    <h3 ><?= $this->subHeadline ?></h3>
+		  <?php endif; ?> -->
+
+
+		  <?php if ($this->text): ?>
+		    <?= $this->text ?>
+		  <?php else: ?>
+		    <div class="ce_text block margin_bottom_20">
+		      <?= $this->teaser ?>
+		    </div>
+		  <?php endif; ?>
+
+
+		  <?php if ($this->enclosure): ?>
+		    <div class="enclosure">
+		      <?php foreach ($this->enclosure as $enclosure): ?>
+		        <p><img src="files/eiuc/pdf_news.svg" alt="pdf"> <a href="<?= $enclosure['href'] ?>" title="<?= $enclosure['title'] ?>"><?= $enclosure['link'] ?> <span class="size">(<?= $enclosure['filesize'] ?>)</span></a></p>
+		      <?php endforeach; ?>
+		    </div>
+		  <?php endif; ?>
+
+
+		  <?php if ($this->showTags): ?>
+		    <?php if (count($this->taglist)): ?>
+		      <ul class="tag-chain">
+		      <?php $counter = 0; foreach ($this->taglist as $tag): ?>
+		        <li class="tag-chain-item<?php if ($counter == 0) echo ' first'; ?><?php if ($counter == count($this->taglist)-1) echo ' last'; ?><?php if ($this->showTagClass) echo ' ' . $tag['class']; ?> titolo_gc_asia_pacific"><?php echo $tag['url']; ?> <p><?php echo ', &nbsp'; ?></p> </li>
+		      <?php $counter++; endforeach; ?>
+		      </ul>
+		    <?php endif; ?>
+		  <?php endif; ?>
+		
+		</div>
+		
+		<a href="javascript:history.go(-1)" title="Go back" class="link_page_before_news">
+			<img src="files/eiuc/freccia_sx_gray.svg" alt="freccia sinistra">
+			<p><strong>Go back</strong></p>
+		</a>
+
+		</div>
+	</div>

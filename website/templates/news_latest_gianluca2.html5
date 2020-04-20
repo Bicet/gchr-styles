@@ -1,0 +1,15 @@
+
+<div class="layout_latest arc_<?= $this->archive->id ?> block<?= $this->class ?>">
+
+
+  <div class="description_page_programme">
+
+	  <p class="subtitle_page_programme"><?= $this->newsHeadline ?></p>
+
+	  <div class="teaser">
+	    <?= $this->teaser ?>
+	  </div>
+
+  </div>
+
+</div>

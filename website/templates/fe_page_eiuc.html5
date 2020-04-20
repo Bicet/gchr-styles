@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="<?= $this->language ?>"<?php if ($this->isRTL): ?> dir="rtl"<?php endif; ?>>
+<head>
+
+  <?php $this->block('head'); ?>
+    <meta charset="<?= $this->charset ?>">
+    <title><?= $this->title ?></title>
+    <base href="<?= $this->base ?>">
+
+    <?php $this->block('meta'); ?>
+      <meta name="robots" content="<?= $this->robots ?>">
+      <meta name="description" content="<?= $this->description ?>">
+      <meta name="keywords" content="<?= $this->keywords ?>">
+      <meta name="generator" content="Contao Open Source CMS">
+    <?php $this->endblock(); ?>
+
+    <?= $this->viewport ?>
+    <?= $this->framework ?>
+    <?= $this->stylesheets ?>
+    <?= $this->mooScripts ?>
+    <?= $this->head ?>
+
+    <?php $this->block('html5shiv'); ?>
+      <!--[if lt IE 9]><script src="<?= TL_ASSETS_URL ?>assets/html5shiv/<?= $GLOBALS['TL_ASSETS']['HTML5SHIV'] ?>/html5shiv-printshiv.min.js"></script><![endif]-->
+    <?php $this->endblock(); ?>
+  <?php $this->endblock(); ?>
+
+</head>
+<body id="top" class="{{ua::class}}<?php if ($this->class) echo ' ' . $this->class; ?>"<?php if ($this->onload): ?> onload="<?= $this->onload ?>"<?php endif; ?>>
+
+  <?php $this->block('body'); ?>
+    <?php $this->sections('top'); ?>
+
+    <div id="wrapper">
+
+      <?php $this->block('header'); ?>
+        <?php if ($this->header): ?>
+          <header>
+            <div class="inside">
+              <?= $this->header ?>
+            </div>
+			<div id="header">
+				<a href="index.html" class="display_flex"><img src="img/logo-global-campus.svg" class="logo_global_campus" alt="logo global campus"></a>
+
+				<nav>
+					<ul class="menu digimeg-main-nav">
+						<li class="prima_voce"><a href="/admissions.html" data-subnav="Admissions-subnav">Admissions</a></li>
+						<li class="seconda_voce"><a href="#" data-subnav="Education-subnav">Education</a></li>
+						<li class="terza_voce"><a href="#" data-subnav="Research-subnav">Research</a></li>
+						<li class="quarta_voce"><a href="#" data-subnav="News-subnav">News &amp; Events</a></li>
+						<li class="quinta_voce"><a href="#" data-subnav="About-subnav">About us</a></li>
+						<li class="sesta_voce"><a href="#" data-subnav="Support-subnav">Support us</a></li>
+					</ul>
+
+
+
+
+					<div class="linea_verticale"></div>
+					<img src="img/icona-lente.svg" alt="icona lente" class="search">
+				</nav>
+
+
+					<!-- icona menu hamburger -->
+					<div id="trigger" class="menu-trigger">
+						<div id="nav-icon3">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						</div>
+					</div>
+
+
+
+				<img src="img/logo-eiuc.svg" class="logo_eiuc" alt="logo EIUC">
+
+			</div>	
+
+
+
+			<!-- megamenu -->
+			<ul class="digimeg-sub-nav">
+				<li id="Admissions-subnav">
+
+					<div class="megamenu_container">
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Master Programmes</a></h5>
+
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Training Programmes</a></h5>
+							<ul>
+								<li>
+									<a href="#">International Electoral <br> Observers</a>	
+								</li>
+								<li>
+									<a href="#">European Law of Human <br> Rights</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Summer Schools</a></h5>
+							<ul>
+								<li>
+									<a href="#">Venice School</a>	
+								</li>
+								<li>
+									<a href="#">Venice Academy</a>		
+								</li>
+								<li>
+									<a href="#">Cinema Human Rights and <br> Advocacy</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_img"> 
+							<p class="titolo_img_menu">Sustainability <br> campaign</p>
+							<a href="#"><button class="button button--aylen">Discover</button></a>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li id="Education-subnav">
+
+					<div class="megamenu_container">
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Regional Programmes</a></h5>
+							<ul>
+								<li>
+									<a href="#">GC Europe</a>	
+								</li>
+								<li>
+									<a href="#">GC South East Europe</a>		
+								</li>
+								<li>
+									<a href="#">GC Caucasus</a>	
+								</li>
+								<li>
+									<a href="#">GC Africa</a>		
+								</li>
+								<li>
+									<a href="#">GC Asia-Pacific</a>	
+								</li>
+								<li>
+									<a href="#">GC Latin America <br>Caribbean</a>		
+								</li>
+								<li>
+									<a href="#">GC Arab World</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Career Programmes</a></h5>
+							<ul>
+								<li>
+									<a href="#">GC Intership Programme</a>	
+								</li>
+								<li>
+									<a href="#">Alumni associations’<br>activities</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">E-learning</a></h5>
+							<ul>
+								<li>
+									<a href="#">Online Courses</a>	
+								</li>
+								<li>
+									<a href="#">MOOCs</a>		
+								</li>
+								<li>
+									<a href="#">Blended Courses</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Summer Schools <br> and Training Programmes</a></h5>
+							<ul>
+								<li>
+									<a href="#">Summer Schools</a>	
+								</li>
+								<li>
+									<a href="#">Training Seminars</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Networking <br> and Outreach</a></h5>
+							<ul>
+								<li>
+									<a href="#">Global Classroom</a>	
+								</li>
+								<li>
+									<a href="#">Nelson Mandela World <br>	Moot Court</a>		
+								</li>
+								<li>
+									<a href="#">Exchange of Professors</a>	
+								</li>
+								<li>
+									<a href="#">Workshop on Integrated <br> Teaching</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_img"> 
+							<p class="titolo_img_menu">Sustainability <br> campaign</p>
+							<a href="#"><button class="button button--aylen">Discover</button></a>
+						</div>
+
+					</div>
+
+					<div class="megamenu_container border_top_submenu">
+						<ul class="submenu_blu_word">
+							<li class="icon icon-arrow-right"><a href="#">Prospective Students</a></li>
+							<li class="icon icon-arrow-right"><a href="#">Current Students</a></li>
+							<li class="icon icon-arrow-right"><a href="#">Agenda</a></li>
+						</ul>
+					</div>
+
+				</li>
+
+				<li id="Research-subnav">
+
+					<div class="megamenu_container">
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Projects</a></h5>
+							<ul>
+								<li>
+									<a href="#">GC Research Programme</a>	
+								</li>
+								<li>
+									<a href="#">Policy Observatory Pilot <br>Project</a>		
+								</li>
+								<li>
+									<a href="#">UN Global Study</a>		
+								</li>
+								<li>
+									<a href="#">FRAME</a>		
+								</li>
+								<li>
+									<a href="#">ACTIONES</a>		
+								</li>
+								<li>
+									<a href="#">E-NACT</a>		
+								</li>
+								<li>
+									<a href="#">UN Treaty Body Reform</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Publications</a></h5>
+							<ul>
+								<li>
+									<a href="#">Global Campus Human <br> Rights Journal</a>	
+								</li>
+								<li>
+									<a href="#">Global Campus Master's <br> Theses</a>		
+								</li>
+								<li>
+									<a href="#">FRAME Reports</a>		
+								</li>
+								<li>
+									<a href="#">European Human Rights <br> Yearbook</a>		
+								</li>
+								<li>
+									<a href="#">Repository</a>		
+								</li>
+								<li>
+									<a href="#">Copyrighted Materials</a>		
+								</li>
+								<li>
+									<a href="#">EMA 20 years</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Libraries</a></h5>
+							<ul>
+								<li>
+									<a href="#">Repository</a>	
+								</li>
+								<li>
+									<a href="#">EIUC</a>		
+								</li>
+								<li>
+									<a href="#">Other Libraries</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu colonna_menu_larga"> 
+							<h5 class="title_colonna_menu"><a href="#">Networking and Outreach</a></h5>
+							<ul>
+								<li>
+									<a href="#">Global Campus Exchange of Professors</a>	
+								</li>
+								<li>
+									<a href="#">Workshop Integrated Teaching</a>		
+								</li>
+								<li>
+									<a href="#">Online thesis supervision</a>	
+								</li>
+								<li>
+									<a href="#">Global Classroom</a>	
+								</li>
+								<li>
+									<a href="#">International Conference on Human Rights and Democratisation</a>		
+								</li>
+								<li>
+									<a href="#">Nelson Mandela World Moot Court</a>	
+								</li>
+								<li>
+									<a href="#">Venice Academy of Human Rights</a>	
+								</li>
+								<li>
+									<a href="#">Global Campus Visiting Researchers</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_img"> 
+							<p class="titolo_img_menu">Sustainability <br> campaign</p>
+							<a href="#"><button class="button button--aylen">Discover</button></a>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li id="News-subnav">
+
+					<div class="megamenu_container">
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Latest News</a></h5>
+							<ul>
+								<li>
+									<a href="#">Tag 1</a>	
+								</li>
+								<li>
+									<a href="#">Tag 2</a>		
+								</li>
+								<li>
+									<a href="#">Tag 3</a>	
+								</li>
+								<li>
+									<a href="#">Tag 4</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Upcoming Events</a></h5>
+							<ul>
+								<li>
+									<a href="#">Conferences</a>	
+								</li>
+								<li>
+									<a href="#">Trainings</a>		
+								</li>
+								<li>
+									<a href="#">Meetings</a>	
+								</li>
+								<li>
+									<a href="#">Workshops</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Fundraising Events</a></h5>
+
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Archive</a></h5>
+							<ul>
+								<li>
+									<a href="#">2017</a>		
+								</li>
+								<li>
+									<a href="#">2016</a>		
+								</li>
+								<li>
+									<a href="#">2015</a>		
+								</li>
+								<li>
+									<a href="#">2014</a>		
+								</li>
+								<li>
+									<a href="#">2013</a>		
+								</li>
+								<li>
+									<a href="#">2012</a>		
+								</li>
+								<li>
+									<a href="#">1998-2011</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_img"> 
+							<p class="titolo_img_menu">Sustainability <br> campaign</p>
+							<a href="#"><button class="button button--aylen">Discover</button></a>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li id="About-subnav">
+
+					<div class="megamenu_container">
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">EIUC / Global Campus</a></h5>
+							<ul>
+								<li>
+									<a href="#">Universities</a>	
+								</li>
+								<li>
+									<a href="#">Mission</a>		
+								</li>
+								<li>
+									<a href="#">Vision</a>	
+								</li>
+								<li>
+									<a href="#">Governance</a>		
+								</li>
+								<li>
+									<a href="#">Partners</a>	
+								</li>
+								<li>
+									<a href="#">Alumni</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Venues</a></h5>
+							<ul>
+								<li>
+									<a href="#">Europe</a>	
+								</li>
+								<li>
+									<a href="#">South East Europe</a>		
+								</li>
+								<li>
+									<a href="#">Latin America - Caribbean</a>	
+								</li>
+								<li>
+									<a href="#">Asia Pacific</a>		
+								</li>
+								<li>
+									<a href="#">Caucasus</a>	
+								</li>
+								<li>
+									<a href="#">Arab World</a>	
+								</li>
+								<li>
+									<a href="#">Africa</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Staff</a></h5>
+							<ul>
+								<li>
+									<a href="#">All the regions like in venues</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Documents of Reference</a></h5>
+							<ul>
+								<li>
+									<a href="#">Global Campus MoU</a>	
+								</li>
+								<li>
+									<a href="#">EIUC Statute</a>		
+								</li>
+								<li>
+									<a href="#">EIUC / GC Vision</a>	
+								</li>
+								<li>
+									<a href="#">EIUC / GC Mission</a>		
+								</li>
+								<li>
+									<a href="#">MoU EIUC - City of Venice</a>	
+								</li>
+								<li>
+									<a href="#">EMA Venice Charter</a>	
+								</li>
+								<li>
+									<a href="#">EMA Joint Degree <br> Agreement</a>	
+								</li>
+								<li>
+									<a href="#">PARTNERS DoR</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_img"> 
+							<p class="titolo_img_menu">Sustainability <br> campaign</p>
+							<a href="#"><button class="button button--aylen">Discover</button></a>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li id="Support-subnav">
+
+					<div class="megamenu_container">
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">PR Links</a></h5>
+							<ul>
+								<li>
+									<a href="#">Link 1</a>	
+								</li>
+								<li>
+									<a href="#">Link 2</a>		
+								</li>
+								<li>
+									<a href="#">Link 3</a>	
+								</li>
+								<li>
+									<a href="#">Link 4</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Join US</a></h5>
+							<ul>
+								<li>
+									<a href="#">Donations</a>	
+								</li>
+								<li>
+									<a href="#">Membership</a>		
+								</li>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Fund Raising Campaigns</a></h5>
+							<ul>
+								<li>
+									<a href="#">5x1000</a>	
+								</li>
+								<li>
+									<a href="#">Arts and Human Rights</a>		
+								</li>
+								<li>
+									<a href="#">Crowfunding</a>	
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_menu"> 
+							<h5 class="title_colonna_menu"><a href="#">Promotions</a></h5>
+							<ul>
+								<li>
+									<a href="#">Simple Gadgets</a>	
+								</li>
+								<li>
+									<a href="#">Arts & Design Gadgets</a>		
+								</li>
+							</ul>
+						</div>
+
+						<div class="colonna_img"> 
+							<p class="titolo_img_menu">Sustainability <br> campaign</p>
+							<a href="#"><button class="button button--aylen">Discover</button></a>
+						</div>
+
+					</div>
+
+				</li>
+
+
+			</ul>
+
+			<!-- megamenu -->
+
+
+
+
+
+
+
+			<!-- menu mobile -->
+
+
+			<!-- Push Wrapper -->
+			<div class="mp-pusher" id="mp-pusher">
+
+				<!-- mp-menu -->
+				<nav id="mp-menu" class="mp-menu">
+					<div class="mp-level">
+						<h2 class="icon ">Menu</h2>
+						<ul class="level_1">
+
+
+							<li class="icon direction_row">
+								<a class="next_level" href="#">
+									<img src="img/freccia-dx.svg" alt="freccia destra">
+								</a>
+								<a class="order1" href="#">Admissions</a>
+
+								<div class="mp-level">
+									<h2 >Admissions</h2>
+									<a class="mp-back" href="#">Back to menu</a>
+									<ul>
+										<li><a href="#">Master Programmes</a></li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Training Programmes</a>
+
+											<div class="mp-level">
+												<h2>Training Programmes</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">International Electoral Observers</a></li>
+													<li><a href="#">European Law of Human Rights</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Summer Schools</a>
+
+											<div class="mp-level">
+												<h2>Summer Schools</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Venice School</a></li>
+													<li><a href="#">Venice Academy</a></li>
+													<li><a href="#">Cinema Human Rights and Advocacy</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+
+							<li class="icon direction_row">
+								<a class="next_level" href="#">
+									<img src="img/freccia-dx.svg" alt="freccia destra">
+								</a>
+								<a class="order1" href="#">Education</a>
+
+								<div class="mp-level">
+									<h2 class="icon">Education</h2>
+									<a class="mp-back" href="#">Back to menu</a>
+									<ul>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Regional Programmes</a>
+
+											<div class="mp-level">
+												<h2>Regional Programmes</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">GC Europe</a></li>
+													<li><a href="#">GC South East Europe</a></li>
+													<li><a href="#">GC Caucasus</a></li>
+													<li><a href="#">GC Africa</a></li>
+													<li><a href="#">GC Asia-Pacific</a></li>
+													<li><a href="#">GC Latin America Caribbean</a></li>
+													<li><a href="#">GC Arab World</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Career Programmes</a>
+
+											<div class="mp-level">
+												<h2>Career Programmes</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">GC Intership Programme</a></li>
+													<li><a href="#">Alumni associations’ activities</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">E-learning</a>
+
+											<div class="mp-level">
+												<h2>E-learning</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Online Courses</a></li>
+													<li><a href="#">MOOCs</a></li>
+													<li><a href="#">Blended Courses</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Summer Schools and Training Programmes</a>
+
+											<div class="mp-level">
+												<h2>Summer Schools and Training Programmes</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Summer Schools</a></li>
+													<li><a href="#">Training Seminars</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Networking and Outreach</a>
+
+											<div class="mp-level">
+												<h2>Networking and Outreach</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Global Classroom</a></li>
+													<li><a href="#">Nelson Mandela World Moot Court</a></li>
+													<li><a href="#">Exchange of Professors</a></li>
+													<li><a href="#">Workshop on Integrated Teaching</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+
+									<div class="submenu_blu_word">
+										<div class="icon icon-arrow-right"><a href="#">Prospective Students</a></div>
+										<div class="icon icon-arrow-right"><a href="#">Current Students</a></div>
+										<div class="icon icon-arrow-right"><a href="#">Agenda</a></div>
+									</div>
+								</div>
+							</li>
+
+							<li class="icon direction_row">
+								<a class="next_level" href="#">
+									<img src="img/freccia-dx.svg" alt="freccia destra">
+								</a>
+								<a class="order1" href="#">Research</a>
+
+								<div class="mp-level">
+									<h2 class="icon">Research</h2>
+									<a class="mp-back" href="#">Back to menu</a>
+									<ul>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Projects</a>
+
+											<div class="mp-level">
+												<h2>Projects</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">GC Research Programme</a></li>
+													<li><a href="#">Policy Observatory Pilot Project</a></li>
+													<li><a href="#">UN Global Study</a></li>
+													<li><a href="#">FRAME</a></li>
+													<li><a href="#">ACTIONES</a></li>
+													<li><a href="#">E-NACT</a></li>
+													<li><a href="#">UN Treaty Body Reform</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Publications</a>
+
+											<div class="mp-level">
+												<h2>Publications</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Global Campus Human Rights Journal</a></li>
+													<li><a href="#">Global Campus Master's Theses</a></li>
+													<li><a href="#">FRAME Reports</a></li>
+													<li><a href="#">European Human Rights Yearbook</a></li>
+													<li><a href="#">Repository</a></li>
+													<li><a href="#">Copyrighted Materials</a></li>
+													<li><a href="#">EMA 20 years</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Libraries</a>
+
+											<div class="mp-level">
+												<h2>Libraries</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Repository</a></li>
+													<li><a href="#">EIUC</a></li>
+													<li><a href="#">Other Libraries</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Networking and Outreach</a>
+
+											<div class="mp-level">
+												<h2>Networking and Outreach</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Global Campus Exchange of Professors</a></li>
+													<li><a href="#">Workshop Integrated Teaching</a></li>
+													<li><a href="#">Online thesis supervision</a></li>
+													<li><a href="#">Global Classroom</a></li>
+													<li><a href="#">International Conference on Human Rights and Democratisation</a></li>
+													<li><a href="#">Nelson Mandela World Moot Court</a></li>
+													<li><a href="#">Venice Academy of Human Rights</a></li>
+													<li><a href="#">Global Campus Visiting Researchers</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+
+							<li class="icon direction_row">
+								<a class="next_level" href="#">
+									<img src="img/freccia-dx.svg" alt="freccia destra">
+								</a>
+								<a class="order1" href="#">News & Events</a>
+
+								<div class="mp-level">
+									<h2 class="icon">News & Events</h2>
+									<a class="mp-back" href="#">Back to menu</a>
+									<ul>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Latest News</a>
+
+											<div class="mp-level">
+												<h2>Latest News</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Tag 1</a></li>
+													<li><a href="#">Tag 2</a></li>
+													<li><a href="#">Tag 3</a></li>
+													<li><a href="#">Tag 4</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Upcoming Events</a>
+
+											<div class="mp-level">
+												<h2>Upcoming Events</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Conferences</a></li>
+													<li><a href="#">Trainings</a></li>
+													<li><a href="#">Meetings</a></li>
+													<li><a href="#">Workshops</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li><a href="#">Fundraising Events</a></li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Archive</a>
+
+											<div class="mp-level">
+												<h2>Archive</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">2017</a></li>
+													<li><a href="#">2016</a></li>
+													<li><a href="#">2015</a></li>
+													<li><a href="#">2014</a></li>
+													<li><a href="#">2013</a></li>
+													<li><a href="#">2012</a></li>
+													<li><a href="#">1998-2011</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+
+							<li class="icon direction_row">
+								<a class="next_level" href="#">
+									<img src="img/freccia-dx.svg" alt="freccia destra">
+								</a>
+								<a class="order1" href="#">About us</a>
+
+								<div class="mp-level">
+									<h2 class="icon">About us</h2>
+									<a class="mp-back" href="#">Back to menu</a>
+									<ul>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">EIUC / Global Campus</a>
+
+											<div class="mp-level">
+												<h2>EIUC / Global Campus</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Universities</a></li>
+													<li><a href="#">Mission</a></li>
+													<li><a href="#">Vision</a></li>
+													<li><a href="#">Governance</a></li>
+													<li><a href="#">Partners</a></li>
+													<li><a href="#">Alumni</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Venues</a>
+
+											<div class="mp-level">
+												<h2>Venues</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Europe</a></li>
+													<li><a href="#">South East Europe</a></li>
+													<li><a href="#">Latin America - Caribbean</a></li>
+													<li><a href="#">Asia Pacific</a></li>
+													<li><a href="#">Caucasus</a></li>
+													<li><a href="#">Arab World</a></li>
+													<li><a href="#">Africa</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Staff</a>
+
+											<div class="mp-level">
+												<h2>Staff</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">All the regions like in venues</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Documents of Reference</a>
+
+											<div class="mp-level">
+												<h2>Documents of Reference</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Global Campus MoU</a></li>
+													<li><a href="#">EIUC Statute</a></li>
+													<li><a href="#">EIUC / GC Vision</a></li>
+													<li><a href="#">EIUC / GC Mission</a></li>
+													<li><a href="#">MoU EIUC - City of Venice</a></li>
+													<li><a href="#">EMA Venice Charter</a></li>
+													<li><a href="#">EMA Joint Degree Agreement</a></li>
+													<li><a href="#">PARTNERS DoR</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+
+							<li class="icon direction_row">
+								<a class="next_level" href="#">
+									<img src="img/freccia-dx.svg" alt="freccia destra">
+								</a>
+								<a class="order1" href="#">Support us</a>
+
+								<div class="mp-level">
+									<h2 class="icon">Support us</h2>
+									<a class="mp-back" href="#">Back to menu</a>
+									<ul>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">PR Links</a>
+
+											<div class="mp-level">
+												<h2>PR Links</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Link 1</a></li>
+													<li><a href="#">Link 2</a></li>
+													<li><a href="#">Link 3</a></li>
+													<li><a href="#">Link 4</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Join US</a>
+
+											<div class="mp-level">
+												<h2>Join US</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Donations</a></li>
+													<li><a href="#">Membership</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Fund Raising Campaigns</a>
+
+											<div class="mp-level">
+												<h2>Fund Raising Campaigns</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">5x1000</a></li>
+													<li><a href="#">Arts and Human Rights</a></li>
+													<li><a href="#">Crowfunding</a></li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon direction_row">
+											<a class="next_level" href="#">
+												<img src="img/freccia-dx.svg" alt="freccia destra">
+											</a>
+											<a class="order1" href="#">Promotions</a>
+
+											<div class="mp-level">
+												<h2>Promotions</h2>
+												<a class="mp-back" href="#">Back to menu</a>
+
+												<ul>
+													<li><a href="#">Simple Gadgets</a></li>
+													<li><a href="#">Arts & Design Gadgets</a></li>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+
+						</ul>
+
+					</div>
+				</nav>
+				<!-- /mp-menu -->
+
+
+
+
+			</div><!-- /pusher -->
+
+
+			<!-- fine menu mobile -->
+
+
+          </header>
+        <?php endif; ?>
+      <?php $this->endblock(); ?>
+
+      <?php $this->sections('before'); ?>
+
+      <?php $this->block('container'); ?>
+        <div id="container">
+
+          <?php $this->block('main'); ?>
+            <div id="main">
+              <div class="inside">
+                <?= $this->main ?>
+              </div>
+              <?php $this->sections('main'); ?>
+            </div>
+          <?php $this->endblock(); ?>
+
+          <?php $this->block('left'); ?>
+            <?php if ($this->left): ?>
+              <aside id="left">
+                <div class="inside">
+                  <?= $this->left ?>
+                </div>
+              </aside>
+            <?php endif; ?>
+          <?php $this->endblock(); ?>
+
+          <?php $this->block('right'); ?>
+            <?php if ($this->right): ?>
+              <aside id="right">
+                <div class="inside">
+                  <?= $this->right ?>
+                </div>
+              </aside>
+            <?php endif; ?>
+          <?php $this->endblock(); ?>
+
+        </div>
+      <?php $this->endblock(); ?>
+
+      <?php $this->sections('after'); ?>
+
+      <?php $this->block('footer'); ?>
+        <?php if ($this->footer): ?>
+          <footer id="footer">
+            <div class="inside">
+              <?= $this->footer ?>
+            </div>
+          </footer>
+        <?php endif; ?>
+      <?php $this->endblock(); ?>
+
+    </div>
+
+    <?php $this->sections('bottom'); ?>
+  <?php $this->endblock(); ?>
+
+  <?= $this->mootools ?>
+
+</body>
+</html>

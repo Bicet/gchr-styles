@@ -1,0 +1,20 @@
+<div class="titolo_lastest_news_freccia margin_bottom_20">
+	<h2 class="titolo_gc_europe">Latest news</h2>
+	<a href="{{link_url::20}}" class="freccia_dx">
+		<img src="files/eiuc/freccia-dx.svg" alt="freccia destra">
+	</a>
+</div>
+
+<div class="layout_simple arc_<?= $this->archive->id ?> block<?= $this->class ?>">
+	
+	<p class="titolo_ultime_news">
+		<?= $this->linkHeadline ?>
+	</p>
+	<?php if ($this->date): ?>	
+	<!--<?php
+		  	$date = new DateTime( $this->datetime );		  	
+	  	?>-->
+	    <p class="data_news">Posted on <time datetime="<?= $this->datetime ?>"><? echo $date->format('d.m.Y'); ?></time> <?= $this->author ?> <?= $this->commentCount ?></p>
+	<?php endif; ?>
+  
+</div>
