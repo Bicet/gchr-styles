@@ -2349,6 +2349,18 @@ li.titolo_gc_asia_pacific{
 	border-radius:100%;
 	margin-right:40px;
 }
+
+.img_alunno_alumni{
+	width:200px;
+	height:200px;
+	min-width:200px;
+	min-height:200px;
+	background: url("../img/img_alunno_alumni.jpg") center center no-repeat;
+	background-size:cover;
+	border-radius:100%;
+	margin-right:40px;
+}
+
 .text_recensione_alunno{
 	display:flex;
 	flex-direction:column;
