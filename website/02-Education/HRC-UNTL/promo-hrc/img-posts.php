@@ -1,7 +1,7 @@
 <div class="table_accordion_cell">
         <div class="accordion accordion_gc">
             <div class="icon_e_title_accordion">
-                <p class="title_accordion">Pictures</p>
+                <p class="title_accordion">Infographics</p>
 
                 <p class="number_universities">[nbsp]</p>
 
@@ -19,82 +19,60 @@
             <div class="list_accordion">
                                
                 
-                 <!-- POST #1 -->
+               <!-- POST #1 -->
                <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Adriano%20Remiddi%20-%20Scars%20from%20elsewhere'-png-copy.png" class="titolo_gc_europe" download="Luigi_Storto_Naleena.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Adriano%20Remiddi%20-%20Scars%20from%20elsewhere'-png-copy.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrc/infographics/Infographic-1.jpg" class="titolo_gc_europe" download="Project cycle.jpg" target="_blank">
+		                   <img src="files/eiuc/hrc/infographics/Infographic-1-small.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Adriano%20Remiddi%20-%20Scars%20from%20elsewhere'-png-copy.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="files/eiuc/hrc/infographics/Infographic-1.jpg" class="titolo_gc_europe" download="Project cycle.jpg">Download the Infographic - "Project cycle"</a>
 
                     </div>
                 </div>
 
-                                
-                <!-- POST #2 -->
-                <div class="riga">
+               <!-- POST #2 -->
+               <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/anush%20komchoyan%20-%20the%20eternal%20flame.png" class="titolo_gc_europe" download="Marco_Maiolino.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/anush%20komchoyan%20-%20the%20eternal%20flame.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrc/infographics/Infographic-2.jpg" class="titolo_gc_europe" download="Studies & Training Programmes.jpg" target="_blank">
+		                   <img src="files/eiuc/hrc/infographics/Infographic-2-small.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/anush%20komchoyan%20-%20the%20eternal%20flame.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="files/eiuc/hrc/infographics/Infographic-2.jpg" class="titolo_gc_europe" download="Studies & Training Programmes.jpg">Download the Infographic - "Studies & Training Programmes"</a>
 
                     </div>
-                </div><!-- Close POST #2 -->
-                
-                <!-- POST #3 -->
-                <div class="riga">
+                </div>
+
+               <!-- POST #3 -->
+               <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Diego%20Lantero%20-%20Mothers%20of%20Ayacucho%20Winner%20Amateur-copy.png" class="titolo_gc_europe" download="Francesca_Napolitano.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Diego%20Lantero%20-%20Mothers%20of%20Ayacucho%20Winner%20Amateur-copy.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrc/infographics/Infographic-3.jpg" class="titolo_gc_europe" download="Outreach activities.jpg" target="_blank">
+		                   <img src="files/eiuc/hrc/infographics/Infographic-3-small.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Diego%20Lantero%20-%20Mothers%20of%20Ayacucho%20Winner%20Amateur-copy.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="files/eiuc/hrc/infographics/Infographic-3.jpg" class="titolo_gc_europe" download="Outreach activities.jpg">Download the Infographic - "Outreach activities"</a>
 
                     </div>
-                </div><!-- Close POST #3 -->
-                
-                <!-- POST #4 -->
-                <div class="riga">
+                </div>
+
+               <!-- POST #4 -->
+               <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/gclatinamerica.png" class="titolo_gc_europe" download="Tale_of_Men.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/gclatinamerica.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrc/infographics/Infographic-4.jpg" class="titolo_gc_europe" download="Project protagonists.jpg" target="_blank">
+		                   <img src="files/eiuc/hrc/infographics/Infographic-4-small.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/gclatinamerica.png" class="titolo_gc_europe" target="_blank">Download Pic</a>
+                       <a href="files/eiuc/hrc/infographics/Infographic-4.jpg" class="titolo_gc_europe" download="Project protagonists.jpg">Download the Infographic - "Project protagonists"</a>
 
                     </div>
-                </div><!-- Close POST #4 -->
-                <!-- POST #4 -->
-                <div class="riga">
-					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/malin%20dedaj%20-%20the%20spirit%20of%20srebrenica.png" class="titolo_gc_europe" download="Maia_Pauro.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/malin%20dedaj%20-%20the%20spirit%20of%20srebrenica.jpg" style="width:100%;" alt="placeholder">
-		                </a>
-		                <div class="pic-copyright"></div>
+                </div>
+
+
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/malin%20dedaj%20-%20the%20spirit%20of%20srebrenica.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
-
-                    </div>
-                </div><!-- Close POST #4 -->
-                 <!-- POST #4 -->
-                <div class="riga">
-					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/nicol%C3%B2%20barbieri%20-%20another%20brick%20in%20the%20wall.png" class="titolo_gc_europe" download="Amesterdam_Rainbow_Dress.jpg.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/nicol%C3%B2%20barbieri%20-%20another%20brick%20in%20the%20wall.jpg" style="width:100%;" alt="placeholder">
-		                </a>
-		                <div class="pic-copyright"></div>
-               
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/nicol%C3%B2%20barbieri%20-%20another%20brick%20in%20the%20wall.png" class="titolo_gc_europe" download="Amesterdam_Rainbow_Dress.jpg.jpg" target="_blank">Download Pic</a>
-
-                    </div>
-                </div><!-- Close POST #4 -->
                
 
                 
