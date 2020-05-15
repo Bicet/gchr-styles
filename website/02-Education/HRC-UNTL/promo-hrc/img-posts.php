@@ -61,7 +61,6 @@
     display: flex;
     flex-wrap: wrap;
     border-spacing: 20px 10px;
-    /*Optional*/
 }
 
 .tweet2 {
@@ -76,7 +75,6 @@
     -moz-border-radius: 5px;
     position: relative;
     text-align: left;
-
 }
 
 .pic-copyright {
