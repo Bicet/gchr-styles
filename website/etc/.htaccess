@@ -1,0 +1,522 @@
+##
+# Contao Open Source CMS
+#
+# Copyright (c) 2005-2016 Leo Feyer
+#
+# @license LGPL-3.0+
+##
+
+##
+# Prevent access to the Contao template files
+##
+<FilesMatch "\.(tpl|html5|xhtml)$">
+  <IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+  </IfModule>
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</FilesMatch>
+
+##
+# Allow access from all domains for webfonts
+# @see https://github.com/h5bp/html5-boilerplate
+##
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff2?|font\.css)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+
+##
+# Disable ETags
+# @see http://developer.yahoo.com/performance/rules.html#etags
+##
+FileETag None
+<IfModule mod_headers.c>
+  Header unset ETag
+</IfModule>
+
+##
+# Set the proper MIME types
+# @see https://github.com/h5bp/html5-boilerplate
+##
+<IfModule mod_mime.c>
+  AddType application/javascript              js jsonp
+  AddType application/json                    json
+  AddType audio/ogg                           oga ogg
+  AddType audio/mp4                           m4a f4a f4b
+  AddType video/ogg                           ogv
+  AddType video/mp4                           mp4 m4v f4v f4p
+  AddType video/webm                          webm
+  AddType video/x-flv                         flv
+  AddType image/svg+xml                       svg svgz
+  AddEncoding gzip                            svgz
+  AddType application/vnd.ms-fontobject       eot
+  AddType application/x-font-ttf              ttf ttc
+  AddType font/opentype                       otf
+  AddType application/x-font-woff             woff woff2
+  AddType image/x-icon                        ico
+  AddType image/webp                          webp
+  AddType text/cache-manifest                 appcache manifest
+  AddType text/x-component                    htc
+  AddType application/xml                     rss atom xml rdf
+  AddType application/x-web-app-manifest+json webapp
+  AddType text/x-vcard                        vcf
+  AddType application/x-shockwave-flash       swf
+</IfModule>
+
+##
+# Gzip compression
+# @see https://github.com/h5bp/html5-boilerplate
+##
+<IfModule mod_deflate.c>
+  <IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
+    AddOutputFilterByType DEFLATE application/xhtml+xml application/rss+xml application/atom+xml
+    AddOutputFilterByType DEFLATE image/x-icon image/svg+xml application/vnd.ms-fontobject application/x-font-ttf font/opentype
+  </IfModule>
+</IfModule>
+
+##
+# Expires headers (for better cache control)
+# @see https://github.com/h5bp/html5-boilerplate
+##
+<IfModule mod_expires.c>
+  ExpiresActive on
+
+  ##
+  # Productional website
+  ##
+  ExpiresByType text/cache-manifest           "access plus 0 seconds"
+  ExpiresByType text/html                     "access plus 0 seconds"
+  ExpiresByType text/xml                      "access plus 0 seconds"
+  ExpiresByType application/xml               "access plus 0 seconds"
+  ExpiresByType application/json              "access plus 0 seconds"
+  ExpiresByType application/rss+xml           "access plus 1 hour"
+  ExpiresByType application/atom+xml          "access plus 1 hour"
+  ExpiresByType image/gif                     "access plus 1 month"
+  ExpiresByType image/png                     "access plus 1 month"
+  ExpiresByType image/jpeg                    "access plus 1 month"
+  ExpiresByType image/x-icon                  "access plus 1 month"
+  ExpiresByType video/ogg                     "access plus 1 month"
+  ExpiresByType audio/ogg                     "access plus 1 month"
+  ExpiresByType video/mp4                     "access plus 1 month"
+  ExpiresByType video/webm                    "access plus 1 month"
+  ExpiresByType text/x-component              "access plus 1 month"
+  ExpiresByType application/x-font-ttf        "access plus 1 month"
+  ExpiresByType font/opentype                 "access plus 1 month"
+  ExpiresByType application/x-font-woff       "access plus 1 month"
+  ExpiresByType image/svg+xml                 "access plus 1 month"
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+  ExpiresByType text/css                      "access plus 1 year"
+  ExpiresByType application/javascript        "access plus 1 year"
+
+  ##
+  # Disable caching during development
+  # @see https://github.com/contao/core/issues/4364
+  ##
+  #ExpiresByType text/cache-manifest           "access"
+  #ExpiresByType text/html                     "access"
+  #ExpiresByType text/xml                      "access"
+  #ExpiresByType application/xml               "access"
+  #ExpiresByType application/json              "access"
+  #ExpiresByType application/rss+xml           "access"
+  #ExpiresByType application/atom+xml          "access"
+  #ExpiresByType image/gif                     "access"
+  #ExpiresByType image/png                     "access"
+  #ExpiresByType image/jpeg                    "access"
+  #ExpiresByType image/x-icon                  "access"
+  #ExpiresByType video/ogg                     "access"
+  #ExpiresByType audio/ogg                     "access"
+  #ExpiresByType video/mp4                     "access"
+  #ExpiresByType video/webm                    "access"
+  #ExpiresByType text/x-component              "access"
+  #ExpiresByType application/x-font-ttf        "access"
+  #ExpiresByType font/opentype                 "access"
+  #ExpiresByType application/x-font-woff       "access"
+  #ExpiresByType image/svg+xml                 "access"
+  #ExpiresByType application/vnd.ms-fontobject "access"
+  #ExpiresByType text/css                      "access"
+  #ExpiresByType application/javascript        "access"
+
+</IfModule>
+
+##
+# Header adjustments
+##
+<IfModule mod_headers.c>
+
+  ##
+  # Disable caching during development
+  # @see https://github.com/contao/core/issues/4364
+  ##
+  #Header unset Cache-Control
+  #Header append Cache-Control must-revalidate
+
+  ##
+  # Do not cache the cron.txt file
+  # @see https://github.com/contao/core/issues/5105
+  ##
+  <FilesMatch "cron\.txt$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, no-transform"
+  </FilesMatch>
+
+  ##
+  # Add a Vary Accept-Encoding header for the compressed resources. If you
+  # modify the file types above, make sure to change them here accordingly.
+  # @see http://developer.yahoo.com/performance/rules.html#gzip
+  #
+  # Note: If you are using a case-sensitive file system like HFS+ or ext4, you
+  # have to change the <FilesMatch> directive as follows:
+  #
+  # <FilesMatch "\.(?i:js|css|xml|gz|svgz)$">
+  #
+  # For more information see: https://github.com/contao/core/issues/4364
+  ##
+  <FilesMatch "\.(js|css|xml|gz|svgz)$">
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+
+  ##
+  # Do not cache source map files
+  # @see https://github.com/contao/core/issues/8532
+  ##
+  <FilesMatch "\.map$">
+    Header set Expires "0"
+    Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, no-transform"
+  </FilesMatch>
+
+</IfModule>
+
+##
+# Disable MultiViews if you are having issues with requests returning the wrong
+# page. Requires AllowOverride Options=All,MultiViews to be set here.
+# @see https://github.com/contao/core/issues/3521
+##
+#Options -MultiViews
+
+##
+# URL rewriting
+##
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  ##
+  # Change the RewriteBase if your Contao installation is in a subdirectoy and
+  # the rewrite rules are not working properly. Usage examples:
+  #
+  #   RewriteBase /contao-3.0.0
+  #   RewriteBase /path/to/contao
+  #
+  # Depending on your server, you might have to remove the line entirely.
+  ##
+  RewriteBase /
+
+  ##
+  # Uncomment the following lines to add "www." to the domain:
+  #
+  #   RewriteCond %{HTTP_HOST} ^example\.com$ [NC]
+  #   RewriteRule (.*) http://www.example.com/$1 [R=301,L]
+  #
+  # Uncomment the following lines to remove "www." from the domain:
+  #
+  #   RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
+  #   RewriteRule (.*) http://example.com/$1 [R=301,L]
+  #
+  # Make sure to replace "example.com" with your domain name.
+  ##
+
+  ##
+  # If you cannot use mod_deflate, uncomment the following lines to load a
+  # compressed .gz version of the aggregated Contao JavaScript and CSS files.
+  ##
+  #AddEncoding gzip .gz
+  #<FilesMatch "\.js\.gz$">
+  #  AddType "application/javascript" .gz
+  #</FilesMatch>
+  #<FilesMatch "\.css\.gz$">
+  #  AddType "text/css" .gz
+  #</FilesMatch>
+  #RewriteCond %{HTTP:Accept-encoding} gzip
+  #RewriteCond %{REQUEST_FILENAME} \.(js|css)$
+  #RewriteCond %{REQUEST_FILENAME}.gz -f
+  #RewriteRule ^(.*)$ $1.gz [QSA,L]
+
+  ##
+  # By default, Contao adds ".html" to the generated URLs to simulate static
+  # HTML documents. If you change the URL suffix in the back end settings, make
+  # sure to change it here accordingly!
+  #
+  #   RewriteRule .*\.html$ index.php [L]   # URL suffix .html
+  #   RewriteRule .*\.txt$ index.php [L]    # URL suffix .txt
+  #   RewriteRule .*\.json$ index.php [L]   # URL suffix .json
+  #
+  # If you do not want to use an URL suffix at all, you have to add a third
+  # line to prevent URLs that point to folders from being rewritten (see #4031).
+  #
+  #   RewriteCond %{REQUEST_FILENAME} !-d
+  #   RewriteRule .* index.php [L]
+  #
+  # If you are using mod_cache, it is recommended to use the RewriteRule below,
+  # which adds the query string to the internal URL:
+  #
+  #   RewriteRule (.*\.html)$ index.php/$1 [L]
+  #
+  # Note that not all environments support mod_rewrite and mod_cache.
+  ##
+  RewriteCond %{REQUEST_FILENAME} !\.(htm|php|js|css|map|htc|png|gif|jpe?g|ico|xml|csv|txt|swf|flv|mp4|webm|ogv|mp3|ogg|oga|eot|otf|tt[cf]|woff2?|svgz?|pdf|zip|gz)$
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule .*\.html$ index.php [L]
+
+  ##
+  # The following rules are required if you want to pass the language as first
+  # URL parameter (added in Contao 2.11). The first rule rewrites the empty URL
+  # to the front end controller, the second one adds a missing trailing slash.
+  ##
+  RewriteRule ^[a-z]{2}(\-[A-Z]{2})?/$ index.php [L]
+  RewriteRule ^([a-z]{2}(\-[A-Z]{2})?)$ $1/ [R=301,L]
+
+</IfModule>
+RewriteCond %{HTTP_HOST} ^www.gchumanrights.org [NC]
+RewriteRule ^(.*)$ http://gchumanrights.org/$1 [L,R=301]
+###FIRST LEVELS
+RedirectMatch 301 ^/admissions$ https://gchumanrights.org/admissions.html
+RedirectMatch 301 ^/education$ https://gchumanrights.org/education.html
+RedirectMatch 301 ^/research$ https://gchumanrights.org/research.html
+RedirectMatch 301 ^/news$ https://gchumanrights.org/news-events.html
+RedirectMatch 301 ^/events$ https://gchumanrights.org/news-events.html
+RedirectMatch 301 ^/about$ https://gchumanrights.org/about-us.html
+RedirectMatch 301 ^/supportus$ https://gchumanrights.org/support-us.html
+Redirect 301 /ema/how-to-apply https://gchumanrights.org/education/regional-programmes/ema/how-to-apply.html
+Redirect 301 /ema-toolkit https://gchumanrights.org/education/regional-programmes/ema/media-toolkit.html
+Redirect 301 /ema/careers https://gchumanrights.org/education/regional-programmes/ema/careers.html
+Redirect 301 /ema-careers https://gchumanrights.org/education/regional-programmes/ema/careers.html
+
+
+###EDUCATION
+
+
+
+    ###Europe
+
+    RedirectMatch 301 /ema-faculty https://gchumanrights.org/education/regional-programmes/ema/faculty.html
+    RedirectMatch 301 ^/gceurope(.*)$ https://gchumanrights.org/education/regional-programmes/ema/about.html
+    RedirectMatch 301 ^/gc-europe(.*)$ /gceurope(.*)$
+    RedirectMatch 301 ^/europe(.*)$ /gceurope(.*)$
+    RedirectMatch 301 ^/globalcampuseurope(.*)$ /gceurope(.*)$
+    RedirectMatch 301 ^/globalcampus-europe(.*)$ /gceurope(.*)$
+    RedirectMatch 301 ^/global-campus-europe(.*)$ /gceurope(.*)$
+    RedirectMatch 301 ^/ema(.*)$ /gceurope(.*)$
+    Redirect 301 /education/ema.html /gceurope(.*)$
+    Redirect 301 /education/ema/universities/universities-and-directors.html https://www.gchumanrights.org/about-us/eiuc-global-campus/universities.html
+    RedirectMatch 301 ^/education/ema/(.*)$ /gceurope(.*)$
+    ###South East Europe
+    RedirectMatch 301 ^/gcsouth-east-europe(.*)$ https://gchumanrights.org/education/regional-programmes/erma/about.html
+    RedirectMatch 301 ^/gc-south-east-europe(.*)$ /gcsouth-east-europe(.*)$
+    RedirectMatch 301 ^/globalcampussouth-east-europe(.*)$ /gcsouth-east-europe(.*)$
+    RedirectMatch 301 ^/globalcampus-south-east-europe(.*)$ /gcsouth-east-europe(.*)$
+    RedirectMatch 301 ^/global-campus-south-east-europe(.*)$ /gcsouth-east-europe(.*)$
+    RedirectMatch 301 ^/erma(.*)$ /gcsouth-east-europe(.*)$
+    #RedirectMatch 301 ^/south-east-europe(.*)$ /gcsouth-east-europe(.*)$
+    ###Arab World
+    Redirect 301 /education/overview/de.ma.html https://gchumanrights.org/education/regional-programmes/arma/master.html
+    RedirectMatch 301 /education/overview/de_ma/(.*)$ https://gchumanrights.org/education/regional-programmes/arma/master.html
+    RedirectMatch 301 ^/dema(.*)$ https://gchumanrights.org/education/regional-programmes/arma/master.html
+    RedirectMatch 301 ^/arma(.*)$ https://gchumanrights.org/education/regional-programmes/arma/master.html
+
+  ###E-LEARNING
+  RedirectMatch 301 ^/e-learning(.*)$ https://gchumanrights.org/education/e-learning.html
+  RedirectMatch 301 ^/elearning(.*)$ /e-learning(.*)$
+    ###MOOOCS
+    Redirect 301 /education/global-campus-mooc.html https://gchumanrights.org/education/e-learning/moocs.html
+    RedirectMatch 301 ^/moocs(.*)$ https://gchumanrights.org/education/e-learning/moocs.html
+    Redirect 301 /mooc https://gchumanrights.org/moocs
+    Redirect 301 /gc-mooc https://gchumanrights.org/moocs
+    Redirect 301 /gcmooc https://gchumanrights.org/moocs
+    Redirect 301 /gc-moocs https://gchumanrights.org/moocs
+    Redirect 301 /gcmoocs https://gchumanrights.org/moocs
+      ###memorysites
+      RedirectMatch 301 ^/mshr(.*)$ https://gchumanrights.org/education/e-learning/moocs/memory-sites-and-human-rights/about.html
+      Redirect 301 /mooc-mshr https://gchumanrights.org/mshr
+      Redirect 301 /mooc-memory https://gchumanrights.org/mshr
+      Redirect 301 /mooc-memorysites https://gchumanrights.org/mshr
+      Redirect 301 /mooc-memory-sites https://gchumanrights.org/mshr
+      Redirect 301 /gcmooc-mshr https://gchumanrights.org/mshr
+      Redirect 301 /gcmooc-memory https://gchumanrights.org/mshr
+      Redirect 301 /gcmooc-memorysites https://gchumanrights.org/mshr
+      Redirect 301 /gcmooc-memory-sites https://gchumanrights.org/mshr
+      ###lgbti
+      Redirect 301 /mooc-lgbti-mediatoolkit https://gchumanrights.org/education/e-learning/moocs/monitoring-the-human-rights-of-lgbti-persons/media-toolkit.html
+      RedirectMatch 301 ^/lgbti(.*)$ https://gchumanrights.org/education/e-learning/moocs/monitoring-the-human-rights-of-lgbti-persons/about.html
+      Redirect 301 /mooc-lgbti https://gchumanrights.org/lgbti
+      Redirect 301 /gcmooc-lgbti https://gchumanrights.org/lgbti
+
+      ###e-nact-moocs
+      RedirectMatch 301 ^/e-nact-moocs(.*)$ https://gchumanrights.org/education/e-learning/moocs/e-nact/about.html
+      RedirectMatch 301 ^/education/e-learning/moocs/e-nact(.*)$ https://gchumanrights.org/education/e-learning/moocs/fundamental-rights-of-the-european-union/about.html
+
+
+
+      ###disability
+      RedirectMatch 301 ^/mooc-disability(.*)$ https://gchumanrights.org/education/e-learning/moocs/disability-as-a-human-rights-issue-global-and-national-perspectives/mooc.html
+      ###gbv
+      Redirect 301 /education/global-campus-mooc-gbv-migration.html https://eiuc.eu/mooc-gbv
+      RedirectMatch 301 ^/global-campus-mooc-gbv-migration(.*)$ https://gchumanrights.org/education/e-learning/moocs/gender-based-violence-in-the-context-of-migration/mooc.html
+      RedirectMatch 301 ^/gc-mooc-gbv-migration(.*)$ https://gchumanrights.org/education/e-learning/moocs/gender-based-violence-in-the-context-of-migration/mooc.html
+      RedirectMatch 301 ^/gcmooc-gbv-migration(.*)$ https://gchumanrights.org/education/e-learning/moocs/gender-based-violence-in-the-context-of-migration/mooc.html
+      RedirectMatch 301 ^/mooc-gbv-migration(.*)$ https://gchumanrights.org/education/e-learning/moocs/gender-based-violence-in-the-context-of-migration/mooc.html
+      RedirectMatch 301 ^/gbv-migration(.*)$ https://gchumanrights.org/education/e-learning/moocs/gender-based-violence-in-the-context-of-migration/mooc.html
+      RedirectMatch 301 ^/mooc-gbv(.*)$ https://gchumanrights.org/education/e-learning/moocs/gender-based-violence-in-the-context-of-migration/mooc.html
+    ###ONLINE COURSES
+    RedirectMatch 301 ^/onlinecourses(.*)$ https://gchumanrights.org/education/e-learning/online-courses.html
+    ###BLENDED COURSES
+    RedirectMatch 301 ^/blended(.*)$ https://gchumanrights.org/education/e-learning/blended-courses.html
+    RedirectMatch 301 ^/blendedcourses(.*)$ https://gchumanrights.org/education/e-learning/blended-courses.html
+    RedirectMatch 301 ^/blended-courses(.*)$ https://gchumanrights.org/education/e-learning/blended-courses.html
+
+  ###SUMMER SCHOOLS AND TRAINING SEMINARS
+  RedirectMatch 301 training-seminars/cedu/informazioni-pratiche.html https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/tutela-dei-diritti-umani/informazioni-pratiche.html
+
+  RedirectMatch 301 ^/ss-ts(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars.html
+    ###SUMMER SCHOOLS
+    RedirectMatch 301 ^/summerschools(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-schools.html
+    RedirectMatch 301 ^/summer-schools(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-schools.html
+      ###venice school
+      RedirectMatch 301 ^/veniceschool/faculty(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/summer-schools/venice-school-of-human-rights/faculty.html
+      RedirectMatch 301 ^/veniceschool/register(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/summer-schools/venice-school-of-human-rights/application.html
+      Redirect 301 /education/summer-shools-and-training-programmes/summer-school/venice-school-of-human-rights/applications.html https://gchumanrights.org/education/summer-shools-and-training-seminars/summer-schools/venice-school-of-human-rights/registration.html
+      RedirectMatch 301 ^/veniceschool(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-school-of-human-rights/school.html
+      RedirectMatch 301 ^/venice-school(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-school-of-human-rights/school.html
+      RedirectMatch 301 ^/school(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-school-of-human-rights/school.html
+
+      RedirectMatch 301 ^/education/venice-school-of-human-rights/(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-school-of-human-rights/school.html
+      Redirect 301 /education/venice-school-of-human-rights.html https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-school-of-human-rights/school.html
+      ###venice academy
+      RedirectMatch 301 ^/veniceacademy(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-academy-of-human-rights/academy.html
+      RedirectMatch 301 ^/venice-academy(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-academy-of-human-rights/academy.html
+      RedirectMatch 301 ^/academy(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-academy-of-human-rights/academy.html
+      Redirect 301 /research/venice-academy-of-human-rights.html https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/venice-academy-of-human-rights/academy.html
+      ###chra
+      RedirectMatch 301 ^/chra(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/cinema-human-rights-and-advocacy/academy.html
+      Redirect 301 /education/cinema-human-rights-and-advocacy-summer-school.html https://gchumanrights.org/education/summer-shools-and-training-programmes/summer-school/cinema-human-rights-and-advocacy/academy.html
+
+      ###ieo
+      RedirectMatch 301 ^/ieo-toolkit(.*) https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/international-electoral-observers/promotional-materials.html
+      RedirectMatch 301 ^/ieo-register(.*) https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/international-electoral-observers/registration.html
+      RedirectMatch 301 ^/ieo(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/international-electoral-observers/training.html
+      RedirectMatch 301 ^/tsieo(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/international-electoral-observers/training.html
+      RedirectMatch 301 ^/ts-ieo(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/international-electoral-observers/training.html
+      RedirectMatch 301 ^/ieo/faculty(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/international-electoral-observers/trainers.html
+      RedirectMatch 301 ^/ieo/trainers(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/international-electoral-observers/trainers.html
+      RedirectMatch 301 /education/training-seminars/international-electoral-observers/(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/international-electoral-observers/training.html
+      RedirectMatch 301 /education/training-for-international-electoral-observers/(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/international-electoral-observers/training.html
+      ###cedu
+      RedirectMatch 301 ^/cedu-relatori(.*) https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/tutela-dei-diritti-umani/patrocini/relatori.html
+      RedirectMatch 301 ^/cedu-iscrizione(.*) https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/tutela-dei-diritti-umani/iscrizione.html
+      RedirectMatch 301 ^/cedu-quote(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/tutela-dei-diritti-umani/quota-discrizione.html
+      RedirectMatch 301 ^/cedu https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/tutela-dei-diritti-umani/corso.html
+      Redirect 301 /training-seminars/cedu.html https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/tutela-dei-diritti-umani/il-corso.html
+      RedirectMatch 301 /training-seminars/cedu/(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars/tutela-dei-diritti-umani/il-corso.html
+      RedirectMatch 301 ^/CEDU https://gchumanrights.org/education/summer-shools-and-training-seminars/training-seminars/tutela-dei-diritti-umani/corso.html
+      ###AIAF
+      RedirectMatch 301 ^/aiaf(.*)$ https://gchumanrights.org/seminario-eiuc-aiaf-sulla-convenzione-europea-dei-diritti-delluomo.html
+
+      ###UNTL
+      RedirectMatch 301 ^/hrc-untl(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/development-of-human-rights-education-and-research-at-untl/about.html
+
+######ADDITIONAL GC
+###Redirect GC
+Redirect 301 /admissions/overview.html https://gchumanrights.org/admissions.html
+Redirect 301 /europe https://gchumanrights.org/ema
+Redirect 301 /south-east-europe http://www.erma-programme.eu
+Redirect 301 /caucasus http://www.regionalmaster.net/
+Redirect 301 /africa http://www.chr.up.ac.za/hrda
+Redirect 301 /asia-pacific https://op.mahidol.ac.th/ihrp/index.php/apma/
+Redirect 301 /latin-america http://www.unsam.edu.ar/ciep/
+Redirect 301 /arab https://arma-isp.usj.edu.lb/
+###GLOBAL CAMPUS
+Redirect 301 /education/global-campus-regional-masters.html https://gchumanrights.org/education/regional-programmes.html
+RedirectMatch 301 ^/globalcampus(.*)$ https://gchumanrights.org/education/regional-programmes.html
+Redirect 301 /gc https://gchumanrights.org/globalcampus
+Redirect 301 /global-campus https://gchumanrights.org/education/regional-programmes.html
+RedirectMatch 301 ^/education/global-campus-regional-masters/(.*)$ https://gchumanrights.org/education/regional-programmes.html
+###TRAINING SEMINARS
+RedirectMatch 301 ^/ts(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars.html
+RedirectMatch 301 ^/training-seminars(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars.html
+RedirectMatch 301 ^/trainings(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars.html
+RedirectMatch 301 ^/training(.*)$ https://gchumanrights.org/education/summer-shools-and-training-programmes/training-seminars.html
+RedirectMatch 301 ^/brochure(.*)$ https://gchumanrights.org/eiuc-global-campus-brochure.html
+RedirectMatch 301 ^/bro-siura(.*)$ https://gchumanrights.org/eiuc-global-campus-brochure.html
+Redirect 301 /education/summer-shools-and-training-programmes/summer-school/cinema-human-rights-and-advocacy/registrations.html https://gchumanrights.org/education/summer-shools-and-training-seminars/summer-schools/cinema-human-rights-and-advocacy/application.html
+Redirect 301 /education/summer-shools-and-training-seminars/summer-schools/venice-school-of-human-rights/registration.html https://gchumanrights.org/education/summer-shools-and-training-seminars/summer-schools/venice-school-of-human-rights/application.html
+Redirect 301 /apply-to-ema.html https://gchumanrights.org/education/regional-programmes/ema/about.html
+
+
+RedirectMatch 301 ^/gcafrica(.*)$ https://gchumanrights.org/education/regional-programmes/hrda/programme-director.html
+RedirectMatch 301 ^/gc-africa(.*)$ /gcafrica(.*)$
+
+RedirectMatch 301 ^/apma(.*)$ https://gchumanrights.org/education/regional-programmes/apma/curriculum.html
+RedirectMatch 301 ^/gcasia-pacific(.*)$ https://gchumanrights.org/education/regional-programmes/apma/curriculum.html
+RedirectMatch 301 ^/gc-asia-pacific(.*)$ /gcasia-pacific(.*)$
+
+RedirectMatch 301 ^/gccaucasus(.*)$ https://gchumanrights.org/education/regional-programmes/ces/programme-director.html
+RedirectMatch 301 ^/gc-caucasus(.*)$ /gccaucasus(.*)$
+
+RedirectMatch 301 ^/gclatin-america-caribbean(.*)$ https://gchumanrights.org/education/regional-programmes/latma/programme-director-and-staff.html
+RedirectMatch 301 ^/gc-latin-america-caribbean(.*)$ /gclatin-america-caribbean(.*)$
+
+RedirectMatch 301 ^/gcarab-world(.*)$ https://gchumanrights.org/education/regional-programmes/arma/master.html
+RedirectMatch 301 ^/gc-arab-world(.*)$ /gcarab-world(.*)$
+
+#Snippets
+RedirectMatch 301 ^/snippets(.*)$ https://gchumanrights.org/eiuc-css-and-html-snippets/snippets.html
+RedirectMatch 301 ^/e-nact(.*)$ https://gchumanrights.org/research/projects/e-nact.html
+RedirectMatch 301 ^/enact(.*)$ https://gchumanrights.org/research/projects/e-nact.html
+
+RedirectMatch 301 ^/cht(.*)$ https://gchumanrights.org/education/e-learning/online-courses/counter-human-trafficking-in-southeast-asia/about.html
+RedirectMatch 301 education/regional-programmes/admission-criteria.html https://gchumanrights.org/education/regional-programmes/ema/admission-criteria.html
+RedirectMatch 301 education/regional-programmes/careers.html https://gchumanrights.org/education/career-development.html
+
+RedirectMatch 301 ^/impact(.*)$ https://gchumanrights.org/about-us/eiuc-global-campus/facts-figures.html
+RedirectMatch 301 /hr-programme-for-timorese-nationals https://gchumanrights.org/news-events/latest-news/news-detail-page/human-rights-studies-training-programme-for-nationals-of-timor-leste.html
+
+
+RedirectMatch 301 /mooc-education-change https://gchumanrights.org/education/e-learning/moocs/eu-convince/about.html
+RedirectMatch 301 /opening-venice-school https://gchumanrights.org/news-events/latest-news/news-detail-page/lorent-saleh-at-the-venice-school-of-human-rights.html
+
+###RedirectMatch 301 /mooc-un-global-study https://gchumanrights.org/research/projects/un-global-study.html
+RedirectMatch 301 /mooc-un-global-study https://gchumanrights.org/education/e-learning/moocs/children-deprived-of-liberty-learning-from-the-un-global-study/about.html
+RedirectMatch 301 /mooc-GS-mediatoolkit https://gchumanrights.org/education/e-learning/moocs/children-deprived-of-liberty-learning-from-the-un-global-study/media-toolkit.html
+RedirectMatch 301 /mooc-ungs-children https://gchumanrights.org/education/e-learning/moocs/children-deprived-of-liberty-learning-from-the-un-global-study/about.html
+#####RedirectMatch 301 /mooc-ungs https://gchumanrights.org/education/e-learning/moocs/children-deprived-of-liberty-learning-from-the-un-global-study/about.html
+
+RedirectMatch 301 /mooc-pphr https://gchumanrights.org/education/e-learning/moocs/promoting-and-protecting-human-rights-a-global-overview/about.html
+RedirectMatch 301 /pphr https://gchumanrights.org/education/e-learning/moocs/promoting-and-protecting-human-rights-a-global-overview/about.html
+
+Redirect 301 /press-release-ema https://gchumanrights.org/news-events/latest-news/news-detail-page/ema-call-for-applications-for-the-academic-year-2020-2021.html
+Redirect 301 /covid-19 https://gchumanrights.org/about-us/eiuc-global-campus/covid-19.html
+Redirect 301 /COVID-19 https://gchumanrights.org/about-us/eiuc-global-campus/covid-19.html
+Redirect 301 /coronavirus https://gchumanrights.org/about-us/eiuc-global-campus/covid-19.html
+
+
+
+
+
+
+
+
+  RewriteRule ^\.well-known/host-meta /cloud/public.php?service=host-meta [QSA,L]
+  RewriteRule ^\.well-known/host-meta\.json /cloud/public.php?service=host-meta-json [QSA,L]
+  RewriteRule ^\.well-known/webfinger /cloud/public.php?service=webfinger [QSA,L]
+  RewriteRule ^\.well-known/carddav /cloud/remote.php/dav/ [R=301,L]
+  RewriteRule ^\.well-known/caldav /cloud/remote.php/dav/ [R=301,L]
+
+
+  Redirect 301 /webmail https://mail.gchumanrights.org/owa
+
+
+  
