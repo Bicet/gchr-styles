@@ -426,7 +426,7 @@ Redirect 301 /ema-careers https://gchumanrights.org/education/regional-programme
       RedirectMatch 301 ^/aiaf(.*)$ https://gchumanrights.org/seminario-eiuc-aiaf-sulla-convenzione-europea-dei-diritti-delluomo.html
 
       ###UNTL
-      RedirectMatch 301 ^/hrc-untl(.*)$ https://gchumanrights.org/education/summer-shools-and-training-seminars/development-of-human-rights-education-and-research-at-untl/about.html
+      RedirectMatch 301 ^/hrc-untl(.*)$ https://gchumanrights.org/education/capacity-building-training-programm/development-of-human-rights-education-and-research-at-untl/about.html
 
 ######ADDITIONAL GC
 ###Redirect GC
