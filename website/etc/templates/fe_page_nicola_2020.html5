@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" >
 <link rel="stylesheet" type="text/css" href="/system/themes/eiuc2017/css/icons.css">
 <link rel="stylesheet" type="text/css" href="/system/themes/eiuc2017/css/component.css?v=1.01">
-<link rel="stylesheet" type="text/css" href="/system/themes/eiuc2017/css/style.css?v=1.56">
+<link rel="stylesheet" type="text/css" href="/system/themes/eiuc2017/css/style.css?v=1.57">
 <link rel="stylesheet" type="text/css" href="/system/themes/eiuc2017/css/normalize.css">
 <link rel="stylesheet" href="/system/themes/eiuc2017/css/print.css" type="text/css" media="print">
 <!-- slick_slider -->
@@ -29,11 +29,11 @@
       <meta name="description" content="<?= $this->description ?>">
       <meta name="keywords" content="<?= $this->keywords ?>">
       <meta name="generator" content="Contao Open Source CMS">
-		<meta property="og:title" content="<?php echo $this->pageTitle; ?>">
-		<meta property="og:site_name" content="GlobalCampus of Human Rights - GCHR">
-		<meta property="og:url" content="<?php echo $this->base . $this->Environment->request; ?>">
-		<meta property="og:description" content="<?php echo $this->description; ?>">
-		<meta property="og:type" content="article">
+    <meta property="og:title" content="<?php echo $this->pageTitle; ?>">
+    <meta property="og:site_name" content="GlobalCampus of Human Rights - GCHR">
+    <meta property="og:url" content="<?php echo $this->base . $this->Environment->request; ?>">
+    <meta property="og:description" content="<?php echo $this->description; ?>">
+    <meta property="og:type" content="article">
     <?php $this->endblock(); ?>
 
     <?= $this->viewport ?>
@@ -42,8 +42,8 @@
     <?= $this->mooScripts ?>
     <?= $this->head ?>
 
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
     <?php $this->block('html5shiv'); ?>
       <!--[if lt IE 9]><script src="<?= TL_ASSETS_URL ?>assets/html5shiv/<?= $GLOBALS['TL_ASSETS']['HTML5SHIV'] ?>/html5shiv-printshiv.min.js"></script><![endif]-->

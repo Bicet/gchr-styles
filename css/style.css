@@ -4639,27 +4639,27 @@ left: 0;
 }
 
 #cookiebar{
-	z-index: 10000;
-	background-color:#009fe3;
+	z-index: 10000 !important;
+	background-color:#009fe3 !important;
 }
 #cookiebar button {
-    background-color: #009fe3;
-	font-weight:500;
-	padding:10px 20px;
-	border:2px solid #fff;
-	height: auto;
+    background-color: #009fe3 !important;
+	font-weight:500 !important;
+	padding:10px 20px !important;
+	border:2px solid #fff !important;
+	height: auto !important;
 }
 
 #cookiebar button:hover {
-    color: #75716e;
+    color: #75716e !important;
 }
 
 .center_button_cookie{
-    height: 50px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    height: 50px !important;
+    margin-top: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 10px !important; 
 }
 
 .relevance{
