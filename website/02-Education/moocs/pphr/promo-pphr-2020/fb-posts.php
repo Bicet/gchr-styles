@@ -18,6 +18,17 @@
     -moz-border-radius: 5px;
 }
 
+#cf2 {
+    position:relative;
+    max-width: 500px;
+    margin:0 auto;
+    }
+#cf2 img {
+    position:absolute;
+    left:0;
+}
+
+
 #cf3 {
     position:relative;
     height: 420px;
@@ -57,23 +68,29 @@
                     
                     <!-- POST #1 -->
                     <div class="tweet2">
-                        <div class="video169_container"><iframe class="video169" src="https://player.vimeo.com/video/252703080?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen=""></iframe></div>
+                        <div class="video169_container"><iframe class="video169" src="https://www.youtube.com/embed/ydLxRmB5ETU" frameborder="0" allowfullscreen=""></iframe></div>
                         <br>
-                        <p id="fp1">Remembrance is a way to acknowledge past suffering and to prevent it from happening again. In the aftermath of gross and systematic violations of human rights, memorialisation can be a crucial tool in the process of reconciliation and justice.<br><br>Join renowned lecturers and experts discussing Memory Sites and Human Rights in the #GCHumanRights #MOOC: https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
+                        <p id="fp1">Today, Human Rights are often questioned, attacked and dismissed. But they still stand to remind us that “we are all born equal and free in dignity and rights”.<br><br>Learn how to stand up for human rights with the new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC on “Promoting and Protecting Human Rights: a Global Overview” <span class="titolo_gc_europe">https://gchumanrights.org/pphr</span><br><br><span class="titolo_gc_europe">#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
                         <br><br>
-                        <a onclick="copyToClipboard('#fp1')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1KcWUTc8meBWVHqun7rINtcmBHTNRaV3Z" class="titolo_gc_europe" download target="_blank">Download Video</a>
-                    </div><!-- CLOSE POST #1 -->
+                        <a onclick="copyToClipboard('#fp1')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1C4IWimU1ZiRnSWMGetUDxRfZyuGqY0n7" class="titolo_gc_europe" download="Trailer-pphr.mp4" target="_blank">Download Video</a>
+                    </div>
+                    <!-- CLOSE POST #1 -->
                     
                     <!-- POST #2 -->
                     <div class="tweet2">
-                        <div class="video169_container"><iframe class="video169" src="https://player.vimeo.com/video/257472922?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen=""></iframe></div>
+                        <div class="video169_container">
+                        <a href="files/eiuc/pphr/Media-Toolkit/pics/teaser-02.jpg" download="Teaser-02.jpg" target="_blank" width="100%">
+                            <img src="files/eiuc/pphr/Media-Toolkit/pics/teaser-02-169.png" alt="Teaser-02" width="100%" class="video169">
+                        </a>
+                        </div>
                         <br>
-                        <p id="fp2">“Acknowledging memory’s mobile, fluid character humanises memory; it humanises the use to which memory is put and it gives dignity and strength to memory.” <br><br>Hear more from Justice Albie Sachs about the benefits and challenges of memorialisation, truth and reconciliation processes and reparation in the #GCHumanRights #MOOC on Memory Sites and Human Rights: https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
+                        <p id="fp2">In 1948, a time of hope for freedom, justice and peace, the United Nations proclaimed the Universal Declaration of Human Rights. But did you know that different regions of the world have distinctive human rights systems?<br><br>The new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC will take you to Africa, Asia, the Americas, the Arab world and Europe. Improve your human rights knowledge now: <span class="titolo_gc_europe">https://gchumanrights.org/pphr</span><br><br><span class="titolo_gc_europe">#HumanRights #HumanRightsEducation #StandUp4HumanRights</span><br><span class="titolo_gc_europe">@gchumanrights</span></p>
                         <br>
-                        <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1wM64v2fpV2pbptI3vELcID_AFYWse1-P" class="titolo_gc_europe" download target="_blank">Download Video</a>
+                        <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/pphr/Media-Toolkit/pics/teaser-01.jpg" class="titolo_gc_europe" download="Teaser-02.jpg" target="_blank">Download Pic</a>
                     </div>
                     <!-- CLOSE POST #2 -->                  
-                </div><!-- Close ROW #1 -->
+                </div>
+                <!-- Close ROW #1 -->
                 
 
                 <!-- ROW #2 -->
@@ -81,24 +98,36 @@
 
                     <!-- POST #3 -->
                     <div class="tweet2">
-                        <div id="cf3"><a href="files/eiuc/moocs/mshr/fb/fb3.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/fb/fb3-small.jpg" alt="" width="100%"></div>
+                        <div class="video169_container">
+                        <a href="files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" download="Teaser-03.jpg" target="_blank" width="100%">
+                            <img src="files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" alt="Teaser-03" width="100%" class="video169">
+                        </a>
+                        </div>
                         <br>
-                        <p id="fp3">Free enrolment in the #GCHumanrights #MOOC on Memory Sites and Human Rights is open!<br>Learn about the links between history, memory, art and human rights.<br>Study conceptual frameworks, examples of memorials in diverse political and cultural contexts, their influence in shaping communities and identities.<br>Discover the impact of artistic language and design on memorialisation, democratisation and justice.<br><br>https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
+                        <p id="fp3">In times of violence and crisis, human rights are important safeguards. In times of peace, security and development, they are important pillars sustaining our common humanity. They are more than moral or legal concepts: they are the lymph of our lives.<br><br> The <span class="titolo_gc_europe">#GCHumanRights</span> MOOC on “Promoting and Protecting Human Rights: a Global Overview” provides you with a solid basis to understand, know and <span class="titolo_gc_europe">#StandUp4HumanRights</span>.<br>Enrol now! <span class="titolo_gc_europe">https://gchumanrights.org/pphr</span><br><br><span class="titolo_gc_europe">#HumanRights #HumanRightsEducation<br>@gchumanrights</span></p>
                         <br>
-                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/moocs/mshr/fb/fb3.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" class="titolo_gc_europe" download="Teaser-03.jpg" target="_blank">Download Pic</a>
                     </div><!-- CLOSE POST #3 -->
 
                     <!-- POST #4 -->
                     <div class="tweet2">
-                       <div id="cf3"><a href="files/eiuc/moocs/mshr/fb/fb2.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/fb/fb2-small.jpg" alt="" width="100%"></div>
+                       <div class="video169_container">
+                        <a href="files/eiuc/pphr/Media-Toolkit/pics/Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg" target="_blank" width="100%">
+                            <img src="files/eiuc/pphr/Media-Toolkit/pics/Ruiz Sampaio Ramon-Ayotzinapa Protest-small.jpg" alt="Teaser-02" width="100%" class="video169">
+                        </a>
+                        </div>
                        <br>
-                        <p id="fp4">How do we remember past atrocities and human rights violations? Why and what is important to remember? How are memories shaped and who is involved in ‘building memory’?<br>Enrol in the #GCHumanRights #MOOC on Memory Sites and Human Rights to find out!<br><br>https://gchumanrights.org/mshr<br><br>@gchumanrights</p>
-                        <br><br><br><br>
-                        <a onclick="copyToClipboard('#fp4')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/moocs/mshr/fb/fb2.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                        <p id="fp4">Promoting and protecting human rights is yet a work in progress. Much still needs to be done, but we can build on the concrete improvements and achievements that human rights have already allowed over the years.<br><br>The new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC analyses current standards, mechanisms, benefits and challenges in five regions of the world: Africa, the Americas, the Arab World, Asia Pacific, and Europe.<br>Enrolment open: <span class="titolo_gc_europe">https://gchumanrights.org/pphr<br><br>#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
+                        <br>
+                        <a onclick="copyToClipboard('#fp4')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/pphr/Media-Toolkit/pics/Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg" class="titolo_gc_europe" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg" target="_blank">Download Pic</a>
 
-                    </div><!-- CLOSE POST #4 -->
+                    </div>
+                    <!-- CLOSE POST #4 -->
 
-                </div><!-- CLOSE ROW #2 -->
+                </div>
+                <!-- CLOSE ROW #2 -->
+
+
             </div>
         </div>
 </div>
@@ -110,6 +139,7 @@ function copyToClipboard(element) {
   var html = $(element).html();
   html = html.replace(/<br>/g, "\n"); // or \r\n
   html = html.replace(/&amp;/, "&");
+  html = html.replace(/<\/?[^>]+(>|$)/g, "");
 
   $temp.val(html).select();
   document.execCommand("copy");
