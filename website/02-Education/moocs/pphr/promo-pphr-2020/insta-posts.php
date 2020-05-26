@@ -246,22 +246,3 @@ animation-direction: alternate;
 }
 </style>
 
-
- <script>
-function copyToClipboard(element) {
-  var $temp = $("<textarea>");
-  $("body").append($temp);
-  var html = $(element).html();
-  html = html.replace(/<br>/g, "\n"); // or \r\n
-  html = html.replace(/&amp;/, "&");
-
-  $temp.val(html).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
-
-$( "#FailCopy" ).click(function() {
-  alert("Well done! div #error-details has been copy to your clipboard, now paste it in the notepad or email!");
-});
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
