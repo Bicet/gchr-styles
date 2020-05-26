@@ -18,30 +18,28 @@
 
             <div class="list_accordion">
                                
-                
-                 <!-- POST #1 -->
+               <!-- POST #1 -->
                <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01-ok.png" class="titolo_gc_europe"  target="_blank" download="Teaser-01.png">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01-ok.png" style="width:100%;" alt="placeholder">
+	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01.jpg" class="titolo_gc_europe" download="Teaser-01.jpg">
+		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01-ok.png" class="titolo_gc_europe" target="_blank" download="Teaser-01.png">Download Pic</a>
+                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01.jpg" class="titolo_gc_europe" download="Teaser-01.jpg">Download Pic</a>
 
                     </div>
                 </div>
-
-                                
+              
                 <!-- POST #2 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.png" class="titolo_gc_europe"  target="_blank" download="Teaser-02.png">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.png" style="width:100%;" alt="placeholder">
+	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.jpg" class="titolo_gc_europe"  target="_blank" download="Teaser-02.jpg">
+		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.png" class="titolo_gc_europe" target="_blank" download="Teaser-02.png">Download Pic</a>
+                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.jpg" class="titolo_gc_europe" target="_blank" download="Teaser-02.jpg">Download Pic</a>
 
                     </div>
                 </div>
@@ -50,12 +48,12 @@
                 <!-- POST #3 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.png" class="titolo_gc_europe"  target="_blank" download="Teaser-03.png">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.png" style="width:100%;" alt="placeholder">
+	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" class="titolo_gc_europe"  target="_blank" download="Teaser-03.jpg">
+		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/pics/teaser-03.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.png" class="titolo_gc_europe" target="_blank" download="Teaser-03.png">Download Pic</a>
+                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" class="titolo_gc_europe" target="_blank" download="Teaser-03.jpg">Download Pic</a>
 
                     </div>
                 </div>
@@ -87,7 +85,8 @@
 
                     </div>
                 </div>
-                <!-- Close POST #5 -->        
+                <!-- Close POST #5 -->
+
             </div>
         </div>
 </div>
