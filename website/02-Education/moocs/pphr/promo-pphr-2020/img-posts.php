@@ -22,12 +22,12 @@
                  <!-- POST #1 -->
                <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Adriano%20Remiddi%20-%20Scars%20from%20elsewhere'-png-copy.png" class="titolo_gc_europe" download="Luigi_Storto_Naleena.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Adriano%20Remiddi%20-%20Scars%20from%20elsewhere'-png-copy.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01-ok.png" class="titolo_gc_europe"  target="_blank" download="Teaser-01.png">
+		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01-ok.png" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Adriano%20Remiddi%20-%20Scars%20from%20elsewhere'-png-copy.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01-ok.png" class="titolo_gc_europe" target="_blank" download="Teaser-01.png">Download Pic</a>
 
                     </div>
                 </div>
@@ -36,68 +36,58 @@
                 <!-- POST #2 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/anush%20komchoyan%20-%20the%20eternal%20flame.png" class="titolo_gc_europe" download="Marco_Maiolino.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/anush%20komchoyan%20-%20the%20eternal%20flame.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.png" class="titolo_gc_europe"  target="_blank" download="Teaser-02.png">
+		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.png" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/anush%20komchoyan%20-%20the%20eternal%20flame.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.png" class="titolo_gc_europe" target="_blank" download="Teaser-02.png">Download Pic</a>
 
                     </div>
-                </div><!-- Close POST #2 -->
+                </div>
+                <!-- Close POST #2 -->
                 
                 <!-- POST #3 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Diego%20Lantero%20-%20Mothers%20of%20Ayacucho%20Winner%20Amateur-copy.png" class="titolo_gc_europe" download="Francesca_Napolitano.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Diego%20Lantero%20-%20Mothers%20of%20Ayacucho%20Winner%20Amateur-copy.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.png" class="titolo_gc_europe"  target="_blank" download="Teaser-03.png">
+		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.png" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/Diego%20Lantero%20-%20Mothers%20of%20Ayacucho%20Winner%20Amateur-copy.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.png" class="titolo_gc_europe" target="_blank" download="Teaser-03.png">Download Pic</a>
 
                     </div>
-                </div><!-- Close POST #3 -->
+                </div>
+                <!-- Close POST #3 -->
                 
                 <!-- POST #4 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/gclatinamerica.png" class="titolo_gc_europe" download="Tale_of_Men.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/gclatinamerica.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ruiz%20Sampaio%20Ramon-Ayotzinapa%20Protest.jpg" class="titolo_gc_europe"  target="_blank" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg">
+		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ruiz%20Sampaio%20Ramon-Ayotzinapa%20Protest.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/gclatinamerica.png" class="titolo_gc_europe" target="_blank">Download Pic</a>
+                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ruiz%20Sampaio%20Ramon-Ayotzinapa%20Protest.jpg" class="titolo_gc_europe" target="_blank" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg">Download Pic</a>
 
                     </div>
-                </div><!-- Close POST #4 -->
-                <!-- POST #4 -->
+                </div>
+                <!-- Close POST #4 -->
+
+                <!-- POST #5 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/malin%20dedaj%20-%20the%20spirit%20of%20srebrenica.png" class="titolo_gc_europe" download="Maia_Pauro.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/malin%20dedaj%20-%20the%20spirit%20of%20srebrenica.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ivanov-hope%20bubbles.jpg" class="titolo_gc_europe" download="Ivanov-hope bubbles.jpg" target="_blank">
+		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ivanov-hope%20bubbles.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/malin%20dedaj%20-%20the%20spirit%20of%20srebrenica.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ivanov-hope%20bubbles.jpg" class="titolo_gc_europe" download="Ivanov-hope bubbles.jpg" target="_blank">Download Pic</a>
 
                     </div>
-                </div><!-- Close POST #4 -->
-                 <!-- POST #4 -->
-                <div class="riga">
-					 <div class="tweet2">
-	                     <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/nicol%C3%B2%20barbieri%20-%20another%20brick%20in%20the%20wall.png" class="titolo_gc_europe" download="Amesterdam_Rainbow_Dress.jpg.jpg" target="_blank">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/nicol%C3%B2%20barbieri%20-%20another%20brick%20in%20the%20wall.jpg" style="width:100%;" alt="placeholder">
-		                </a>
-		                <div class="pic-copyright"></div>
-               
-                       <a href="https://www.gchumanrights.org/files/eiuc/moocs/mshr/pics/nicol%C3%B2%20barbieri%20-%20another%20brick%20in%20the%20wall.png" class="titolo_gc_europe" download="Amesterdam_Rainbow_Dress.jpg.jpg" target="_blank">Download Pic</a>
-
-                    </div>
-                </div><!-- Close POST #4 -->
-               
-
-                
+                </div>
+                <!-- Close POST #5 -->        
             </div>
         </div>
 </div>
