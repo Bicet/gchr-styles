@@ -21,19 +21,20 @@
             <div class="riga">
                 <!-- POST #1 -->
                 <div class="tweet2">
-                   <div id="cf3"><a href="files/eiuc/moocs/mshr/ig/ig1.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/ig/ig1-small.jpg" alt="" width="100%"></div>
-					<br>
-                    <p id="ip8">Remembrance is a way to acknowledge past suffering and to prevent it from happening again. In the aftermath of gross and systematic violations of #HumanRights, memorialisation can be a crucial tool in the process of reconciliation and justice.<br><br>Join renowned lecturers and experts discussing Memory Sites and Human Rights in this free #GCHumanRights #MOOC: gchumanrights.org/mshr<br><br>#HumanRightsEducation #Democratisation<br>@gchumanrights</p><br>
-                    <a onclick="copyToClipboard('#ip8')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/moocs/mshr/ig/ig1.png" target="_blank" download="">Download Pic</a>
+                   <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_03.png" download="GC_PPHR_03.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_03-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
+                    <br>
+                    <p id="ip8">Today, Human Rights are often questioned, attacked and dismissed. But they still stand to remind us that “we are all born equal and free in dignity and rights”.<br>Learn how to stand up for human rights with the new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC on “Promoting and Protecting Human Rights: a Global Overview”<br><br>Enrolment open! <span class="titolo_gc_europe">gchumanrights.org/pphr<br><br>#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
+                    <br><br>
+                    <a onclick="copyToClipboard('#ip8')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_03.png" target="_blank"download="GC_PPHR_03.png">Download Pic</a>
                 </div>
-				<!-- END POST #1 -->
-				<!-- POST #2 -->
+                <!-- END POST #1 -->
+                <!-- POST #2 -->
                 <div class="tweet2">
-                    <div id="cf3"><a href="files/eiuc/moocs/mshr/ig/ig2.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/ig/ig2-small.jpg" alt="" width="100%"></div>
+                     <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_01.png" download="GC_PPHR_01.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_01-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
                     <br>
-                    <p id="ip7">The #GCHumanRights #MOOC on Memory Sites and Human Rights focuses on the role of memory sites in their crucial interplay with historical trauma, the reconciliation process, the chosen methods for dealing with the past, as well as with nation building dynamics and the shaping of societal identity.<br><br>Erolment open: gchumanrights.org/mshr<br><br>#HumanRights #HumanRightsEducation #Democratisation<br>@gchumanrights</p>
+                    <p id="ip7">In 1948, a time of hope for freedom, justice and peace, the United Nations proclaimed the Universal Declaration of Human Rights. But did you know that different regions of the world have distinctive human rights systems?<br><br>The new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC will take you to Africa, Asia, the Americas, the Arab world and Europe.<br>Improve your human rights knowledge now: <span class="titolo_gc_europe">gchumanrights.org/pphr<br><br>#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
                     <br>
-                     <a onclick="copyToClipboard('#ip7')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/moocs/mshr/ig/ig2.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                     <a onclick="copyToClipboard('#ip7')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_01.png" target="_blank"download="GC_PPHR_01.png">Download Pic</a>
                 </div>
                 <!-- END POST #2 -->
             </div>
@@ -43,19 +44,19 @@
 
                 <div class="riga">
                     <div class="tweet2">
-                        <div id="cf3"><a href="files/eiuc/moocs/mshr/ig/ig3.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/ig/ig3-small.jpg" alt="" width="100%"></div>
-
-                        <br><p id="ip303">Learn about the interconnection and interdependence between history, memory, art and human rights and the influence of memory sites in shaping communities, identities, societies and nations in this #GCHumanRights #MOOC: gchumanrights.org/mshr<br><br>#HumanRights #HumanRightsEducation #Democratisation<br>@gchumanrights
-						</p><br><br><br><br><br>
-                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip303')">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/moocs/mshr/ig/ig3.png" target="_blank" download="">Download Pic</a>
+                         <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/ramon-ayotzinapaprotest-copy.png" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/ramon-ayotzinapaprotest-copy-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
+                         <br>
+                         <p id="ip303">Promoting and protecting human rights is yet a work in progress. Much still needs to be done, but we can build on the concrete improvements and achievements that human rights have already allowed over the years.<br> The new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC analyses current standards, mechanisms, benefits and challenges in five regions of the world: Africa, the Americas, the Arab World, Asia Pacific, and Europe.<br><br>Registration open: <span class="titolo_gc_europe">gchumanrights.org/pphr</span><br><br><span class="titolo_gc_europe">@rrsampaio</span>, Global Campus PRISMA Human Rights Photo Contest 2015<br><br><span class="titolo_gc_europe">#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
+                        <br>
+                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip303')">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/pphr/Media-Toolkit/pics/ig/ramon-ayotzinapaprotest-copy.png" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.png" target="_blank">Download Pic</a>
                     </div>
 
                     <div class="tweet2">
-                       <div id="cf3"><a href="files/eiuc/moocs/mshr/ig/ig4.png" download target="_blank" width="100%"><img src="files/eiuc/moocs/mshr/ig/ig4-small.jpg" alt="" width="100%"></div>
-
-                        <br><p id="ip304">“Acknowledging memory’s mobile, fluid character humanises memory; it humanises the use to which memory is put and it gives dignity and strength to memory.”<br>Hear more from Justice Albie Sachs about the benefits and challenges of memorialisation, truth and reconciliation processes and reparation in the #GCHumanRights #MOOC on Memory Sites and Human Rights ➡ gchumanrights.org/mshr<br><br>#HumanRightsEducation #HumanRights #Democratisation<br>@gchumanrights
-                        </p><br>
-                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/moocs/mshr/ig/ig4.png" target="_blank" download="">Download Pic</a>
+                       <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/ivanov-hopebubbles-copy.png" download="Ivanov-hope bubbles.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/ivanov-hopebubbles-copy-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
+                        <br>
+                        <p id="ip304">In times of violence and crisis, human rights are important safeguards. In times of peace, security and development, they are important pillars sustaining our common humanity. They are more than moral or legal concepts: they are the lymph of our lives.<br><br>The <span class="titolo_gc_europe">#GCHumanRights</span> MOOC on “Promoting and Protecting Human Rights: a Global Overview” provides you with a solid basis to understand, know and <span class="titolo_gc_europe">#StandUp4HumanRights</span>.<br><br>Enrol now! <span class="titolo_gc_europe">gchumanrights.org/pphr<br><br>#HumanRights #HumanRightsEducation<br>@gchumanrights</span></p>
+                        <br><br><br>
+                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" h href="files/eiuc/pphr/Media-Toolkit/pics/ig/ivanov-hopebubbles-copy.png" download="Ivanov-hope bubbles.png"  target="_blank">Download Pic</a>
                     </div>
                 </div>
             
@@ -67,22 +68,22 @@
     
 <style type="text/css">
 .riga{
-	display:flex;
-	flex-wrap: wrap;
-	border-spacing: 20px 10px; 
+    display:flex;
+    flex-wrap: wrap;
+    border-spacing: 20px 10px; 
 }
 
 .tweet2{
-	flex: 1 274px;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 274px;
-	padding: 20px;
-	margin: 10px;
-	border: 1px solid #e0dfdf;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	width: 50%;
+    flex: 1 274px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 274px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #e0dfdf;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 50%;
 }
 
 @-webkit-keyframes cf3FadeInOut {
@@ -244,7 +245,6 @@ animation-direction: alternate;
     width: 100%;
     height: 100%;
 }
-
 .pic_container {
     position: relative;
     padding-bottom: 100%;
@@ -262,4 +262,3 @@ animation-direction: alternate;
     height: 100%;
 }
 </style>
-
