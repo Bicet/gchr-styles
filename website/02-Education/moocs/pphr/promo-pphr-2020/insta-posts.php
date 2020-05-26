@@ -244,5 +244,22 @@ animation-direction: alternate;
     width: 100%;
     height: 100%;
 }
+
+.pic_container {
+    position: relative;
+    padding-bottom: 100%;
+    padding-top: 0px;
+    width: 100%;
+    height: 0px;
+    
+}
+
+.pic_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
 </style>
 
