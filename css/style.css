@@ -6517,6 +6517,10 @@ span#contin-home {
 	    color: #e8e6e3 !important;
 	}
 
+	#blog-detail section, #blog-detail aside  {
+		background-color: rgb(24, 26, 27);
+	}
+
 	#headerwrapper {
 	    background-color: rgb(24, 26, 27);
 	    box-shadow: rgb(61, 64, 67) 0px 4px 7px -8px;
