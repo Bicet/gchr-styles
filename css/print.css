@@ -179,13 +179,14 @@ display:list-item !important;
 } 
    
 #header:before {
-content: url('../img/header-print2.png');
+content: url('../img/header-print3.png');
 color: #777 !important;
 font-size: 1em;
 margin-top: -80px;
 margin-left: 41px;
 text-align: left !important; 
-position: absolute;   
+position: absolute;
+display: none !important;   
 }
 
 .description_page_programme strong {
