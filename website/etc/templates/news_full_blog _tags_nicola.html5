@@ -1,8 +1,12 @@
 <style>
 
-.post-title-mobile {
+.post-title-mobile, .mobileonly{
   display: none;
 }
+.printonly {
+  display: none;
+}
+
 
 @media screen and (max-width: 1040px){
   
@@ -26,7 +30,7 @@
     z-index: 2;
   }
 
-  .post-title-mobile{
+  .post-title-mobile, .mobileonly{
     display: block;
   }
 
@@ -38,14 +42,337 @@
     display: none !important;
   }
 
+  .title_page_programme {
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 300;
+    max-width: 100%;
+    margin-right: 40px;
+  }
+
+  #blog-detail section h2.teaser-title {
+    font-size: 18px;
+    color: #757163;
+    line-height: 120%;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
   .mod_newsreader {
     margin-top: -230px;
   }
 
+  .parallax{
+    margin-top: 500px;
+    min-height: 200px;
+  }
+  
+  #parallax figure img {
+      width: 100% !important;
+      height: 100% !important;
+      margin-top: -200px;
+  }
 }
+
+/**
+ * Print Stylesheet fuer Deinewebsite.de
+* @version         1.0
+* @lastmodified    16.06.2016
+*/
+
+@media print {
+/* RESET ALL */
+*,
+*:before,
+*:after,
+*,
+div
+{
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  display: block !important;
+}
+
+
+#themo-get-notified{
+  display:none;
+  }
+
+/* Inhaltsbreite setzen, Floats und Margins aufheben */
+/* Achtung: Die Klassen und IDs variieren von Theme zu Theme. Hier also eigene Klassen setzen */
+#content, #page {
+width: 100%; 
+margin: 2cm; 
+float: none;
+}
+    
+/** Seitenränder einstellen */       
+ @page {
+  margin 10cm;
+  }
+
+/* Font auf 16px/13pt setzen, Background auf Weiß und Schrift auf Schwarz setzen.*/
+/* Das spart Tinte */
+body {
+font: 12pt Georgia, "Times New Roman", Times, serif;
+line-height: 1.2;
+background: #fff !important;
+color: #000;
+display: block !important;
+
+}
+
+
+
+
+#headerwrapper{
+    display: none !important;
+    position: absolute;
+     width: 100%;
+    top: 0px;
+}
+
+
+
+#container, #main {
+  position: relative;
+  display: block !important;
+    margin-top: 100px;
+    font: 12pt Georgia, "Times New Roman", Times, serif;
+  line-height: 1.3;
+ }
+
+
+.container_con_spalla, .modarticle, #inside, .ce_text{
+  display: block !important;
+  width: 100%;
+  margin: auto;
+}
+
+#cookiebar, #footer_top, #footer_bottom, #themo-get-notified {
+  display: none !important;
+}
+
+.max_width_img_news_events, .search, .linea_verticale, .mod_breadcrumb, .link_page_before_news, .digimeg-sub-nav, .container_img_page, .max_width_img_news_events, .shrink,  .mp-pusher, .pdf_link, .back,  .button--aylen, #disqus_thread, style {
+  display: none !important;
+}
+
+.parallax, #parallax {
+  display: block !important;
+}
+
+
+
+nav, aside, title, script {
+  display: none !important;
+}
+
+
+h1 {
+font-size: 24pt;
+color: #009ee0 !important;
+}
+
+h2, h3, h4 {
+font-size: 14pt;
+margin-top: 25px;
+}    
+
+.title_page_programme {
+  
+}
+ 
+/* Alle Seitenumbrüche definieren */
+a {
+    page-break-inside:avoid;
+}
+blockquote {
+    page-break-inside: avoid;
+}
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid; 
+     page-break-inside:avoid }
+img { page-break-inside:avoid; 
+     page-break-after:avoid; }
+table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+    
+/* Linkfarbe und Linkverhalten darstellen */
+a:link, a:visited, a {
+background: transparent;
+color: #520;
+font-weight: bold;
+text-decoration: underline;
+text-align: left;
+}
+
+a {
+    page-break-inside:avoid; 
+    display: inline !important; 
+}
+
+a[href^=http]:after {
+      content:" <" attr(href) "> ";
+      display: inline !important; 
+}
+
+$a:after > img {
+   content: "";
+   display: inline !important; 
+}
+
+article a[href^="#"]:after {
+   content: "";
+   display: inline !important; 
+}
+
+a:not(:local-link):after {
+   content:" <" attr(href) "> ";
+   display: inline !important; 
+}
+
+
+
+    
+/* Wichtige Elemente definieren */    
+p, address, li, dt, dd, blockquote {
+font-size: 100%
+}
+
+/* Zeichensatz fuer Code Beispiele */
+code, pre { font-family: "Courier New", Courier, mono}
+
+ul, ol {
+  list-style: disc !important;
+  list-style-position: outside !important;
+  padding-left: 18px;
+  margin-left: 18pt !important;
+  margin-bottom: 20pt !important; 
+  
+}
+
+li {
+list-style: disc !important; 
+line-height: 1.6em;
+display:list-item !important; 
+} 
+   
+#header:before {
+content: url('../img/header-print3.png');
+color: #777 !important;
+font-size: 1em;
+margin-top: -80px;
+margin-left: 41px;
+text-align: left !important; 
+position: absolute;
+display: none !important;   
+}
+
+.description_page_programme strong {
+    font-weight: bold !important;
+}
+
+.image_container{
+  display: none !important;
+}
+
+.post-title-mobile{
+  width: 100%;
+}
+
+
+.noprint{
+  display: none !important;
+}
+
+.printonly {
+  display: block;
+}
+
+
+#blog-detail section {
+    width: 100% !important;
+    margin-top: -20px;
+    
+}
+
+.title_page_programme {
+    font-size: 30px;
+    line-height: 110%;
+    font-weight: 300;
+    max-width: 100% !important;
+    margin-right: 40px;
+    color: black !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.layout_full{
+  margin-top: 0 !important;
+}
+
+.logo_global_campus{
+  display: block !important;
+  margin-top: -10px;
+}
+
+.tag-chain::before {
+  margin: 0 !important;
+}
+.tag-chain{
+  display: flex !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 20px;
+}
+
+.tag-chain li,ul {
+    display: flex !important;
+    margin: 0 !important;
+}
+
+.tag-chain-item{
+  margin-top: -10px !important;
+}
+ul > li.tag-chain-item.first.titolo_gc_europe,
+li.tag-chain-item.first.titolo_gc_europe > a, 
+li.tag-chain-item.titolo_gc_europe > a,
+li.tag-chain-item.last.titolo_gc_europe > a,
+li.tag-chain-item.first.titolo_gc_europe > text, 
+li.tag-chain-item.titolo_gc_europe > text,
+li.tag-chain-item.last.titolo_gc_europe > text{
+  text-decoration: none;
+  
+}
+
+.tag-chain::before {
+    content: '';
+    margin-right: 8px;
+}
+
+
+}
+
+.ruolo_persona {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+
 </style>
 <!-- <div style="margin-top: -80px;border-bottom-color: coral; border: 2px; border-style: solid;"></div> -->
+
 <div class="layout_full" id="blog-detail" block<?= $this->class ?>">
+
+
   <div id="parallax" class="parallax" data-image-src="{{image::*}}">
     <figure class="image_container<?= $this->floatClass ?>"<?php if ($this->margin): ?> style="<?= $this->margin ?>"<?php endif; ?>>
 
@@ -65,12 +392,11 @@
 
     </figure>
 
-    <h1 class="post-title"><?= $this->newsHeadline ?></h1>
+    <h1 class="post-title noprint" id="post-title"><?= $this->newsHeadline ?></h1>
   </div>
 
-  <div class="container_con_spalla container_con_spalla_dettaglio_news no_margin_bottom">
-  
-    <aside class="spalla_sx spalla_dettaglio_news" style="margin-top: 200px;">
+  <div class="container_con_spalla container_con_spalla_dettaglio_news no_margin_bottom" style="overflow: auto;">
+  <aside class="spalla_sx spalla_dettaglio_news" style="max-height: 250px;">
       <div class="spalla_box_border_bottom">
         <p class="text_popup margin_bottom_15">Posted on</p>
         <!-- <p class="data_news">08 Settembre 2017</p> -->
@@ -117,13 +443,18 @@
       </div>
         
         
-    </aside><section>
-    
+    </aside>
+    <section>
+    <img src="system/themes/eiuc2017/img/logo-global-campus.svg" class="logo_global_campus printonly" alt="logo global campus"><br class="printonly"><br class="printonly">
     
     <div class="container no_margin_bottom">
 
     <h1 class="title_page_programme titolo_gc_europe no_margin_top margin_bottom_40 post-title-mobile"><?= $this->newsHeadline ?></h1>
-    
+    <?php
+      $teaser = $this->teaser;
+      $teaser= strip_tags($teaser, '');
+    ?>
+    <h2 class="teaser-title"><?= $teaser ?></h2>
     <div class="description_page_programme">
       
 
@@ -134,26 +465,26 @@
 
       <?php if ($this->text): ?>
         <?= $this->text ?>
-      <?php else: ?>
-        <div class="ce_text block margin_bottom_20">
-          <?= $this->teaser ?>
-        </div>
-      <?php endif; ?>
+        <?php else: ?>
+          <div class="ce_text block margin_bottom_20">
+            <?= $this->teaser ?>
+          </div>
+        <?php endif; ?>
+        <p class="text_popup margin_bottom_15" id="fixed">Share on</p>
+      
+      
+      
+      
 
 
-      <?php if ($this->enclosure): ?>
-        <div class="enclosure">
-          <?php foreach ($this->enclosure as $enclosure): ?>
-            <p><img src="files/eiuc/pdf_news.svg" alt="pdf"> <a href="<?= $enclosure['href'] ?>" title="<?= $enclosure['title'] ?>"><?= $enclosure['link'] ?> <span class="size">(<?= $enclosure['filesize'] ?>)</span></a></p>
-          <?php endforeach; ?>
-        </div>
-      <?php endif; ?>
 
-
+    <div class="description_page_programme">
     <!-- TAGS START -->
+    <p class="printonly margin_bottom_20"></p>
     <?php if ($this->showTags): ?>
     <?php if (count($this->taglist)): ?>
-      <ul class="tag-chain" ">
+      <ul class="tag-chain">
+        <p class="printonly margin_bottom_20"></p>
       <?php $counter = 0; foreach ($this->taglist as $tag): ?>
         <li class="tag-chain-item<?php if ($counter == 0) echo ' first'; ?><?php if ($counter == count($this->taglist)-1) echo ' last'; ?><?php if ($this->showTagClass) echo ' ' . $tag['class']; ?> titolo_gc_europe" style="font-size: 20px;">#<?php echo $tag['url']; ?> <p><?php echo '&nbsp'; ?></p> </li>
       <?php $counter++; endforeach; ?>
@@ -161,29 +492,67 @@
     <?php endif; ?>
     <?php endif; ?>
     <!-- TAGS END -->
-    
+    <p class="margin_bottom_40"></p>
+    <div class="socialnt mobileonly" style="font-size:16px; padding-right: 15px;">
+          <ul class="social-share">
+              <li class="facebook">
+                 <a href="share/?p=facebook&amp;u=<?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" rel="nofollow" title="<?= $this->facebookTitle ?>" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">
+                     <em class="fa fa-facebook fa-4"></em>
+                  </a>
+              </li>
+      
+              <li class="twitter">
+                  <a href="share/?p=twitter&amp;u=<?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" rel="nofollow" title="<?= $this->twitterTitle ?>" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">
+                      <em class="fa fa-twitter fa-4"></em>
+                  </a>
+              </li>
+      
+             
+              <li class="linkedin">
+                  <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?>" rel="nofollow" title="<?= $this->gplusTitle ?>" onclick="window.open(this.href,'','width=600,height=200,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">
+                      <em class="fa fa-linkedin fa-4"></em>
+                  </a>
+              </li>
+      
+              <li class="print">
+                 <a href="<?= $this->print ?>" rel="nofollow" title="<?= $this->printTitle ?>" onclick="window.print();return false">
+                     <em class="fa fa-print fa-4"></em>
+                 </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+   
+  
+ 
+   <div id="destination"></div>
+
     </div>
-    <h2 class="margin_bottom_40">Add a Comment</h2>
-  <div id="disqus_thread"></div>
-    <script>
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://gchumanrights.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <div class="ce_text description_page_programme block show"></div>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="javascript:history.go(-1)" title="Go back" class="link_page_before_news">
-      <img src="files/eiuc/freccia_sx_gray.svg" alt="freccia sinistra">
-      <p><strong>Go back</strong></p>
-    </a>
+    <p class="printonly">Original Page: <?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?></p>
+    <h2 class="margin_bottom_40 title_page_programme">Add a Comment</h2>
+    <div id="disqus_thread" style="font-family: Roboto;"></div>
+      <script>
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://gchumanrights.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+    <div class="ce_text description_page_programme block show noprint"></div>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="javascript:history.go(-1)" title="Go back" class="link_page_before_news">
+        <img src="files/eiuc/freccia_sx_gray.svg" alt="freccia sinistra">
+        <p><strong>Go back</strong></p>
+      </a>
 
     </div>
   </div>
-</section></div>
+
 </section>
+
+</div>
+
 <script id="dsq-count-scr" src="//gchumanrights.disqus.com/count.js" async></script>
 <script>
 $(function() {
@@ -191,8 +560,14 @@ $(function() {
     var $sidebar   = $("#fixed"), 
         $window    = $(window),
         offset     = $sidebar.offset(),
-        topPadding = 130;
-        
+
+        topPadding = 200;
+    $(document).ready(function(){
+    
+    if ($('.post-title').height() > 200) {
+        topPadding = 350;
+      }
+    });    
 
     $window.scroll(function() {
         if ($window.scrollTop() > offset.top) {
@@ -206,5 +581,13 @@ $(function() {
         }
     });
     
+});
+
+
+$(document).ready(function(){
+    $("#authorid").appendTo("#destination");
+    if ($('.post-title').height() > 200) {
+        $('.spalla_dettaglio_news').css('margin-top','-185px');
+    }
 });
 </script>
