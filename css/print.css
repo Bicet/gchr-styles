@@ -1,0 +1,197 @@
+/**
+ * Print Stylesheet fuer Deinewebsite.de
+* @version         1.0
+* @lastmodified    16.06.2016
+*/
+
+@media print {
+/* RESET ALL */
+*,
+*:before,
+*:after,
+*,
+div
+{
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+	display: block !important;
+}
+
+
+#themo-get-notified{
+	display:none;
+	}
+
+/* Inhaltsbreite setzen, Floats und Margins aufheben */
+/* Achtung: Die Klassen und IDs variieren von Theme zu Theme. Hier also eigene Klassen setzen */
+#content, #page {
+width: 100%; 
+margin: 2cm; 
+float: none;
+}
+    
+/** Seitenränder einstellen */       
+ @page {
+	margin 10cm;
+  }
+
+/* Font auf 16px/13pt setzen, Background auf Weiß und Schrift auf Schwarz setzen.*/
+/* Das spart Tinte */
+body {
+font: 12pt Georgia, "Times New Roman", Times, serif;
+line-height: 1.2;
+background: #fff !important;
+color: #000;
+display: block !important;
+
+}
+
+
+
+
+#headerwrapper{
+    display: none !important;
+    position: absolute;
+     width: 100%;
+    top: 0px;
+}
+
+
+
+#container, #main {
+	position: relative;
+	display: block !important;
+    margin-top: 100px;
+    font: 12pt Georgia, "Times New Roman", Times, serif;
+	line-height: 1.3;
+ }
+
+
+.container_con_spalla, .modarticle, #inside, .ce_text{
+	display: block !important;
+	width: 100%;
+	margin: auto;
+}
+
+#cookiebar, #footer_top, #footer_bottom, #themo-get-notified {
+	display: none !important;
+}
+
+.max_width_img_news_events, .search, .linea_verticale, .mod_breadcrumb, .tag-chain, .link_page_before_news, .digimeg-sub-nav, .container_img_page, .first, .max_width_img_news_events, .shrink,  .mp-pusher, .pdf_link, .back,  .button--aylen{
+	display: none !important;
+}
+
+
+
+nav, aside, title, script {
+	display: none !important;
+}
+
+
+h1 {
+font-size: 24pt;
+color: #009ee0 !important;
+}
+
+h2, h3, h4 {
+font-size: 14pt;
+margin-top: 25px;
+}    
+
+.title_page_programme {
+	
+}
+ 
+/* Alle Seitenumbrüche definieren */
+a {
+    page-break-inside:avoid;
+}
+blockquote {
+    page-break-inside: avoid;
+}
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid; 
+     page-break-inside:avoid }
+img { page-break-inside:avoid; 
+     page-break-after:avoid; }
+table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+    
+/* Linkfarbe und Linkverhalten darstellen */
+a:link, a:visited, a {
+background: transparent;
+color: #520;
+font-weight: bold;
+text-decoration: underline;
+text-align: left;
+}
+
+a {
+    page-break-inside:avoid; 
+    display: inline !important; 
+}
+
+a[href^=http]:after {
+      content:" <" attr(href) "> ";
+      display: inline !important; 
+}
+
+$a:after > img {
+   content: "";
+   display: inline !important; 
+}
+
+article a[href^="#"]:after {
+   content: "";
+   display: inline !important; 
+}
+
+a:not(:local-link):after {
+   content:" <" attr(href) "> ";
+   display: inline !important; 
+}
+
+
+
+    
+/* Wichtige Elemente definieren */    
+p, address, li, dt, dd, blockquote {
+font-size: 100%
+}
+
+/* Zeichensatz fuer Code Beispiele */
+code, pre { font-family: "Courier New", Courier, mono}
+
+ul, ol {
+	list-style: disc !important;
+	list-style-position: outside !important;
+	padding-left: 18px;
+	margin-left: 18pt !important;
+	margin-bottom: 20pt !important; 
+	
+}
+
+li {
+list-style: disc !important; 
+line-height: 1.6em;
+display:list-item !important; 
+} 
+   
+#header:before {
+content: url('../img/header-print2.png');
+color: #777 !important;
+font-size: 1em;
+margin-top: -80px;
+margin-left: 41px;
+text-align: left !important; 
+position: absolute;   
+}
+
+.description_page_programme strong {
+    font-weight: bold !important;
+}
+}
+
+
+
