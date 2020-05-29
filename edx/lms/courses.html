@@ -1,0 +1,127 @@
+<%!
+  import json
+  from django.utils.translation import ugettext as _
+  from openedx.core.djangolib.js_utils import dump_js_escaped_json
+%>
+<%inherit file="../main.html" />
+<%
+  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
+%>
+
+<%namespace name='static' file='../static_content.html'/>
+
+% if course_discovery_enabled:
+<%block name="header_extras">
+  % for template_name in ["course_card", "filter_bar", "filter", "facet", "facet_option"]:
+  <script type="text/template" id="${template_name}-tpl">
+      <%static:include path="discovery/${template_name}.underscore" />
+  </script>
+  % endfor
+  <%static:require_module module_name="js/discovery/discovery_factory" class_name="DiscoveryFactory">
+    DiscoveryFactory(
+      ${course_discovery_meanings | n, dump_js_escaped_json},
+      getParameterByName('search_query'),
+      "${user_language}",
+      "${user_timezone}"
+    );
+  </%static:require_module>
+</%block>
+% endif
+
+<%block name="pagetitle">${_("Courses")}</%block>
+
+<div id="main" class="main-header">
+    <div class="inside">
+        <div class="mod_article container_img_page first block" id="parte-alta-admission">
+            <div class="max_width_img_admissions">
+                <div class="overlay_img_page">
+                    <h1 class="ce_headline title_page">Find a Course</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="mod_article education_regional_programms block" id="intro-admissions">
+            <h2 class="ce_headline title_regional_programmes no_padding_top first">Discover the Global Campus Advanced Human Rights Programmes</h2>
+
+            <div class="ce_text text_regional_programms last block">
+                <p>Become a member of our international community by participating to one of our courses. The Global Campus offers you a variety of master’s programmes and courses focused on human rights issues and democratisation processes.</p>
+
+                <p>By being taught by international renowned academics and experts working for the EU, the UN and other international organisations and NGOs, our up-to-date programmes are designed to give you the best multicultural and problem-centred learning experience.</p>
+            </div>
+        </div>
+
+        <div class="mod_article container_con_spalla last block" id="lanci-admissions">
+            <div class="container no_margin_bottom">
+              <style>
+                .reverse, .reverse>* {
+                    -moz-transform: scale(1, -1);
+                    -webkit-transform: scale(1, -1);
+                    -o-transform: scale(1, -1);
+                    -ms-transform: scale(1, -1);
+                    transform: scale(1, -1);
+                  }
+                </style>
+                <!-- <div class="table_accordion reverse"> -->
+                <div class="table_accordion">
+                    %for course in courses:
+
+                      <%include file="../course.html" args="course=course" />
+
+                    %endfor
+
+                    <div class="ce_text table_courses_cell block">
+                        <p class="title_table_courses">MOOCs</p>
+
+                        <div class="info_and_button">
+                            <div class="course_info">
+                                <p class="data">Ongoing - <span class="titolo_gc_europe">Free Enrolment</span></p>
+
+                                <p class="title_course titolo_gc_europe">e-NACT series: Fundamental Rights of the EU</p>
+
+                                <p>The EU Charter of Fundamental Rights is the main instrument of fundamental rights protection within the European Union. Its use, however, aside from raising complex legal issues, is very much dependent on the awareness of its potential on the part of judges, lawyers and individuals.</p>
+                            </div>
+
+                            <p class="space">&nbsp;</p><a href="e-nact-moocs"><button class="button button--aylen button_gray button--aylen_gray no_margin_bottom">More info</button></a>
+                        </div>
+                    </div>
+              </div>
+
+
+
+        </div>
+
+    </div>
+    <div class="mod_article education_regional_programms block show" id="title-upcoming-moocs">
+      <h2 class="title_regional_programmes no_padding_top margin_bottom_20">Upcoming MOOCs</h2>
+    </div>
+    <div class="mod_article container block show" id="lista-upcoming-mooc-2019">
+      <section class="regional_programmes page_regional_programmes">
+        <div class="blocco_programmi blocco_prorgammi_upcoming tre_colonne show">
+          <div class="ce_text programma programma_upcoming block show">
+            <div class="programma_gc gc_generic">
+                <p class="categoria_upcaming_courses">MOOCs</p>
+                <h4 class="titolo_white_box titolo_gc_europe">Business<br>and Human Rights</h4>
+                <p class="margin_bottom_75">Applying a multi-regional approach, the MOOC focuses on the link between companies and human rights defenders, including consideration of the UN Guiding Principles, recent case-law, and child labour issues.</p>
+                <p class="stagione_programma">Winter 2020</p>
+            </div>
+          </div>
+          <div class="ce_text programma programma_upcoming block show">
+            <div class="programma_gc gc_generic">
+                <p class="categoria_upcaming_courses">MOOCs</p>
+                <h4 class="titolo_white_box titolo_gc_europe">Children’s Rights and Technology in the Digital Age</h4>
+                <p class="margin_bottom_75">Digital technologies have already shifted the dynamic of many homes, classrooms, and multimedia platforms, but is the child’s best interest central to these experiences? How will they shape the minds and behaviours of the coming generations?</p>
+                <p class="stagione_programma">Spring 2021</p>
+            </div>
+          </div>
+          <div class="ce_text programma programma_upcoming block show">
+            <div class="programma_gc gc_generic">
+                <p class="categoria_upcaming_courses">MOOCs</p>
+                <h4 class="titolo_white_box titolo_gc_europe">Child participation and the right to a sustainable environment</h4>
+                <p class="margin_bottom_75">By speaking to young climate activists as well as children’s rights specialists, environment experts and human rights scholars, the MOOC will examine concepts, standards and practices of child participation in environmental matters.</p>
+                <p class="stagione_programma">Summer 2021</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+</div>
