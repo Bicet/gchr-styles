@@ -49,7 +49,7 @@
                 <div class="riga">
 					 <div class="tweet2">
 	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" class="titolo_gc_europe"  target="_blank" download="Teaser-03.jpg">
-		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/pics/teaser-03.jpg" style="width:100%;" alt="placeholder">
+		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
