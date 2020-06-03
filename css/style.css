@@ -1,7 +1,7 @@
 /*Eiuc Stylesheet 2017*/
 
 /* http://meyerweb.com/eric/tools/css/reset/
-v1.60 | 20120527
+v1.61 | 20200603
 License: none (public domain)
 */
 
@@ -6750,3 +6750,46 @@ li.tag-chain-item.first.last.titolo_gc_asia_pacific a{
 }
 
 #themo-get-notified { cursor: pointer; }
+
+/* BLOG */
+.table_research_cell_blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 0px;
+
+}
+
+.img_persona_blog {
+    min-width: 210px;
+    width: 210px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.ruolo_persona_blog {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .table_research_cell_blog {
+        flex-direction: column;
+    }
+
+    .img_persona_blog {
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 210px;
+    }
+
+    .ruolo_persona_blog {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+}
