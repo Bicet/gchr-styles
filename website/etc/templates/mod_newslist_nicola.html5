@@ -24,7 +24,7 @@ h4 {
 
 #blog-tags {
     color: #4f9fe3;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 18px;
     float: right;
     width: 20%;
@@ -80,6 +80,67 @@ a:hover{
     -moz-transition: 0.3s ease-out;
     -webkit-transition: 0.3s ease-out;
 }
+
+    .blog-borderbottom{
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .info-blog-container{
+        width: 50%;
+    }
+@media screen and (max-width: 1300px){
+    .layout_latest {
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.blog-tag-chain {
+    display: inline-block;
+}
+
+.tag-chain-item {
+     display: inline-block;
+}
+#blog-tags {
+    color: #4f9fe3;
+    text-transform: none;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;
+    margin-left: 0;
+}
+
+.info-blog-container{
+    width: 100%;
+}
+figure {
+    margin: none;
+}
+.blog-borderbottom {
+    border-bottom: 1px solid #e0dfdf;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+#blog {
+    padding: 0;
+}
+.image_container{
+    margin-top: 7px;
+}
+#blog .layout_latest figure {
+    margin: 0px;
+}
+}
+
+@media screen and (max-width: 1150px){
+  #blog  {
+    padding: 0 5%;
+    margin-top: -40px;
+}
+}
+
 </style>
     <?= implode('', $this->articles) ?>
     <?= $this->pagination ?>
