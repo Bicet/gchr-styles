@@ -1,0 +1,89 @@
+
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+
+  <?php if (empty($this->articles)): ?>
+    <p class="empty"><?= $this->empty ?></p>
+
+  <?php else: ?>
+  	<style>
+#blog .layout_latest {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+h3,
+h4 {
+    display: none;
+}
+
+#blog-tags {
+    color: #4f9fe3;
+    text-transform: uppercase;
+    font-size: 18px;
+    float: right;
+    width: 20%;
+    font-weight: 500;
+    margin-left: 10%;
+    /*border-left: 1px solid #e0dfdf;*/
+  
+}
+
+#blog .mod_newslist {
+    border-bottom: none;
+    padding: 0px 0;
+}
+
+#blog .layout_latest.last {
+    border-bottom: none;
+}
+
+.blog-tag-chain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    color: #75716E;
+}
+
+
+a{
+   color: #4f9fe3;
+}
+a:hover{
+    color: #75716E;
+    transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -webkit-transition: 0.5s ease-out;
+}
+.blog-borderbottom {
+    border-bottom: 1px solid #e0dfdf;
+    width: 80%;
+}
+.blog-borderbottom:last-child {
+    border: none;
+} 
+
+.blog-borderbottom:last-of-type {
+    border: none;
+    color: green;
+} 
+
+.info-blog-container h2 a:hover {
+    color: #75716E;
+    transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+}
+</style>
+    <?= implode('', $this->articles) ?>
+    <?= $this->pagination ?>
+  <?php endif; ?>
+
+<?php $this->endblock(); ?>
+
