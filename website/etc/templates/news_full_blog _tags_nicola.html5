@@ -486,7 +486,7 @@ li.tag-chain-item.last.titolo_gc_europe > text{
       <ul class="tag-chain">
         <p class="printonly margin_bottom_20"></p>
       <?php $counter = 0; foreach ($this->taglist as $tag): ?>
-        <li class="tag-chain-item<?php if ($counter == 0) echo ' first'; ?><?php if ($counter == count($this->taglist)-1) echo ' last'; ?><?php if ($this->showTagClass) echo ' ' . $tag['class']; ?> titolo_gc_europe" style="font-size: 20px;">#<?php echo $tag['url']; ?> <p><?php echo '&nbsp'; ?></p> </li>
+        <li class="tag-chain-item<?php if ($counter == 0) echo ' first'; ?><?php if ($counter == count($this->taglist)-1) echo ' last'; ?><?php if ($this->showTagClass) echo ' ' . $tag['class']; ?> titolo_gc_europe" style="font-size: 20px;"><?php echo $tag['url']; ?> <p><?php echo '&nbsp'; ?></p> </li>
       <?php $counter++; endforeach; ?>
       </ul>
     <?php endif; ?>
