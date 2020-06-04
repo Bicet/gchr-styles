@@ -358,6 +358,12 @@ li.tag-chain-item.last.titolo_gc_europe > text{
 
 }
 
+.tag-chain::before {
+    content: '';
+    margin-right: 0px;
+    
+}
+
 .ruolo_persona {
     font-weight: 400;
     margin-bottom: 10px;
@@ -470,7 +476,7 @@ li.tag-chain-item.last.titolo_gc_europe > text{
             <?= $this->teaser ?>
           </div>
         <?php endif; ?>
-        <p class="text_popup margin_bottom_15" id="fixed">Share on</p>
+        <p class="margin_bottom_15" id="fixed">&nbsp;</p>
       
       
       
@@ -492,7 +498,7 @@ li.tag-chain-item.last.titolo_gc_europe > text{
     <?php endif; ?>
     <?php endif; ?>
     <!-- TAGS END -->
-    <p class="margin_bottom_40"></p>
+    <p class="margin_bottom_20"></p>
     <div class="socialnt mobileonly" style="font-size:16px; padding-right: 15px;">
           <ul class="social-share">
               <li class="facebook">
