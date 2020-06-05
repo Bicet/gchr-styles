@@ -1,7 +1,7 @@
 /*Eiuc Stylesheet 2017*/
 
 /* http://meyerweb.com/eric/tools/css/reset/
-v1.62 | 20200605
+v1.64 | 20200605
 License: none (public domain)
 */
 
@@ -870,6 +870,9 @@ h2{
 	transition:0.3s ease-out;
 	-moz-transition:0.3s ease-out;
 	-webkit-transition:0.3s ease-out;
+}
+.titolo_gc_hq{
+	color:#5c5957;
 }
 .titolo_gc_europe{
 	color:#009fe3;
