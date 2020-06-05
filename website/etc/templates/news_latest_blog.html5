@@ -1,4 +1,37 @@
 
+
+
+<?php foreach($this->categories as $category): ?>
+  <?php //echo  $category['frontendTitle']; ?>
+<?php endforeach; ?>
+<?php //print_r($this-> categories); ?>
+<?php //print_r($this[Categories]) ?>
+<h5 id="testing"></h4>
+<p id="demo">&nbsp;
+
+  <?php
+
+  $titolo_categoria = $this->subHeadline; 
+
+  switch ($titolo_categoria) 
+  {
+    
+    case "This is a test2":
+        echo "<a href='' class='titolo_gc_europe'>" . $titolo_categoria . "</a>";
+        break;
+    case "This is a test":
+        echo "<a href='' class='titolo_gc_europe'>" . $titolo_categoria . "</a>";
+        break;
+    default:
+        echo "I'm a Category";
+        break;
+  }
+
+  ?>
+  
+</p>
+
+
 <div class="layout_latest arc_<?= $this->archive->id ?> block<?= $this->class ?>">
 <?php if ($this->addImage): ?>
     <figure class="image_container<?= $this->floatClass ?>"<?php if ($this->margin): ?> style="<?= $this->margin ?>"<?php endif; ?>>
@@ -34,8 +67,18 @@
  	  	<!--<?php
 		  	$date = new DateTime( $this->datetime );		  	
 	  	?>-->
-	   
-    <p class="info"><strong><?= $this->author ?></strong> on <time datetime="<?= $this->datetime ?>"><? echo $date->format('d.m.Y'); ?></time> | <?= $this->commentCount ?></p>
+
+    <p class="info"><strong><?= $this->author ?></strong>
+      <time datetime="<?= $this->datetime ?>">
+      <script>
+        var relativedate = moment("<? echo $date->format('Y-m-d'); ?>").fromNow();
+        document.write(relativedate);
+       </script>
+      </time> | <?= $this->commentCount ?></p>
   <?php endif; ?>
   </div>
+  <p class="margin_bottom_40">&nbsp;</p>
 </div>
+<p class="margin_bottom_50"></p>
+<p class="margin_bottom_50"></p>
+

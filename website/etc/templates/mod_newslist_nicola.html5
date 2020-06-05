@@ -51,15 +51,15 @@ h4 {
     color: #75716E;
 }
 
-
-a{
+ul > li > a{
    color: #4f9fe3;
 }
-a:hover{
+
+ul > li > a:hover{
     color: #75716E;
-    transition: 0.5s ease-out;
-    -moz-transition: 0.5s ease-out;
-    -webkit-transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
 }
 .blog-borderbottom {
     border-bottom: 1px solid #e0dfdf;

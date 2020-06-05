@@ -1,15 +1,35 @@
 <style>
+#blog-detail aside {
 
+    top: 350px;
+
+}
 .post-title-mobile, .mobileonly{
   display: none;
 }
 .printonly {
   display: none;
 }
+@media screen and (min-width: 1440px){
+#blog-detail aside {
 
+    top: 450px;
 
-@media screen and (max-width: 1040px){
-  
+}
+}
+
+@media screen and (max-width: 1124px){
+  #blog-detail aside {
+    display: none;
+}
+  .text_popup {
+    display: none;
+  }
+
+  #parallax{
+    padding-top: 200px;
+  }
+
   .spalla_box_border_bottom {
       padding-bottom: 0px;
       border-bottom: 0px solid #e0dfdf;
@@ -60,12 +80,13 @@
   }
 
   .mod_newsreader {
-    margin-top: -230px;
+    margin-top: -0px;
   }
 
   .parallax{
-    margin-top: 500px;
+    /*margin-top: 500px;*/
     min-height: 200px;
+    padding-top: 100px;
   }
   
   #parallax figure img {
@@ -73,6 +94,20 @@
       height: 100% !important;
       margin-top: -200px;
   }
+}
+
+@media screen and (max-width: 1040px){
+
+  #parallax{
+    padding-top: 50px;
+  }
+
+  .container_accordion_submenu {
+padding-top: 90px;
+padding-right: 40px;
+padding-left: 40px;
+z-index: 3;
+}
 }
 
 /**
