@@ -503,6 +503,17 @@ Redirect 301 /COVID-19 https://gchumanrights.org/about-us/eiuc-global-campus/cov
 Redirect 301 /coronavirus https://gchumanrights.org/about-us/eiuc-global-campus/covid-19.html
 
 
+####BLOG on Preparedness
+Redirect 301 /preparedness https://gchumanrights.org/preparedness.html
+Redirect 301 /stories https://gchumanrights.org/preparedness.html
+Redirect 301 /hrp https://gchumanrights.org/preparedness.html
+Redirect 301 /gchrp https://gchumanrights.org/preparedness.html
+Redirect 301 /blog https://gchumanrights.org/preparedness.html
+
+
+
+
+
 
 
 
