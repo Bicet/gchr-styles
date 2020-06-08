@@ -9,7 +9,7 @@
     <p class="empty"><?= $this->empty ?></p>
 
   <?php else: ?>
-  	<style>
+    <style>
 #blog .layout_latest {
     width: 100%;
     border-bottom: none;
@@ -51,11 +51,11 @@ h4 {
     color: #75716E;
 }
 
-ul > li > a{
+#blog-tags > ul > li> a, #parte-alta-blog > div.container_accordion_submenu.show > nav > ul > li.first > a{
    color: #4f9fe3;
 }
 
-ul > li > a:hover{
+#blog-tags > ul > li> li > a:hover, #parte-alta-blog > div.container_accordion_submenu.show > nav > ul > li.first > a:hover{
     color: #75716E;
     transition: 0.3s ease-out;
     -moz-transition: 0.3s ease-out;
