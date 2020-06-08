@@ -406,7 +406,11 @@ li.tag-chain-item.last.titolo_gc_europe > text{
 }
 
 
-
+.disclaimer{
+  font-sie: 14px;
+  font-weight: 300;
+  line-height: 110%;
+}
 
 </style>
 <!-- <div style="margin-top: -80px;border-bottom-color: coral; border: 2px; border-style: solid;"></div> -->
@@ -566,12 +570,13 @@ li.tag-chain-item.last.titolo_gc_europe > text{
    
   
  
-   <div id="destination"></div>
+    <div id="destination"></div>
 
     </div>
+
     <p class="printonly">Original Page: <?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?></p>
     <h2 class="margin_bottom_40 title_page_programme">Add a Comment</h2>
-    <div id="disqus_thread" style="font-family: Roboto;"></div>
+    <div id="disqus_thread"></div>
       <script>
       (function() { // DON'T EDIT BELOW THIS LINE
       var d = document, s = d.createElement('script');
@@ -580,14 +585,22 @@ li.tag-chain-item.last.titolo_gc_europe > text{
       (d.head || d.body).appendChild(s);
       })();
       </script>
+
+    <div class="ce_text description_page_programme block show"></div>
+
+     <h3 class="margin_bottom_10">Disclaimer</h2>
+     <p class="disclaimer">This site is not intended to convey legal advice. Responsibility for opinions expressed in submissions published on this website rests solely with the author(s). Publication does not constitute endorsement by the Global Campus of Human Rights. </p>
+     <p class="disclaimer"><span class="fa fa-copyright fa-flip-horizontal"></span>&nbsp;CC-BY-NC-ND. All content of this initiative is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" class="titolo_gc_europe">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</a></p>
     <div class="ce_text description_page_programme block show noprint"></div>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <a href="javascript:history.go(-1)" title="Go back" class="link_page_before_news">
+      <a href="{{link_url::571}}" title="Go back" class="link_page_before_news">
         <img src="files/eiuc/freccia_sx_gray.svg" alt="freccia sinistra">
         <p><strong>Go back</strong></p>
       </a>
 
     </div>
+
+
   </div>
 
 </section>
