@@ -6488,31 +6488,39 @@ span#contin-home {
 	html {
 	    bbackground-color: rgb(27, 28, 30);
 	}
+
 	html, body, input, textarea, select, button {
 	    background-color: rgb(27, 28, 30);
 	}
+
 	html, body, input, textarea, select, button {
 	    border-color: #575757;
 	    color: #e8e6e3;
 	}
 
+
 	a {
 	    color: #44c7ff;
 	}
+
 	table {
 	    border-color: #4c4c4c;
 	}
+
 	::placeholder {
 	    color: #bab5ab;
 	}
+
 	::selection {
 	    background-color: #005ccc;
 	    color: #ffffff;
 	}
+
 	::-moz-selection {
 	    background-color: #005ccc;
 	    color: #ffffff;
 	}
+
 	input:-webkit-autofill,
 	textarea:-webkit-autofill,
 	select:-webkit-autofill {
@@ -6551,9 +6559,6 @@ span#contin-home {
 	.titolo_gc_asia_pacific {
     	color: rgb(237, 110, 167) !important;
 	}
-
-
-
 
 	.recensione_verticale {
 	    color: rgb(191, 186, 176);
@@ -6715,11 +6720,6 @@ span#contin-home {
 		}
 	}
 
-	/*
-	.logo_global_campus, .icona {
-		filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
-	}
-	*/
 
 	.level_1 li.prima_voce a, .level_1 li.seconda_voce a, .level_1 li.terza_voce a, .level_1 li.quarta_voce a, .level_1 li.quinta_voce a, .level_1 li.sesta_voce a {
 		color: #e8e6e3;
@@ -6736,9 +6736,10 @@ span#contin-home {
 
 	.colonna_menu a {
     color: #e8e6e3;
-}
+	}
 
 }
+
 
 li.tag-chain-item.first.last.titolo_gc_asia_pacific a{
 	color: #ed6ea7 !important;
@@ -6795,4 +6796,9 @@ li.tag-chain-item.first.last.titolo_gc_asia_pacific a{
         margin-right: auto;
     }
 }
+
+
+.error {
+	color:#e6553d;
+	font-weight: 400;
 }
