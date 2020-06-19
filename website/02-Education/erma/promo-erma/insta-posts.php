@@ -28,9 +28,9 @@
                         Don’t miss this unique opportunity: apply now! 👉 gchumanrights.org/erma<br><br>
                         📆 Deadline: 20 September 2020<br>
                         <br><br>
-                        #GCSouthEastEurope #ERMA19 #HumanRightsEducation #GCHumanRights<br>
+                        #GCSouthEastEurope #ERMA20 #HumanRightsEducation #GCHumanRights<br>
                         @erma_gcsee
-                        <br></p><br><br><br><br><br>
+                        <br></p><br><br>
                         <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip301')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=12anq-NKlBBnITEBf2xSu3kZUH-0wMpD5" target="_blank" download="">Download Pics</a>
                     </div>
 
@@ -38,7 +38,7 @@
                         <div id="cf3"><img class="bottom" src="https://drive.google.com/uc?export=view&id=1bnvfkNN6qKWSl2j7lcsnZtw1PuOTPRvP" alt="" width="100%"> <img class="top" src="https://drive.google.com/uc?export=view&id=1ZPFNRu9mqWTrlk2iO1bI35c4_zBkOE-s" alt="" width="100%"></div>
 
                         <p id="ip302"><br>
-                         Apply for #ERMA19 and get the chance to:<br>
+                         Apply for #ERMA20 and get the chance to:<br>
                         🔹 benefit full scholarships covering tuition fees, living and travel expenses;<br>
                         🔹 study in a highly international and multicultural environment;<br>
                         🔹 acquire working and research experience throughout the 6-week internship period in countries of the SEE;<br>
@@ -46,7 +46,7 @@
                         Deadline: 20 September ➡ gchumanrights.org/erma<br><br>
                         #GCSouthEastEurope #HumanRightsEducation #GCHumanRights
                         @erma_gcsee
-    
+                       <br></p><br><br>                
                         <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip302')">Copy Caption</a> - <a href="https://drive.google.com/open?id=1IofjmCoVuBn1h3RJtrEbGVgCSotkR7Eq" class="titolo_gc_europe" download="" target="_blank">Download Pics</a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                         And you, aren’t you curious? 👀<br><br>
                         Discover what the ERMA Programme has to offer: gchumanrights.org/erma<br>
                         Application deadline: 20 September<br><br>
-                        #GCSouthEastEurope #ERMA19 #HumanRightsEducation #GCHumanRights<br>
+                        #GCSouthEastEurope #ERMA20 #HumanRightsEducation #GCHumanRights<br>
                         @erma_gcsee</p><br><br><br><br><br>
                         <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip303')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=1_orewWhYu1EvSV5z7cr6FxY7APNEyLof" target="_blank" download="">Download Pics</a>
                     </div>
@@ -76,7 +76,7 @@
                         👍 Full scholarship (4500€ + expenses) <br><br>
                         Discover more: gchumanrights.org/erma<br>
                         Application deadline: 20 September<br><br>
-                        #GCSouthEastEurope #ERMA19 #HumanRightsEducation #GCHumanRights<br>
+                        #GCSouthEastEurope #ERMA20 #HumanRightsEducation #GCHumanRights<br>
                         @erma_gcsee
                         </p><br>
 
@@ -93,7 +93,7 @@
                         <p id="ip305"><br>
                         The European Regional Master’s Programme in Democracy and Human Rights in South East Europe is a joint initiative by the University of Sarajevo, Center for Interdisciplinary Studies (CIS) and the University of Bologna, Department of Political and Social Sciences. <br>
                         🎓 The Programme awards students with 60 ECTS and a double-degree diploma of both founding universities (UNSA and UNIBO). <br><br>
-                        Applications open for #ERMA19 ➡ gchumanrights.org/erma<br>
+                        Applications open for #ERMA20 ➡ gchumanrights.org/erma<br>
                         📆 Deadline: 20 September<br><br>
                         #GCSouthEastEurope #HumanRightsEducation #GCHumanRights<br>
                         @erma_gcsee
@@ -109,7 +109,7 @@
                         📆 Deadline: 20 September 2020<br>
                         👉 gchumanrights.org/erma<br>
                         <br>
-                        #GCSouthEastEurope #ERMA19 #HumanRightsEducation #GCHumanRights<br>
+                        #GCSouthEastEurope #ERMA20 #HumanRightsEducation #GCHumanRights<br>
 
                         @erma_gcsee</p><br><br><br><br>
                         <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip306')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=1eTY2Uit5hEpY8iQKEeP4gBbG8X7eKOvC" target="_blank" download="">Download Pics</a>
@@ -126,7 +126,7 @@
                         In its 18 years of tradition, the European Regional Master’s Programme in Democracy and Human Rights in South East Europe (ERMA) has graduated over 500 human rights professionals, who rejoined their societies as agents of change.<br><br>
                         Become a proud member of the ERMA community! 🌐 gchumanrights.org/erma<br>
                         📆 Deadline: 20 September<br><br>
-                        #GCSouthEastEurope #ERMA19 #HumanRightsEducation #GCHumanRights<br>
+                        #GCSouthEastEurope #ERMA20 #HumanRightsEducation #GCHumanRights<br>
                         @erma_gcsee
                         </p><br>
                         <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip307')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=1IlkhuJj4ccrF1rWl6SssVNlakPqDWX9A" target="_blank" download="">Download Pics</a>
@@ -139,7 +139,7 @@
                         ERMA 2018/2019 is still running, but the students already have clear ideas about it!<br><br>
                         Apply now: gchumanrights.org/erma<br>
                         📆 Deadline: 20 September<br><br>
-                        #GCSouthEastEurope #ERMA19 #HumanRightsEducation #GCHumanRights<br>
+                        #GCSouthEastEurope #ERMA20 #HumanRightsEducation #GCHumanRights<br>
                         @erma_gcsee
                         </p><br><br><br><br><br>
                         <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip308')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=1T20g_P6lQff0sv1kSbVzkPbjrjg-4p7N" target="_blank" download="">Download Pics</a>
