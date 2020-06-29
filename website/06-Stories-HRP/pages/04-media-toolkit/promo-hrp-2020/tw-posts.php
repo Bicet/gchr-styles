@@ -23,17 +23,17 @@
                 <div class="riga">
                     <div class="tweet2">
                         <p>
-                        Human rights are an essential part of every individual. They reflect the fact that “all human beings are born free and equal in dignity and rights”.<br>Enrolment open for the #GCHumanRights MOOC on Promoting and Protecting Human Rights: <span class="titolo_gc_europe">https://gchumanrights.org/pphr<br><br>@gchumanrights</span>
+                        GC Human Rights Preparedness is an open space for collaboration and deeper reflections on the role that human rights must play in addressing the persistent challenges of pandemics. Read more: <span class="titolo_gc_europe">https://gchumanrights.org/preparedness<br><br>@gchumanrights</span>
                         </p>
                         <br>
-                        <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=Human%20rights%20are%20an%20essential%20part%20of%20every%20individual.%20They%20reflect%20the%20fact%20that%20%E2%80%9Call%20human%20beings%20are%20born%20free%20and%20equal%20in%20dignity%20and%20rights%E2%80%9D.%20Enrolment%20open%20for%20the%20%23GCHumanRights%20MOOC%20on%20Promoting%20and%20Protecting%20Human%20Rights%3A%20https%3A%2F%2Fgchumanrights.org%2Fpphr%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
+                        <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=GC%20Human%20Rights%20Preparedness%20is%20an%20open%20space%20for%20collaboration%20and%20deeper%20reflections%20on%20the%20role%20that%20human%20rights%20must%20play%20in%20addressing%20the%20persistent%20challenges%20of%20pandemics.%20Read%20more%3A%20https%3A%2F%2Fgchumanrights.org%2Fpreparedness%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
                     </div>
 
                     <div class="tweet2">
                         <p>
-                        Did you know that different regions of the world have distinctive human rights systems? The <span class="titolo_gc_europe">#GCHumanRights</span> MOOC on Promoting and Protecting Human Rights takes you to Africa, Asia, the Americas, the Arab world and Europe: <span class="titolo_gc_europe">https://gchumanrights.org/pphr<br><br>@gchumanrights</span>
-                        </p><br>
-                        <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=Did%20you%20know%20that%20different%20regions%20of%20the%20world%20have%20distinctive%20human%20rights%20systems%3F%20The%20%23GCHumanRights%20MOOC%20on%20Promoting%20and%20Protecting%20Human%20Rights%20takes%20you%20to%20Africa%2C%20Asia%2C%20the%20Americas%2C%20the%20Arab%20world%20and%20Europe%3A%20https%3A%2F%2Fgchumanrights.org%2Fpphr%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
+                        Visit the new Global Campus initiative GC Human Rights Preparedness and learn how to contribute in advancing a rights-based approach to pandemics and other emergencies: <span class="titolo_gc_europe">https://gchumanrights.org/preparedness<br><br>@gchumanrights</span>
+                        </p><br><br>
+                        <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=Visit%20the%20new%20Global%20Campus%20initiative%20GC%20Human%20Rights%20Preparedness%20and%20learn%20how%20to%20contribute%20in%20advancing%20a%20rights-based%20approach%20to%20pandemics%20and%20other%20emergencies%3A%20https%3A%2F%2Fgchumanrights.org%2Fpreparedness%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
                     </div>
                 </div>
 
@@ -41,20 +41,20 @@
                 <div class="riga">
                     <div class="tweet2">
                         <p>
-                        In times of violence and crisis, human rights are important safeguards. In times of peace, security and development, they are pillars sustaining our common humanity. Learn how to <span class="titolo_gc_europe">#StandUp4HumanRights</span> in the new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC: <span class="titolo_gc_europe">https://gchumanrights.org/pphr<br><br>@gchumanrights
+                        Health experts, economists and security forces have been heavily involved in COVID-19 health crisis. But what is the role of the human rights community? Explore GC Human Rights Preparedness to find out: <span class="titolo_gc_europe">https://gchumanrights.org/preparedness<br><br>@gchumanrights</span>
                         </p>
-                        <br>
-                        <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=In%20times%20of%20violence%20and%20crisis%2C%20human%20rights%20are%20important%20safeguards.%20In%20times%20of%20peace%2C%20security%20and%20development%2C%20they%20are%20pillars%20sustaining%20our%20common%20humanity.%20Learn%20how%20to%20%23StandUp4HumanRights%20in%20the%20new%20%23GCHumanRights%20MOOC%3A%20https%3A%2F%2Fgchumanrights.org%2Fpphr%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
+                        <br><br>
+                        <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=Health%20experts%2C%20economists%20and%20security%20forces%20have%20been%20heavily%20involved%20in%20COVID-19%20health%20crisis.%20But%20what%20is%20the%20role%20of%20the%20human%20rights%20community%3F%20Explore%20GC%20Human%20Rights%20Preparedness%20to%20find%20out%3A%20https%3A%2F%2Fgchumanrights.org%2Fpreparedness%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
                     </div>
               
 
                 <div class="tweet2">
-                    <p>
-                    Each region of the world can tell a unique story of struggles to assert Human Rights. The new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC analyses current standards, mechanisms, benefits and challenges in Africa, the Americas, Arab World, Asia and Europe. <span class="titolo_gc_europe">https://gchumanrights.org/pphr<br><br>@gchumanrights</span>
-                    </p>
-                    <br>
+                        <p>
+                        EGC Human Rights Preparedness is an open resource with weekly posts and comments based on contributions from all over the world. Learn how human rights could be better prepared for the challenges of pandemics and other emergencies: <span class="titolo_gc_europe">https://gchumanrights.org/preparedness<br><br>@gchumanrights</span>
+                        </p>
+                        <br>
 
-                    <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=By%20remembering%20horrific%20events%2C%20memory%20sites%20help%20us%20to%20raise%20awareness%20of%20past%20suffering%2C%20embrace%20the%20ideal%20of%20%E2%80%9Cnever%20again%21%E2%80%9D%20and%20inspire%20civic%20action.%20Discover%20how%20in%20the%20%23GCHumanRights%20%23MOOC%20on%20Memory%20Sites%20and%20Human%20Rights%3A%20https%3A%2F%2Fgchumanrights.org%2Fmshr%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
+                        <a id="tweet" class="titolo_gc_europe" href="https://twitter.com/intent/tweet?text=GC%20Human%20Rights%20Preparedness%20is%20an%20open%20resource%20with%20weekly%20posts%20and%20comments%20based%20on%20contributions%20from%20all%20over%20the%20world.%20Learn%20how%20human%20rights%20could%20be%20better%20prepared%20for%20the%20challenges%20of%20pandemics%20and%20other%20emergencies%3A%20https%3A%2F%2Fgchumanrights.org%2Fhrp%20%40gchumanrights" onclick="window.open(this.href,'','width=640,height=380,modal=yes,left=100,top=50,location=no,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');return false">Tweet</a>
                 </div>
                 </div>
 

@@ -21,12 +21,12 @@
                <!-- POST #1 -->
                <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01.jpg" class="titolo_gc_europe" download="Teaser-01.jpg">
-		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-01.jpg" class="titolo_gc_europe" download="Toolkit-01 - GC Human Rights Preparedness.jpg">
+		                   <img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-01.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-01.jpg" class="titolo_gc_europe" download="Teaser-01.jpg">Download Pic</a>
+                       <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-01.jpg" class="titolo_gc_europe" download="Toolkit-01 - GC Human Rights Preparedness.jpg">Download Pic</a>
 
                     </div>
                 </div>
@@ -34,12 +34,12 @@
                 <!-- POST #2 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.jpg" class="titolo_gc_europe"  target="_blank" download="Teaser-02.jpg">
-		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-02.jpg" class="titolo_gc_europe" download="Toolkit-02 - GC Human Rights Preparedness.jpg">
+		                   <img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-02.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-02.jpg" class="titolo_gc_europe" target="_blank" download="Teaser-02.jpg">Download Pic</a>
+                       <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-02.jpg" class="titolo_gc_europe" download="Toolkit-02 - GC Human Rights Preparedness.jpg">Download Pic</a>
 
                     </div>
                 </div>
@@ -48,12 +48,12 @@
                 <!-- POST #3 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" class="titolo_gc_europe"  target="_blank" download="Teaser-03.jpg">
-		                   <img src="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-03.jpg" class="titolo_gc_europe" download="Toolkit-03 - GC Human Rights Preparedness.jpg">
+		                   <img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-03.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://www.gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/teaser-03.jpg" class="titolo_gc_europe" target="_blank" download="Teaser-03.jpg">Download Pic</a>
+                       <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-03.jpg" class="titolo_gc_europe" download="Toolkit-03 - GC Human Rights Preparedness.jpg">Download Pic</a>
 
                     </div>
                 </div>
@@ -62,30 +62,16 @@
                 <!-- POST #4 -->
                 <div class="riga">
 					 <div class="tweet2">
-	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ruiz%20Sampaio%20Ramon-Ayotzinapa%20Protest.jpg" class="titolo_gc_europe"  target="_blank" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg">
-		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ruiz%20Sampaio%20Ramon-Ayotzinapa%20Protest.jpg" style="width:100%;" alt="placeholder">
+	                     <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-04.jpg" class="titolo_gc_europe" download="Toolkit-04 - GC Human Rights Preparedness.jpg">
+		                   <img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-04.jpg" style="width:100%;" alt="placeholder">
 		                </a>
 		                <div class="pic-copyright"></div>
                
-                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ruiz%20Sampaio%20Ramon-Ayotzinapa%20Protest.jpg" class="titolo_gc_europe" target="_blank" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.jpg">Download Pic</a>
+                       <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-04.jpg" class="titolo_gc_europe" download="Toolkit-04 - GC Human Rights Preparedness.jpg">Download Pic</a>
 
                     </div>
                 </div>
                 <!-- Close POST #4 -->
-
-                <!-- POST #5 -->
-                <div class="riga">
-					 <div class="tweet2">
-	                     <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ivanov-hope%20bubbles.jpg" class="titolo_gc_europe" download="Ivanov-hope bubbles.jpg" target="_blank">
-		                   <img src="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ivanov-hope%20bubbles.jpg" style="width:100%;" alt="placeholder">
-		                </a>
-		                <div class="pic-copyright"></div>
-               
-                       <a href="https://gchumanrights.org/files/eiuc/pphr/Media-Toolkit/pics/Ivanov-hope%20bubbles.jpg" class="titolo_gc_europe" download="Ivanov-hope bubbles.jpg" target="_blank">Download Pic</a>
-
-                    </div>
-                </div>
-                <!-- Close POST #5 -->
 
             </div>
         </div>
