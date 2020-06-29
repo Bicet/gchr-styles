@@ -110,7 +110,7 @@
                         <br>
                         <p id="fp3">GC Human Rights Preparedness aims at advancing a rights-based approach to pandemics and other emergencies, ensuring that the gender, race and age dimension, and the risks of disproportionate impact on marginalised or vulnerable groups, are integrated from the outset.<br><br>Visit the latest <span class="titolo_gc_europe">#GCHumanRights</span> open initiative and contribute to rich, inclusive and wide-ranging conversations: <span class="titolo_gc_europe">https://gchumanrights.org/preparedness<br><br>#HumanRightsEducation #GCHumanRightsReadings<br>@gchumanrights<span class="titolo_gc_europe"></p>
                         <br>
-                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-03.jpg" class="titolo_gc_europe" download="Toolkit-01 - GC Human Rights Preparedness.jpg" target="_blank">Download Pic</a>
+                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-01.jpg" class="titolo_gc_europe" download="Toolkit-03 - GC Human Rights Preparedness.jpg" target="_blank">Download Pic</a>
                     </div><!-- CLOSE POST #3 -->
 
                     <!-- POST #4 -->
