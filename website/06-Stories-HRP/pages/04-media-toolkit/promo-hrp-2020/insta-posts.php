@@ -21,20 +21,20 @@
             <div class="riga">
                 <!-- POST #1 -->
                 <div class="tweet2">
-                   <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_03.png" download="GC_PPHR_03.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_03-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
-					<br>
-                    <p id="ip8">Today, Human Rights are often questioned, attacked and dismissed. But they still stand to remind us that “we are all born equal and free in dignity and rights”.<br>Learn how to stand up for human rights with the new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC on “Promoting and Protecting Human Rights: a Global Overview”<br><br>Enrolment open! <span class="titolo_gc_europe">gchumanrights.org/pphr<br><br>#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
+                   <div class="pic_container"><a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-01.png" download="Toolkit-01 - GC Human Rights Preparedness.png" target="_blank" width="100%"><img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-01-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
+                    <br>
+                    <p id="ip8">Each pandemic is different. At the same time, each is also the latest in a long line, which means that there are lessons to be learned from the past, and preparations that can be made for the future. Human rights are vital to this preparedness.<br><br>Explore the latest #GCHumanRights open initiative GC Human Rights Preparedness: a rights-based approach to pandemics is vital beyond the current COVID-19 crisis.<span class="titolo_gc_europe"><br>gchumanrights.org/preparedness<br><br>#HumanRightsEducation #GCHumanRightsReadings<br>@gchumanrights</span></p>
                     <br><br>
-                    <a onclick="copyToClipboard('#ip8')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_03.png" target="_blank"download="GC_PPHR_03.png">Download Pic</a>
+                    <a onclick="copyToClipboard('#ip8')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-01.png" target="_blank"download="Toolkit-01 - GC Human Rights Preparedness.png">Download Pic</a>
                 </div>
-				<!-- END POST #1 -->
-				<!-- POST #2 -->
+                <!-- END POST #1 -->
+                <!-- POST #2 -->
                 <div class="tweet2">
-                     <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_01.png" download="GC_PPHR_01.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_01-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
+                     <div class="pic_container"><a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-02.png" download="Toolkit-02 - GC Human Rights Preparedness.png" target="_blank" width="100%"><img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-02-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
                     <br>
-                    <p id="ip7">In 1948, a time of hope for freedom, justice and peace, the United Nations proclaimed the Universal Declaration of Human Rights. But did you know that different regions of the world have distinctive human rights systems?<br><br>The new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC will take you to Africa, Asia, the Americas, the Arab world and Europe.<br>Improve your human rights knowledge now: <span class="titolo_gc_europe">gchumanrights.org/pphr<br><br>#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
-                    <br>
-                     <a onclick="copyToClipboard('#ip7')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/pphr/Media-Toolkit/pics/ig/GC_PPHR_01.png" target="_blank"download="GC_PPHR_01.png">Download Pic</a>
+                    <p id="ip7">What is the place of human rights practitioners, activists and experts in the global discourse around pandemics? How can they learn from each other and play a bold role in the current and future health crises? <br><br>Visit GC Human Rights Preparedness to find out! <span class="titolo_gc_europe">gchumanrights.org/preparedness<br><br>#GCHumanRights #HumanRightsEducation #GCHumanRightsReadings<br>@gchumanrights</span></p>
+                    <br><br><br><br>
+                     <a onclick="copyToClipboard('#ip7')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-02.png" target="_blank"download="Toolkit-01 - GC Human Rights Preparedness.png">Download Pic</a>
                 </div>
                 <!-- END POST #2 -->
             </div>
@@ -44,19 +44,19 @@
 
                 <div class="riga">
                     <div class="tweet2">
-                         <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/ramon-ayotzinapaprotest-copy.png" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/ramon-ayotzinapaprotest-copy-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
+                         <div class="pic_container"><a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-03.png" download="Toolkit-03 - GC Human Rights Preparedness.png" target="_blank" width="100%"><img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-03.png" alt="first image" width="100%" class="pic_img"></a></div>
                          <br>
-                         <p id="ip303">Promoting and protecting human rights is yet a work in progress. Much still needs to be done, but we can build on the concrete improvements and achievements that human rights have already allowed over the years.<br> The new <span class="titolo_gc_europe">#GCHumanRights</span> MOOC analyses current standards, mechanisms, benefits and challenges in five regions of the world: Africa, the Americas, the Arab World, Asia Pacific, and Europe.<br><br>Registration open: <span class="titolo_gc_europe">gchumanrights.org/pphr</span><br><br><span class="titolo_gc_europe">@rrsampaio</span>, Global Campus PRISMA Human Rights Photo Contest 2015<br><br><span class="titolo_gc_europe">#HumanRights #HumanRightsEducation #StandUp4HumanRights<br>@gchumanrights</span></p>
-                        <br>
-                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip303')">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/pphr/Media-Toolkit/pics/ig/ramon-ayotzinapaprotest-copy.png" download="Ruiz Sampaio Ramon-Ayotzinapa Protest.png" target="_blank">Download Pic</a>
+                         <p id="ip303">By analysing how human rights could be better prepared for the challenges of pandemics, and identifying good practices in a variety of areas related to human rights and democratization, the GC Human Rights Preparedness will shape significant knowledge with relevance to the post COVID19 world.<span class="titolo_gc_europe"><br><br>gchumanrights.org/preparedness<br><br>#GCHumanRights #HumanRightsEducation #GCHumanRightsReadings<br>@gchumanrights</span></p>
+                        <br><br>
+                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip303')">Copy Caption</a> - <a class="titolo_gc_europe" href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-03.png" download="Toolkit-03 - GC Human Rights Preparedness.png" target="_blank">Download Pic</a>
                     </div>
 
                     <div class="tweet2">
-                       <div class="pic_container"><a href="files/eiuc/pphr/Media-Toolkit/pics/ig/ivanov-hopebubbles-copy.png" download="Ivanov-hope bubbles.png" target="_blank" width="100%"><img src="files/eiuc/pphr/Media-Toolkit/pics/ig/ivanov-hopebubbles-copy-small.jpg" alt="first image" width="100%" class="pic_img"></a></div>
+                      <div class="pic_container"><a href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-04.png" download="Toolkit-04 - GC Human Rights Preparedness.png" target="_blank" width="100%"><img src="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-04.png" alt="first image" width="100%" class="pic_img"></a></div>
                         <br>
-                        <p id="ip304">In times of violence and crisis, human rights are important safeguards. In times of peace, security and development, they are important pillars sustaining our common humanity. They are more than moral or legal concepts: they are the lymph of our lives.<br><br>The <span class="titolo_gc_europe">#GCHumanRights</span> MOOC on “Promoting and Protecting Human Rights: a Global Overview” provides you with a solid basis to understand, know and <span class="titolo_gc_europe">#StandUp4HumanRights</span>.<br><br>Enrol now! <span class="titolo_gc_europe">gchumanrights.org/pphr<br><br>#HumanRights #HumanRightsEducation<br>@gchumanrights</span></p>
-                        <br><br><br>
-                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" h href="files/eiuc/pphr/Media-Toolkit/pics/ig/ivanov-hopebubbles-copy.png" download="Ivanov-hope bubbles.png"  target="_blank">Download Pic</a>
+                        <p id="ip304">To play a bold and reflective role in developing and promoting a rights-based approach to pandemics and other emergencies, the Global Campus of Human Rights is harnessing its multiregional and multidisciplinary approach, resources and outreach in order to offer a resource of enduring value, GC Human Rights Preparedness:<span class="titolo_gc_europe"><br><br>gchumanrights.org/preparedness<br><br>#GCHumanRights #HumanRightsEducation #GCHumanRightsReadings<br>@gchumanrights</span></p>
+                        <br>
+                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" h href="files/eiuc/hrp/mediatoolkit/imgs/toolkit-ig-04.png" download="Toolkit-04 - GC Human Rights Preparedness.png"  target="_blank">Download Pic</a>
                     </div>
                 </div>
             
@@ -68,22 +68,22 @@
     
 <style type="text/css">
 .riga{
-	display:flex;
-	flex-wrap: wrap;
-	border-spacing: 20px 10px; 
+    display:flex;
+    flex-wrap: wrap;
+    border-spacing: 20px 10px; 
 }
 
 .tweet2{
-	flex: 1 274px;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 274px;
-	padding: 20px;
-	margin: 10px;
-	border: 1px solid #e0dfdf;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	width: 50%;
+    flex: 1 274px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 274px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #e0dfdf;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 50%;
 }
 
 @-webkit-keyframes cf3FadeInOut {
