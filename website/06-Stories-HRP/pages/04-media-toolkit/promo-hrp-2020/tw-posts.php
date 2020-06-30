@@ -50,7 +50,7 @@
 
                 <div class="tweet2">
                         <p>
-                        EGC Human Rights Preparedness is an open resource with weekly posts and comments based on contributions from all over the world. Learn how human rights could be better prepared for the challenges of pandemics and other emergencies: <span class="titolo_gc_europe">https://gchumanrights.org/preparedness<br><br>@gchumanrights</span>
+                        GC Human Rights Preparedness is an open resource with weekly posts and comments based on contributions from all over the world. Learn how human rights could be better prepared for the challenges of pandemics and other emergencies: <span class="titolo_gc_europe">https://gchumanrights.org/preparedness<br><br>@gchumanrights</span>
                         </p>
                         <br>
 
