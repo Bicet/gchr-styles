@@ -1,7 +1,10 @@
+/*
+/*
 /*Eiuc Stylesheet 2017*/
+/*
 
 /* http://meyerweb.com/eric/tools/css/reset/
-v1.65 | 20200608
+v1.66 | 20200630
 License: none (public domain)
 */
 
@@ -118,7 +121,8 @@ button{
 #headerwrapper nav .level_1 li.terza_voce.shrink,
 #headerwrapper nav .level_1 li.quarta_voce.shrink,
 #headerwrapper nav .level_1 li.quinta_voce.shrink,
-#headerwrapper nav .level_1 li.sesta_voce.shrink{
+#headerwrapper nav .level_1 li.sesta_voce.shrink,
+#headerwrapper nav .level_1 li.settima_voce.shrink{
 	height: 90px;
 }
 #headerwrapper nav .level_1 li.prima_voce a.shrink,
@@ -126,7 +130,8 @@ button{
 #headerwrapper nav .level_1 li.terza_voce a.shrink,
 #headerwrapper nav .level_1 li.quarta_voce a.shrink,
 #headerwrapper nav .level_1 li.quinta_voce a.shrink,
-#headerwrapper nav .level_1 li.sesta_voce a.shrink{
+#headerwrapper nav .level_1 li.sesta_voce a.shrink,
+#headerwrapper nav .level_1 li.settima_voce.shrink{
 	height: 90px;
 }
 .logo_global_campus{
@@ -161,7 +166,8 @@ button{
 .level_1 li.terza_voce,
 .level_1 li.quarta_voce,
 .level_1 li.quinta_voce,
-.level_1 li.sesta_voce{
+.level_1 li.sesta_voce,
+.level_1 li.settima_voce{
 	height:145px;
 	width:auto;
 	display:inline-flex;
@@ -179,7 +185,8 @@ button{
 .level_1 li.terza_voce a,
 .level_1 li.quarta_voce a,
 .level_1 li.quinta_voce a,
-.level_1 li.sesta_voce a{
+.level_1 li.sesta_voce a,
+.level_1 li.settima_voce a{ 
 	height:145x;
 	display:-webkit-flex;
 	display:flex;
@@ -198,6 +205,7 @@ button{
 .level_1 li.quarta_voce:hover,
 .level_1 li.quinta_voce:hover,
 .level_1 li.sesta_voce:hover,
+.level_1 li.settima_voce:hover,
 header #Admissions-subnav:hover .level_1 li{
 	border-bottom:5px solid #009fe3;
 }
@@ -206,7 +214,8 @@ header #Admissions-subnav:hover .level_1 li{
 .level_1 li.terza_voce:hover a,
 .level_1 li.quarta_voce:hover a,
 .level_1 li.quinta_voce:hover a,
-.level_1 li.sesta_voce:hover a{
+.level_1 li.sesta_voce:hover a,
+.level_1 li.settima_voce:hover a{
 	color:#009fe3;
 }
 .hover_menu_bordo {
@@ -220,7 +229,8 @@ header #Admissions-subnav:hover .level_1 li{
 .level_1 li.terza_voce.active,
 .level_1 li.quarta_voce.active,
 .level_1 li.quinta_voce.active,
-.level_1 li.sesta_voce.active{
+.level_1 li.sesta_voce.active,
+.level_1 li.settima_voce.active{
 	border-bottom:5px solid #009fe3 !important;
 }
 .level_1 li.prima_voce a.active,
@@ -228,7 +238,9 @@ header #Admissions-subnav:hover .level_1 li{
 .level_1 li.terza_voce a.active,
 .level_1 li.quarta_voce a.active,
 .level_1 li.quinta_voce a.active,
-.level_1 li.sesta_voce a.active{
+.level_1 li.sesta_voce a.active,
+.level_1 li.settima_voce a.active,
+{
 	color:#009fe3 !important;
 }
 
@@ -237,7 +249,8 @@ header #Admissions-subnav:hover .level_1 li{
 .level_1 li.terza_voce.trail,
 .level_1 li.quarta_voce.trail,
 .level_1 li.quinta_voce.trail,
-.level_1 li.sesta_voce.trail{
+.level_1 li.sesta_voce.trail,
+.level_1 li.settima_voce.trail{
 	border-bottom:5px solid #009fe3 !important;
 }
 .level_1 li.prima_voce a.trail,
@@ -245,7 +258,8 @@ header #Admissions-subnav:hover .level_1 li{
 .level_1 li.terza_voce a.trail,
 .level_1 li.quarta_voce a.trail,
 .level_1 li.quinta_voce a.trail,
-.level_1 li.sesta_voce a.trail{
+.level_1 li.sesta_voce a.trail,
+.level_1 li.settima_voce a.trail{
 	color:#009fe3 !important;
 }
 .menu_secondo_livello_mobile .trail{
@@ -4783,7 +4797,7 @@ left: 0;
 .max_width_img_blog{
 	width:100%;
 	height:350px;
-	background: url("../img/preparedness_header2.png") center center no-repeat;
+	background: url("../img/still_disabilities.jpg") center center no-repeat;
 	background-size:cover;
 }
 #blog {
@@ -6721,7 +6735,7 @@ span#contin-home {
 	}
 
 
-	.level_1 li.prima_voce a, .level_1 li.seconda_voce a, .level_1 li.terza_voce a, .level_1 li.quarta_voce a, .level_1 li.quinta_voce a, .level_1 li.sesta_voce a {
+	.level_1 li.prima_voce a, .level_1 li.seconda_voce a, .level_1 li.terza_voce a, .level_1 li.quarta_voce a, .level_1 li.quinta_voce a, .level_1 li.sesta_voce a, .level_1 li.settima_voce a {
 		color: #e8e6e3;
 	}
 
@@ -6802,3 +6816,4 @@ li.tag-chain-item.first.last.titolo_gc_asia_pacific a{
 	color:#e6553d;
 	font-weight: 400;
 }
+

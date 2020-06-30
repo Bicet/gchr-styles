@@ -504,12 +504,12 @@ Redirect 301 /coronavirus https://gchumanrights.org/about-us/eiuc-global-campus/
 
 
 ####BLOG on Preparedness
-Redirect 301 /preparedness https://gchumanrights.org/preparedness.html
 Redirect 301 /stories https://gchumanrights.org/preparedness.html
 Redirect 301 /hrp https://gchumanrights.org/preparedness.html
 Redirect 301 /gchrp https://gchumanrights.org/preparedness.html
 Redirect 301 /blog https://gchumanrights.org/preparedness.html
-
+Redirect 301 /forum https://gchumanrights.org/preparedness.html
+RewriteRule ^preparedness(/.*|)$ /preparedness.html$1 [L,R=301,NC]
 
 
 
