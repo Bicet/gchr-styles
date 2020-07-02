@@ -1,27 +1,27 @@
 <style>
 #blog-detail aside {
-
     top: 350px;
-
 }
+
 .post-title-mobile, .mobileonly{
   display: none;
 }
+
 .printonly {
   display: none;
 }
+
 @media screen and (min-width: 1440px){
 #blog-detail aside {
-
     top: 450px;
-
 }
 }
 
 @media screen and (max-width: 1124px){
   #blog-detail aside {
     display: none;
-}
+  }
+
   .text_popup {
     display: none;
   }
@@ -103,18 +103,14 @@
   }
 
   .container_accordion_submenu {
-padding-top: 90px;
-padding-right: 40px;
-padding-left: 40px;
-z-index: 3;
-}
+    padding-top: 90px;
+    padding-right: 40px;
+    padding-left: 40px;
+    z-index: 3;
+  }
 }
 
-/**
- * Print Stylesheet fuer Deinewebsite.de
-* @version         1.0
-* @lastmodified    16.06.2016
-*/
+
 
 @media print {
 /* RESET ALL */
@@ -122,19 +118,18 @@ z-index: 3;
 *:before,
 *:after,
 *,
-div
-{
-    background: transparent !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
+div{
+  background: transparent !important;
+  color: #000 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
   display: block !important;
 }
 
 
 #themo-get-notified{
   display:none;
-  }
+}
 
 /* Inhaltsbreite setzen, Floats und Margins aufheben */
 /* Achtung: Die Klassen und IDs variieren von Theme zu Theme. Hier also eigene Klassen setzen */
@@ -160,17 +155,12 @@ display: block !important;
 
 }
 
-
-
-
 #headerwrapper{
     display: none !important;
     position: absolute;
      width: 100%;
     top: 0px;
 }
-
-
 
 #container, #main {
   position: relative;
@@ -191,20 +181,13 @@ display: block !important;
   display: none !important;
 }
 
-.max_width_img_news_events, .search, .linea_verticale, .mod_breadcrumb, .link_page_before_news, .digimeg-sub-nav, .container_img_page, .max_width_img_news_events, .shrink,  .mp-pusher, .pdf_link, .back,  .button--aylen, #disqus_thread, style {
+.max_width_img_news_events, .search, .linea_verticale, .mod_breadcrumb, .link_page_before_news, .digimeg-sub-nav, .container_img_page, .max_width_img_news_events, .shrink,  .mp-pusher, .pdf_link, .back,  .button--aylen, #disqus_thread, style, nav, aside, title, script, .socialnt {
   display: none !important;
 }
 
 .parallax, #parallax {
   display: block !important;
 }
-
-
-
-nav, aside, title, script {
-  display: none !important;
-}
-
 
 h1 {
 font-size: 24pt;
@@ -216,9 +199,6 @@ font-size: 14pt;
 margin-top: 25px;
 }    
 
-.title_page_programme {
-  
-}
  
 /* Alle Seitenumbrüche definieren */
 a {
@@ -407,13 +387,19 @@ li.tag-chain-item.last.titolo_gc_europe > text{
 
 
 .disclaimer{
-  font-sie: 14px;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 110%;
+  line-height: 120%;
 }
 
+.citation{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+
 </style>
-<!-- <div style="margin-top: -80px;border-bottom-color: coral; border: 2px; border-style: solid;"></div> -->
 
 <div class="layout_full" id="blog-detail" block<?= $this->class ?>">
 
@@ -516,16 +502,10 @@ li.tag-chain-item.last.titolo_gc_europe > text{
           </div>
         <?php endif; ?>
         <p class="margin_bottom_15" id="fixed">&nbsp;</p>
-      
-      
-      
-      
-
-
 
     <div class="description_page_programme">
     <!-- TAGS START -->
-    <p class="printonly margin_bottom_20"></p>
+  
     <?php if ($this->showTags): ?>
     <?php if (count($this->taglist)): ?>
       <ul class="tag-chain">
@@ -537,6 +517,9 @@ li.tag-chain-item.last.titolo_gc_europe > text{
     <?php endif; ?>
     <?php endif; ?>
     <!-- TAGS END -->
+
+    <p class="margin_bottom_40">&nbsp;</p>
+    <div id="citation-destination"></div>
     <p class="margin_bottom_20"></p>
     <div class="socialnt mobileonly" style="font-size:16px; padding-right: 15px;">
           <ul class="social-share">
@@ -569,13 +552,13 @@ li.tag-chain-item.last.titolo_gc_europe > text{
   </div>
    
   
- 
+    
     <div id="destination"></div>
 
     </div>
 
-    <p class="printonly">Original Page: <?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?></p>
-    <h2 class="margin_bottom_40 title_page_programme">Add a Comment</h2>
+    
+    <h2 class="margin_bottom_40 title_page_programme noprint">Add a Comment</h2>
     <div id="disqus_thread"></div>
       <script>
       (function() { // DON'T EDIT BELOW THIS LINE
@@ -588,18 +571,19 @@ li.tag-chain-item.last.titolo_gc_europe > text{
 
     <div class="ce_text description_page_programme block show"></div>
 
-     <h3 class="margin_bottom_10">Disclaimer</h2>
+     <h3 class="margin_bottom_10">Disclaimer</h3>
      <p class="disclaimer">This site is not intended to convey legal advice. Responsibility for opinions expressed in submissions published on this website rests solely with the author(s). Publication does not constitute endorsement by the Global Campus of Human Rights. </p>
      <p class="disclaimer"><span class="fa fa-copyright fa-flip-horizontal"></span>&nbsp;CC-BY-NC-ND. All content of this initiative is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" class="titolo_gc_europe">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</a></p>
     <div class="ce_text description_page_programme block show noprint"></div>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       <a href="{{link_url::571}}" title="Go back" class="link_page_before_news">
         <img src="files/eiuc/freccia_sx_gray.svg" alt="freccia sinistra">
-        <p><strong>Go back</strong></p>
+        <p><strong>Go back to Forum</strong></p>
       </a>
 
     </div>
-
+    <p class="printonly  margin_bottom_40"></p>
+    <p class="printonly">Original Page: <?php echo 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']; ?></p>
 
   </div>
 
@@ -640,6 +624,7 @@ $(function() {
 
 $(document).ready(function(){
     $("#authorid").appendTo("#destination");
+    $("#citation").appendTo("#citation-destination");
     if ($('.post-title').height() > 200) {
         $('.spalla_dettaglio_news').css('margin-top','-185px');
     }

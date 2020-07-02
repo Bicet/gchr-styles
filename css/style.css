@@ -4,7 +4,7 @@
 /*
 
 /* http://meyerweb.com/eric/tools/css/reset/
-v1.66 | 20200630
+v1.65 | 20200608
 License: none (public domain)
 */
 
@@ -6780,8 +6780,8 @@ li.tag-chain-item.first.last.titolo_gc_asia_pacific a{
 }
 
 .img_persona_blog {
-    min-width: 210px;
-    width: 210px;
+    min-width: 140px;
+    width: 140px;
     height: auto;
     margin-right: 30px;
 }
