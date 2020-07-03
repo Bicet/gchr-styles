@@ -4,7 +4,7 @@
 /*
 
 /* http://meyerweb.com/eric/tools/css/reset/
-v1.79 | 20200703
+v1.80 | 20200703
 License: none (public domain)
 */
 
@@ -98,7 +98,7 @@ button{
 
 #headerwrapper {
 	display:flex;
-	height:145px;
+	height:147px;
 	flex-wrap:wrap;
 	justify-content:space-between;
 	align-items:center;
@@ -168,7 +168,7 @@ button{
 .level_1 li.quinta_voce,
 .level_1 li.sesta_voce,
 .level_1 li.settima_voce{
-	height:145px;
+	height:147px;
 	width:auto;
 	display:inline-flex;
 	align-self:center;
@@ -5565,7 +5565,6 @@ span.author-blog {
 
 									/*  fine tablet */
 
-	}
 @media screen and (max-width: 935px){
 	.table_prodotti {
 		border-top: 1px solid #e0dfdf;
@@ -5647,6 +5646,7 @@ span.author-blog {
 	}
 	.blu_container {
 	    padding: 65px 40px;
+	}
 	.recensione {
 		min-width:200px;
 	}
@@ -6469,7 +6469,7 @@ span#contin-home {
 /* The progress container (grey background) */
 .progress-container {
   width: 100%;
-  height: 5px;
+  height: 3px;
   background: #fff;
   display: block;
 }
