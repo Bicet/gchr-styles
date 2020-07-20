@@ -4,7 +4,7 @@
 /*
 
 /* http://meyerweb.com/eric/tools/css/reset/
-v1.80 | 20200703
+v1.81 | 20200720
 License: none (public domain)
 */
 
@@ -131,7 +131,7 @@ button{
 #headerwrapper nav .level_1 li.quarta_voce a.shrink,
 #headerwrapper nav .level_1 li.quinta_voce a.shrink,
 #headerwrapper nav .level_1 li.sesta_voce a.shrink,
-#headerwrapper nav .level_1 li.settima_voce.shrink{
+#headerwrapper nav .level_1 li.settima_voce a.shrink{
 	height: 90px;
 }
 .logo_global_campus{
@@ -312,7 +312,7 @@ header #Admissions-subnav:hover .level_1 li{
 	top:90px;
 }
 #Admissions-subnav, #Education-subnav, #Research-subnav,
-#News-subnav, #About-subnav, #Support-subnav{
+#News-subnav, #About-subnav, #Support-subnav, #Forum-subnav{
 	background:#fff;
 	width:100%;
 	/*border-bottom: 1px solid #dedfe0;*/
@@ -6603,7 +6603,7 @@ span#contin-home {
 
 
 
-	#Admissions-subnav, #Education-subnav, #Research-subnav, #News-subnav, #About-subnav, #Support-subnav {
+	#Admissions-subnav, #Education-subnav, #Research-subnav, #News-subnav, #About-subnav, #Support-subnav, #Forum-subnav {
 	    background-image: initial;
 	    background-color: rgb(24, 26, 27);
 	    box-shadow: rgb(61, 64, 67) 0px 4px 7px -8px;
