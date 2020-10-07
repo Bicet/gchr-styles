@@ -1,0 +1,48 @@
+<p>[nbsp]</p>
+<p class="margin_bottom_30" style="margin-left: auto;"><button id="tomare" class="reset button2 button--aylen button_gray button--aylen_gray no_margin_bottom">Reset Search</button></p>
+<table class="tablesorter gc-table-erma">
+    <thead>
+        <tr>
+            <td id="article" width="50%" data-placeholder="Search..."><strong>Article Title</strong></td>
+            <td id="author" width="20%" data-placeholder="Search..."><strong>Author</strong></td>
+            <td width="30%" data-placeholder="Search..."><strong>Affiliation</strong></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a class="titolo_gc_europe" href="preparedness/article-on/an-international-human-rights-perspective-on-elections-in-times-of-crisis.html">An International Human Rights Perspective on Elections in Times of Crisis</a></td>
+            <td>Christina Binder/Adam Drnovsky</td>
+            <td>The Bundeswehr University Munich/Council of Europe</td>
+        </tr>
+        <tr>
+            <td><a class="titolo_gc_europe" href="preparedness/article-on/hand-washing-in-kenyas-informal-settlements-and-the-impact-on-prevention-of-covid-19.html">Hand Washing in Kenya’s Informal Settlements and the Impact on Prevention of COVID-19</a></td>
+            <td>Jacqueline Ngao</td>
+            <td>HEFDC Group in Nairobi</td>
+        </tr>
+        <tr>
+            <td><a class="titolo_gc_europe" href="preparedness/article-on/impact-of-covid-19-on-the-rights-and-lives-of-disabled-people-living-in-social-care-institutions.html">Impact of COVID-19 on the Rights and Lives of Disabled People Living in Social Care Institutions</a></td>
+            <td>Lazar Stefanovic</td>
+            <td> Mental Disability Rights Initiative</td>
+        </tr>
+        <tr>
+            <td><a class="titolo_gc_europe" href="preparedness/article-on/the-10th-woman.html">The 10<sup>th</sup> Woman</a></td>
+            <td>Koen Vanmechelen</td>
+            <td>International Artist</td>
+        </tr>
+        <tr>
+            <td><a class="titolo_gc_europe" href="preparedness/article-on/buildbackbetterafrica.html">#BuildBackBetterAfrica</a></td>
+            <td>Oluwatoyin Adejonwo</td>
+            <td>University of Lagos</td>
+        </tr>
+        <tr>
+            <td><a class="titolo_gc_europe" href="preparedness/article-on/protecting-people-with-disabilities-in-the-ebbs-and-flows-of-the-covid-19-pandemic.html">Protecting People with Disabilities in the Ebbs and Flows of the COVID-19 Pandemic</a></td>
+            <td>Andrea Broderick</td>
+            <td>Maastricht University</td>
+        </tr>
+        <tr>
+            <td><a class="titolo_gc_europe" href="preparedness/article-on/the-potential-for-digital-solutions-in-voter-engagement-in-africa.html">The Potential for Digital Solutions in Voter Engagement in Africa</a></td>
+            <td>Marystella A. Simiyu</td>
+            <td>Centre for Human Rights, University of Pretoria</td>
+        </tr>
+    </tbody>
+</table>

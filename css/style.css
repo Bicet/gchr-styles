@@ -6281,7 +6281,7 @@ li.L9 {
 	width:70%;
 }
 .fact-dx p {
-	width:80%;
+	width:70%;
 }
 .fact-graduates {
 	color:#009fe3;
@@ -6355,7 +6355,7 @@ span#contin-home {
 		width:50%;
 	}
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 1400px) {
     .fact-sx,
     .fact-dx {
 		width:100%;
