@@ -1,0 +1,157 @@
+<div class="table_accordion_cell">
+    <div class="accordion accordion_gc">
+        <div class="icon_e_title_accordion">
+            <p class="title_accordion titolo_gc_europe">Europe (EMA)</p>
+            <p class="number_universities">4 Projects</p>
+            <div class="piu_accordion">
+                <div class="verticale">[nbsp]</div>
+                <div class="orizzontale">[nbsp]</div>
+            </div>
+        </div>
+        <div class="list_accordion">
+            <div class="accordion margin_bottom_20 accordion_gc_europe">
+                <div class="icon_e_title_accordion_nested_europe">
+                    <div class="piu_accordion_nested">
+                        <div class="verticale">&nbsp;</div>
+                        <div class="orizzontale">&nbsp;</div>
+                    </div>
+                    <p class="title_accordion titolo_gc_europe">Children Detained for Migration Related Reasons: Towards a Model for Better Data Collection</p>
+                </div>
+                <div class="text_accordion_nested">
+                	<p>&nbsp;</p>
+                    <p class="margin_bottom_10">Following one of the main recommendations of the UN Global Study on Children Deprived of Liberty the overarching aim of this project is to identify and to promote the most effective existing data collection frameworks in one of the most challenging and neglected areas – detention for migration-related reasons. Since this phenomenon is unlikely to be completely eradicated in the near future, establishment of data collection systems at national levels is crucial to measure progress in the long run. The goals of the project are threefold:</p>
+                    <ul class="lista_con_pallini margin_bottom_20">
+                        <li>to conduct a global mapping of national data sources that integrate statistics on detention of children for migration-related reasons</li>
+                        <li>to construct a dedicated Statistical Capacity Index in the field of documenting immigration detention which allows to compare existing frameworks and identify promising practices</li>
+                        <li>to conduct in-depth case studies in two selected countries (based on their Statistical Capacity Index individual scores) in order to formulate detailed</li>
+                    </ul>
+                    <p class="margin_bottom_20">The project takes the holistic approach by integrating various actors at different stages of its implementation and assigning each of them a clear role in striving for the ultimate goal of ending the detention of children for migration related reasons. It falls within the Global Study Follow-up Initiation Programme by providing high quality materials (methodology, case studies and report), which could be utilised once the official UN follow-up mechanism is set up.</p>
+                    <p><strong>Project Contact</strong>: Lukasz Szoszkiewicz, University of Poznan</p>
+                    <p class="margin_bottom_20"><strong>E-mail</strong>: <a href="mailto:lukaszs18@univie.ac.at" class="titolo_gc_europe">lukaszs18@univie.ac.at</a>
+                </div>
+            </div>
+            <div class="accordion margin_bottom_20 accordion_gc_europe">
+                <div class="icon_e_title_accordion_nested_europe">
+                    <div class="piu_accordion_nested">
+                        <div class="verticale">&nbsp;&nbsp;&nbsp;</div>
+                        <div class="orizzontale">&nbsp;&nbsp;&nbsp;</div>
+                    </div>
+                    <p class="title_accordion titolo_gc_europe">Enacting the Recommendations of the UN Global Study in the National Agenda and in the European Context</p>
+                </div>
+                <div class="text_accordion_nested">
+                    <p class="margin_bottom_20">At the end of the <span class="maiuscoletto">EMA</span> Programme students will also have acquired the ability to</p>
+                    <ul class="lista_con_pallini margin_bottom_20">
+                        <li>Conduct independent research at an advanced level and evaluate and critically use materials;</li>
+                        <li>Demonstrate articulate oral and writing skills including style, organisation of ideas, clarity of expression, argumentation and presentation;</li>
+                        <li>Engage in complex academic and policy debates;</li>
+                        <li>Apply practical and operational skills in diverse working environments.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion margin_bottom_20 accordion_gc_europe">
+                <div class="icon_e_title_accordion_nested_europe">
+                    <div class="piu_accordion_nested">
+                        <div class="verticale">&nbsp;&nbsp;&nbsp;</div>
+                        <div class="orizzontale">&nbsp;&nbsp;&nbsp;</div>
+                    </div>
+                    <p class="title_accordion titolo_gc_europe">MOOC on Children’s Right and Technology in the Digital Age</p>
+                </div>
+                <div class="text_accordion_nested">
+                    <p class="margin_bottom_20">At the end of the <span class="maiuscoletto">EMA</span> Programme students will also have acquired the ability to</p>
+                    <ul class="lista_con_pallini margin_bottom_20">
+                        <li>Conduct independent research at an advanced level and evaluate and critically use materials;</li>
+                        <li>Demonstrate articulate oral and writing skills including style, organisation of ideas, clarity of expression, argumentation and presentation;</li>
+                        <li>Engage in complex academic and policy debates;</li>
+                        <li>Apply practical and operational skills in diverse working environments.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion margin_bottom_20 accordion_gc_europe">
+                <div class="icon_e_title_accordion_nested_europe">
+                    <div class="piu_accordion_nested">
+                        <div class="verticale">&nbsp;&nbsp;&nbsp;</div>
+                        <div class="orizzontale">&nbsp;&nbsp;&nbsp;</div>
+                    </div>
+                    <p class="title_accordion titolo_gc_europe">Personal Liberty of Children in Austria Revisited</p>
+                </div>
+                <div class="text_accordion_nested">
+                    <p class="margin_bottom_20">At the end of the <span class="maiuscoletto">EMA</span> Programme students will also have acquired the ability to</p>
+                    <ul class="lista_con_pallini margin_bottom_20">
+                        <li>Conduct independent research at an advanced level and evaluate and critically use materials;</li>
+                        <li>Demonstrate articulate oral and writing skills including style, organisation of ideas, clarity of expression, argumentation and presentation;</li>
+                        <li>Engage in complex academic and policy debates;</li>
+                        <li>Apply practical and operational skills in diverse working environments.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$(function() {
+
+    $(".icon_e_title_accordion_nested_europe").on("click", function() {
+        $(this).find(".verticale").toggleClass('rotated');
+
+        $(this).toggleClass('open_accordion');
+        if ($(this).hasClass('open_accordion')) {
+            $(this).find(".more_less").text('Read Less');
+        } else {
+            $(this).find(".more_less").text('Read More');
+        }
+
+        $(this).parent(".accordion").find('.text_accordion_nested').slideToggle("slow", function() {
+            // Animation complete.
+        });
+
+        return false;
+    });
+
+
+
+});
+</script>
+<style>
+.text_accordion_nested {
+    display: none;
+}
+
+.icon_e_title_accordion_nested_europe {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.accordion_gc_europe .verticale,
+.accordion_gc_europe .orizzontale {
+    background-color: #009fe3 !important;
+}
+
+.table_accordion_cell .piu_accordion_nested {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.piu_accordion_nested .verticale {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    left: 4px;
+    transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -webkit-transition: 0.15s ease-out;
+}
+
+.piu_accordion_nested .orizzontale {
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 4px;
+}
+
+}
+</style>
