@@ -1,0 +1,104 @@
+<div class="table_accordion_cell">
+    <div class="accordion accordion_gc">
+        <div class="icon_e_title_accordion">
+            <p class="title_accordion titolo_gc_south_east_europe">South-East Europe (ERMA)</p>
+            <p class="number_universities">1 Project</p>
+            <div class="piu_accordion">
+                <div class="verticale">[nbsp]</div>
+                <div class="orizzontale">[nbsp]</div>
+            </div>
+        </div>
+        <div class="list_accordion">
+            <div class="accordion margin_bottom_20 accordion_gc_europe">
+                <div class="icon_e_title_accordion_nested">
+                    <div class="piu_accordion_nested">
+                        <div class="verticale">[nbsp][nbsp][nbsp]</div>
+                        <div class="orizzontale">[nbsp][nbsp][nbsp]</div>
+                    </div>
+                    <p class="title_accordion titolo_gc_europe">Children in Migration in Southeast Europe (SEE)</p>
+                </div>
+                <div class="text_accordion_nested">
+                    <p>[nbsp]</p>
+                    <p class="margin_bottom_10">This two-year project aims to strengthen education, research, training, network-building and advocacy for the rights of migrant and refugee children in South East Europe by producing high-quality research on the topic and disseminating knowledge among students, academia, relevant stakeholders, and the wider public. Under this project, the GCSEE team will: </p>
+                    <ul class="lista_con_pallini margin_bottom_20">
+                        <li>mainstream children’s rights within the GCSEE/ERMA curricular and extracurricular activities</li>
+                        <li>encourage its network of professors, students and alumni to produce quality research outputs that will be published in the edited volume <em>Children in migration: Perspectives from South East Europe</em></li>
+                        <li>build a strong research network of young professionals working to improve the rights of migrant and refugee children in South East Europe</li>
+                        <li>deliver training courses and workshops on children’s rights to build capacities of local stakeholders engaged in the protection of unaccompanied and separated migrant and refugee children in Bosnia and Herzegovina</li>
+                    </ul>
+                    <p class="margin_bottom_20">For updates, please follow the GCSEE/ERMA pages (<a href="http://cis.unsa.ba/en/" class="titolo_gc_south_east_europe">CIS website</a>, <a href="https://www.facebook.com/ermaprogramme/" class="titolo_gc_south_east_europe">Facebook</a>, <a href="http://linkedin.com/company/global-campus-south-east-europe-gcsee-erma" class="titolo_gc_south_east_europe">Linkedin</a>, <a href="https://www.instagram.com/erma_gcsee/" class="titolo_gc_south_east_europe">Instagram</a>).</p>
+                    <p><strong>Project Contact</strong>: Nikolina Milić, University of Sarajevo</p>
+                    <p class="margin_bottom_20"><strong>E-mail</strong>: <a href="mailto:nikolina.milic@gchumanrights.org" class="titolo_gc_europe">nikolina.milic@gchumanrights.org</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$(function() {
+    $(".icon_e_title_accordion_nested").on("click", function() {
+        $(this).find(".verticale").toggleClass('rotated');
+
+        $(this).toggleClass('open_accordion');
+        if ($(this).hasClass('open_accordion')) {
+            $(this).find(".more_less").text('Read Less');
+        } else {
+            $(this).find(".more_less").text('Read More');
+        }
+
+        $(this).parent(".accordion").find('.text_accordion_nested').slideToggle("slow", function() {
+            // Animation complete.
+        });
+
+        return false;
+    });
+});
+</script>
+<style>
+.text_accordion_nested {
+    display: none;
+}
+
+.icon_e_title_accordion_nested {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.accordion_gc_europe .verticale,
+.accordion_gc_europe .orizzontale {
+    background-color: #009fe3 !important;
+}
+
+.table_accordion_cell .piu_accordion_nested {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.piu_accordion_nested .verticale {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    left: 4px;
+    transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -webkit-transition: 0.15s ease-out;
+}
+
+.piu_accordion_nested .orizzontale {
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 4px;
+}
+
+.list_accordion li {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-bottom: 0 !important;
+}
+</style>
