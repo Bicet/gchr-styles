@@ -23,25 +23,25 @@
                 <div class="tweet2">
                     <div>
                         <div class="video-container">
-							<video poster="https://drive.google.com/uc?export=view&id=19EDNFmIBQRFcSFFVHi5pR7gD47223Le8" controls>
-								<source src="https://drive.google.com/uc?export=download&id=1wNnCHfCq6kPxMaUqerfD-iNjKgr29OhO" type='video/mp4'>
-							</video>
-						</div>
-					</div>
+                            <video poster="https://drive.google.com/uc?export=view&id=19EDNFmIBQRFcSFFVHi5pR7gD47223Le8" controls>
+                                <source src="https://drive.google.com/uc?export=download&id=1wNnCHfCq6kPxMaUqerfD-iNjKgr29OhO" type='video/mp4'>
+                            </video>
+                        </div>
+                    </div>
 
-					<br>
-                    <p id="ip8">Millions of children in the world are deprived of liberty. ⛓<br><br>They are placed in prisons or institutions due to migration, war and terrorism – or as a consequence of breaking the law. This happens despite the fact that the Convention of the Rights of the Child affirms that children should NOT be detained – or if absolutely necessary, only as a measure of last resort.<br><br>💻 Enrol now in the <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study 👉 <span class="titolo_gc_europe">gchumanrights.org/mooc-un-global-study<br><br>🎞️ youtube.com/GlobalCampusOfHumanRights<br><br>#ChildrensRights #HumanRightsEducation<br>@gchumanrights</span></p><br>
+                    <br>
+                    <p id="ip8">Millions of children in the world are deprived of liberty. ⛓<br><br>They are placed in prisons or institutions due to migration, war and terrorism – or as a consequence of breaking the law. This happens despite the fact that the Convention of the Rights of the Child affirms that children should NOT be detained – or if absolutely necessary, only as a measure of last resort.<br><br>💻 Enrol now in the <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study 👉 <span class="titolo_gc_europe">gchumanrights.org/mooc-un-global-study<br><br>🎞️ youtube.com/GlobalCampusOfHumanRights<br><br>#ChildrensRights #HumanRightsEducation<br>@gchumanrights</span></p><br><br>
                     <a onclick="copyToClipboard('#ip8')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/uc?export=download&id=1wNnCHfCq6kPxMaUqerfD-iNjKgr29OhO" target="_blank" download="">Download Video</a>
                 </div>
-				<!-- END POST #1 -->
-				<!-- POST #2 -->
+                <!-- END POST #1 -->
+                <!-- POST #2 -->
                 <div class="tweet2">
-                        <div id="cf3"><img class="bottom" src="https://drive.google.com/uc?export=view&id=1U0nsnWDD3ynJ_6NjV0_rU521tI41cvbe" alt="" width="100%"> <img class="top" src="https://drive.google.com/uc?export=view&id=1tZUhvK73Zwzocv4E-xACo83stWV2MH_J" alt="" width="100%"></div>
+                        <div id="cf3"><img src="https://drive.google.com/uc?export=view&id=1rYB-I5xLiJ-xPAx9R1v6fFd-Jrn1QU3K" alt="" width="100%"></div>
 
-                        <br><p id="ip304">“I learned that the Global Campus of Human Rights was involved in the Global Study on Children Deprived of Liberty, and when I heard about the MOOC I thought it was a great opportunity to go beyond the report. I’m specifically interested in the topic of migration and how it intersects with children’s rights. It’s going to be my first MOOC ever, can’t wait to start it!”<br><br>Join Paula Rozadilla Castillo, EMA student from Bilbao, Spain, and enrol in the <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study ➡️ <span class="titolo_gc_europe">gchumanrights.org/mooc-un-global-study<br><br>#ChildRights #HumanRightsEducation #GCHumanRights<br>@gchumanrights</span>
-                        </p><br><br><br>
+                        <br><p id="ip304">“The fact we are deprived of liberty, doesn’t mean we have no future!”<br><br>These words, expressed by one of the children consulted for the UN Global Study on Children Deprived of Liberty, speak of hope, aspirations, and a life beyond detention. They remind us of the importance to hear children’s views on matters that directly affect them. They are also a call to do more to ensure that children deprived of their liberty have access to essential services aimed at their rehabilitation and reintegration into society.<br><br>If the above-mentioned quote has struck a chord with you, enrol in the <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study ➡️ <span class="titolo_gc_europe">gchumanrights.org/mooc-un-global-study<br><br>#ChildRights #HumanRightsEducation #GCHumanRights<br>@gchumanrights</span>
+                        </p><br>
 
-                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=1ZEkE2lQXnanw72N--Chpy1v5ocCi6rIF" target="_blank" download="">Download Pics</a>
+                        <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip304')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=1rYB-I5xLiJ-xPAx9R1v6fFd-Jrn1QU3K" target="_blank" download="">Download Pic</a>
                     </div>
                 
                 <!-- END POST #2 -->
@@ -55,7 +55,7 @@
                         <div id="cf3"><img src="https://drive.google.com/uc?export=view&id=1vrVCLggFuibLVU0anhVX-dU0bH4k0loQ" alt="" width="100%"></div>
 
                         <br><p id="ip303">More than 30 years ago the UN adopted the Convention on the Rights of the Child.<br><br>After all this time, what about the rights of children detained in prisons and locked away in institutions?<br><br>💻 Enrol in the free <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study!<br><br>Enrol here ➡️ <span class="titolo_gc_europe">gchumanrights.org/mooc-un-global-study<br><br>#ChildrensRights #HumanRightsEducation<br>@gchumanrights</span> 
-						</p><br>
+                        </p><br>
                         <a class="titolo_gc_europe" style="cursor: pointer;" onclick="copyToClipboard('#ip303')">Copy Caption</a> - <a class="titolo_gc_europe" href="https://drive.google.com/open?id=1E8G0dfey13VdyaYPERVWdfcH3Xl1Qjtt" target="_blank" download="">Download Pic</a>
                     </div>
                     <div class="tweet2">
@@ -81,22 +81,22 @@
     
 <style type="text/css">
 .riga{
-	display:flex;
-	flex-wrap: wrap;
-	border-spacing: 20px 10px; 
+    display:flex;
+    flex-wrap: wrap;
+    border-spacing: 20px 10px; 
 }
 
 .tweet2{
-	flex: 1 274px;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 274px;
-	padding: 20px;
-	margin: 10px;
-	border: 1px solid #e0dfdf;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	width: 50%;
+    flex: 1 274px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 274px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #e0dfdf;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 50%;
 }
 
 @-webkit-keyframes cf3FadeInOut {
