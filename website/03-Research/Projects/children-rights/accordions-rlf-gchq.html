@@ -1,7 +1,7 @@
 <div class="table_accordion_cell">
     <div class="accordion accordion_gc">
         <div class="icon_e_title_accordion">
-            <p class="title_accordion titolo_gc_hq">Global Campus of Human Rights</p>
+            <p class="title_accordion titolo_gc_hq">Global</p>
             <p class="number_universities">12 Projects</p>
             <div class="piu_accordion">
                 <div class="verticale">[nbsp]</div>
@@ -99,7 +99,7 @@
                 <div class="text_accordion_nested">
                     <p>[nbsp]</p>
                     <p class="margin_bottom_10">The focus of the 2020 Global Classroom is on mapping global trends in children’s deprivation of liberty by looking at the use of detention of children in different settings and in the various regions, as well as identifying key challenges. Given its online nature, the Global Classroom is structured in four phases:</p>
-                    <ul class="lista_con_pallini margin_bottom_20">
+                    <ul class="lista_con_pallini margin_bottom_20" style="list-style-position: outside; ">
                         <li>Phase 1: Each of the seven Global Campus regions work on regional thematic research papers (to be published in the GCHRJ).</li>
                         <li>Phase 2: Students are divided into inter-regional working groups to discuss and debate the research papers each region produced. </li>
                         <li>Phase 3: The live event will take place from 7-9 September, when students from each region and inter-regional working group will present their findings and recommendations. As part of this online event, a high-level panel (with Manfred Nowak, Najat Maalla M´Jid, Felipe Morales González, Karabo Ozah and Benoit Van Keirsbilck) will share their experiences working for and with children deprived of liberty. Students will be given the opportunity to ask them questions based on the respective research they have done on the Global Study.</li>
@@ -283,8 +283,15 @@ $(function() {
 }
 
 .list_accordion li {
-    list-style-position: inside;
+    list-style-position: outside !important;
     list-style-type: disc;
     margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 768px){
+.table_accordion_cell a {
+
+    display: inline-block;
+}
 }
 </style>
