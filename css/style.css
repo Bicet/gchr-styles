@@ -3936,6 +3936,12 @@ img.grayscale:hover {
 	background: url("../img/ieo.jpg") center center no-repeat;
 	background-size:cover;
 }
+.max_width_img_oc_ieo{
+	width:100%;
+	height:350px;
+	background: url("../img/visual_oc_ieo.jpg") center center no-repeat;
+	background-size:cover;
+}
 .max_width_img_va{
 	width:100%;
 	height:350px;
@@ -3992,6 +3998,13 @@ img.grayscale:hover {
 	width:100%;
 	height:350px;
 	background: url("../img/visual_mooc_pphr.png") center center no-repeat;
+	background-size:cover;
+}
+
+.max_width_img_mooc_ungs-recs{
+	width:100%;
+	height:350px;
+	background: url("../img/visual-mooc-ungs-recs.jpg") center center no-repeat;
 	background-size:cover;
 }
 
