@@ -1,7 +1,7 @@
 <div class="table_accordion_cell">
         <div class="accordion accordion_gc">
             <div class="icon_e_title_accordion">
-                <p class="title_accordion">Facebook</p>
+                <p class="title_accordion">Facebook/Instagram</p>
 
                 <p class="number_universities">[nbsp]</p>
 
@@ -20,44 +20,54 @@
                                
                 
                 
-				
-				<!-- ROW #1 -->
+                
+                <!-- ROW #1 -->
                 <div class="riga">
-	                <!-- POST #1 -->
+                    <!-- POST #1 -->
                     <div class="tweet2">
-	                    <div class="video169_container"><a href="https://drive.google.com/open?id=1MIPuORmjkin0bCzxKe9ZwJbwltjtGmqG" class="titolo_gc_europe" download target="_blank"><img class="video169" src="https://drive.google.com/uc?export=view&id=1qPP0bJhFp84TYD-efiRQpBlDLdJ2rU4i" alt="Manfred Nowak at Indonesia - Juvenile prison"></a></div>
-						<br>
-                        <p id="fp1">«I went to an orphanage. “Children’s home”, they call it. The youngest was three years old. Shaved, in prison’s clothes. The children were terrified. It was very difficult for me, I wanted to take them all with me and get out.» Manfred Novak, Independent expert for the UN Global Study on Children Deprived of Liberty and Secretary General of the Global Campus of Human Rights.<br><br>There are alternative solutions to imprisonment and institution’s care. To know more, register now to the 🌐 <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study ➡ <span class="titolo_gc_europe">https://gchumanrights.org/mooc-un-global-study<br><br><br>#ChildRights #HumanRightsEducation<br>@gchumanrights</span></p><br><br><br><br>
-                        <a onclick="copyToClipboard('#fp1')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1MIPuORmjkin0bCzxKe9ZwJbwltjtGmqG" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                        <div id="cf3"><a href="files/eiuc/ungs-recs/Media-Toolkit/pics/MOOC%20UNGS-RECS%20-%20Pic05.jpg"><img src="files/eiuc/ungs-recs/Media-Toolkit/pics/MOOC%20UNGS-RECS%20-%20Pic05.jpg" alt="" width="100%"></a></div>
+                        <br>
+                        <p id="fp1">Join the <span class="titolo_gc_europe">#GCHumanRights</span> and be part of a global effort to urge States to comply with their obligations towards children deprived of liberty: enrol in the MOOC Children Deprived of Liberty: Enacting the Recommendations of the UN Global Study!<span class="titolo_gc_europe"><br>gchumanrights.org/mooc-ungs-recs<br><br>#ChildRights #HumanRightsEducation<br>@gchumanrights</span><br></p><br><br>
+                        <a onclick="copyToClipboard('#fp1')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/ungs-recs/Media-Toolkit/pics/MOOC%20UNGS-RECS%20-%20Pic05.jpg" class="titolo_gc_europe" download target="_blank">Download Pic</a>
                     </div><!-- CLOSE POST #1 -->
-					<!-- POST #4 -->
+                    <!-- POST #4 -->
                     <div class="tweet2">
-		                <div class="video169_container">
-			                <a href="https://drive.google.com/uc?export=view&id=1jw3LAD2ESqi5BHOshw9RS9fhwHCZneec" class="titolo_gc_europe" download target="_blank"><img src="https://drive.google.com/uc?export=view&id=1jw3LAD2ESqi5BHOshw9RS9fhwHCZneec" width="100%" alt="placeholder" class="video169"></a>
-		                </div>
-			            <br>
-	                    <p id="fp4">“The fact we are deprived of liberty, doesn’t mean we have no future!”<br><br>These words, expressed by one of the children consulted for the UN Global Study on Children Deprived of Liberty, speak of hope, aspirations, and a life beyond detention. They remind us of the importance to hear children’s views on matters that directly affect them. They are also a call to do more to ensure that children deprived of their liberty have access to essential services aimed at their rehabilitation and reintegration into society.<br><br>If the above-mentioned quote has struck a chord with you, enrol in the <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study ➡ <span class="titolo_gc_europe">https://gchumanrights.org/mooc-un-global-study<br><br>@GSCDL<br>#ChildRights #HumanRightsEducation<br>@gchumanrights<span class="titolo_gc_europe">
-	                    </p>
-		   				<br>
-	                    <a onclick="copyToClipboard('#fp4')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/uc?export=view&id=1jw3LAD2ESqi5BHOshw9RS9fhwHCZneec" class="titolo_gc_europe" download target="_blank">Download Pic</a>
-                    </div><!-- CLOSE POST #4 -->					
-					                </div><!-- Close ROW #1 -->
+                        <div id="cf3"><a href="files/eiuc/ungs-recs/Media-Toolkit/pics/MOOC%20UNGS-RECS%20-%20Pic06.png"><img src="files/eiuc/ungs-recs/Media-Toolkit/pics/MOOC%20UNGS-RECS%20-%20Pic06.png" alt="" width="100%"></a></div>
+                        <br>
+                        <p id="fp4">The MOOC Children Deprived of Liberty: Enacting the Recommendations of the UN Global Study offers unique and recent case studies and interviews on how countries and stakeholders around the world are acting to reduce this invisible problem. Enrolment open!<br><span class="titolo_gc_europe">gchumanrights.org/mooc-ungs-recs<br><br>#GCHumanRights #ChildRights #HumanRightsEducation<br>@gchumanrights</span>
+                        </p>
+                        <br>
+                        <a onclick="copyToClipboard('#fp4')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="files/eiuc/ungs-recs/Media-Toolkit/pics/MOOC%20UNGS-RECS%20-%20Pic06.png" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                    </div><!-- CLOSE POST #4 -->                    
+                                    </div><!-- Close ROW #1 -->
                 
                 <!-- ROW #2 -->
-				<div class="riga">
-	                <!-- POST #3 -->
+                <div class="riga">
+                    <!-- POST #3 -->
                     <div class="tweet2">
-	                    <div class="video169_container"><iframe class="video169" src="https://www.youtube.com/embed/EEBUEkL2XlY" frameborder="0" allowfullscreen=""></iframe></div>
-	                    <br>
-                        <p id="fp3">More than 30 years ago the UN adopted the Convention on the Rights of the Child.<br>After all this time, how’s the world performing on children deprived of liberty?<br>The free <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study has started!<br><br>Enrol here ➡ https://gchumanrights.org/mooc-un-global-study<br><br><span class="titolo_gc_europe">#ChildRights<br>@GSCDL @unitednationshumanrights @gchumanrights</span></p><br>
-                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1kHz4lR8LtmafvHK5_sTzVb4H61h4Gv_C" class="titolo_gc_europe" download target="_blank">Download Video</a>
+                        <div>
+                            <div class="video-container">
+                                <video poster="files/eiuc/ungs-recs/Media-Toolkit/pics/cover-1ok.jpg" controls>
+                                    <source src="https://drive.google.com/uc?export=download&id=1JjJzcCiH8lwSMg4c07pMVLKJoD_6VkLk" type='video/mp4'>
+                                </video>
+                            </div>
+                        </div>
+                        <br>
+                        <p id="fp3">More than seven million children worldwide are deprived of liberty every year. Still a conservative estimate, this figure stands in direct contrast to the requirement of the Convention on the Rights of the Child, which clearly states that the detention of children shall be used only as a measure of last resort. What is being done in your region to address this violation of children’s rights?<br>Find out more with the <span class="titolo_gc_europe">#GCHumanrights</span> MOOC Children Deprived of Liberty: Enacting the Recommendations of the UN Global Study<span class="titolo_gc_europe"><br>gchumanrights.org/mooc-ungs-recs<br><br>#ChildRights #HumanRightsEducation<br>@gchumanrights</span></p><br>
+                        <a onclick="copyToClipboard('#fp3')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1JjJzcCiH8lwSMg4c07pMVLKJoD_6VkLk" class="titolo_gc_europe" download target="_blank">Download Video</a>
                     </div><!-- CLOSE POST #3 -->
-					<!-- POST #2 -->
+                    <!-- POST #2 -->
                     <div class="tweet2">
-	                   <div class="video169_container"><a href="https://drive.google.com/open?id=1PKe23nYCT9JUR9hOSTbQf5zfbSVYHNMl" class="titolo_gc_europe" download target="_blank"><img class="video169" src="https://drive.google.com/uc?export=view&id=1bfJlIsCIDsZ0rUbRt6HgdMrFvxNYY6VW"></a></div>
-					   <br>
-                        <p id="fp2">Children deprived of liberty are frequently placed in inhuman conditions. Sometimes their lives are even in danger.<br>But something can be done, and you can help us make sure that no child is left behind bars 👉 the <span class="titolo_gc_europe">#GCHumanRights #MOOC</span> on Children Deprived of Liberty: Learning from the UN Global Study is free and accessible at gchumanrights.org/mooc-un-global-study<br><br><span class="titolo_gc_europe">#ChildRights #HumanRightsEducation<br>@GSCDL @gchumanrights</span></p><br><br><br>
-                         <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1PKe23nYCT9JUR9hOSTbQf5zfbSVYHNMl" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <div>
+                            <div class="video-container">
+                                <video poster="files/eiuc/ungs-recs/Media-Toolkit/pics/cover2ok.jpg" controls>
+                                    <source src="https://drive.google.com/uc?export=download&id=1hu7pqB9Zbb3zHXrxjUKlld475wL4E0mU" type='video/mp4'>
+                                </video>
+                            </div>
+                        </div>
+                        <br>
+                        <p id="fp2">The UN Global Study on Children Deprived of Liberty provides a roadmap for new laws, policies, and practices that can help States dramatically reduce the number of children behind bars and locked doors. Keeping the conversation going and monitoring the enactment of the Study’s recommendations is key to ensure that children worldwide are no longer deprived of their childhood.<br>Be part of this change, enrol in the <span class="titolo_gc_europe">#GCHumanRights</span> MOOC Children Deprived of Liberty: Enacting the Recommendations of the UN Global Study!<br><span class="titolo_gc_europe">gchumanrights.org/mooc-ungs-recs<br><br>#ChildRights #HumanRightsEducation<br>@gchumanrights</span></p><br>
+                         <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1hu7pqB9Zbb3zHXrxjUKlld475wL4E0mU" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
                     </div><!-- CLOSE POST #2 -->
 
@@ -90,6 +100,21 @@
 
 
     }
+    .video-container {
+    position: relative;
+    padding-bottom: 100%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
     </style>
 
@@ -108,7 +133,7 @@ function copyToClipboard(element) {
   $temp.remove();
 }
     
-/* USELESS CODE AS #error-details is not defined but could be used in futture
+/* USELESS CODE AS #error-details is not defined but could be used in future
     $( "#FailCopy" ).click(function() {
       alert("Well done! div #error-details has been copy to your clipboard, now paste it in the notepad or email!");
     }
