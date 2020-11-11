@@ -21,12 +21,12 @@
                 
                  <!-- POST #1 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=11HFcPtygwpfOdHwzplk17IAKE3jivPx1" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=11HFcPtygwpfOdHwzplk17IAKE3jivPx1" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="files/eiuc/ieo/2020/media_toolkit/OC_IEO_2020.jpg" class="titolo_gc_europe" download target="_blank">
+                            <img src="files/eiuc/ieo/2020/media_toolkit/OC_IEO_2020.jpg" width="100%" alt="placeholder">
+                        </a>
                
-                       <a href="https://drive.google.com/uc?export=view&id=11HFcPtygwpfOdHwzplk17IAKE3jivPx1" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                       <a href="files/eiuc/ieo/2020/media_toolkit/OC_IEO_2020.jpg" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
                     </div>
                 </div><!-- Close POST #1 -->
@@ -34,10 +34,10 @@
                                 
                 <!-- POST #2 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=1W-9eM_FcLr2wEk9Fe6x7lMa3RZFSVeyD" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=1W-9eM_FcLr2wEk9Fe6x7lMa3RZFSVeyD" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="https://drive.google.com/uc?export=view&id=1W-9eM_FcLr2wEk9Fe6x7lMa3RZFSVeyD" class="titolo_gc_europe" download target="_blank">
+                            <img src="https://drive.google.com/uc?export=view&id=1W-9eM_FcLr2wEk9Fe6x7lMa3RZFSVeyD" width="100%" alt="placeholder">
+                        </a>
                
                        <a href="https://drive.google.com/uc?export=view&id=1W-9eM_FcLr2wEk9Fe6x7lMa3RZFSVeyD" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
@@ -46,10 +46,10 @@
                 
                 <!-- POST #3 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=1bsVi0S8mGNkco6zIUuJfv7fwvkgNG7Jb" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=1bsVi0S8mGNkco6zIUuJfv7fwvkgNG7Jb" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="https://drive.google.com/uc?export=view&id=1bsVi0S8mGNkco6zIUuJfv7fwvkgNG7Jb" class="titolo_gc_europe" download target="_blank">
+                            <img src="https://drive.google.com/uc?export=view&id=1bsVi0S8mGNkco6zIUuJfv7fwvkgNG7Jb" width="100%" alt="placeholder">
+                        </a>
                
                        <a href="https://drive.google.com/uc?export=view&id=1bsVi0S8mGNkco6zIUuJfv7fwvkgNG7Jb" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
@@ -58,10 +58,10 @@
                 
                 <!-- POST #4 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=1EXqJOKcqBI1T2Yl3lvG0fqAeq8UeJt3P" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=1EXqJOKcqBI1T2Yl3lvG0fqAeq8UeJt3P" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="https://drive.google.com/uc?export=view&id=1EXqJOKcqBI1T2Yl3lvG0fqAeq8UeJt3P" class="titolo_gc_europe" download target="_blank">
+                            <img src="https://drive.google.com/uc?export=view&id=1EXqJOKcqBI1T2Yl3lvG0fqAeq8UeJt3P" width="100%" alt="placeholder">
+                        </a>
                
                        <a href="https://drive.google.com/uc?export=view&id=1EXqJOKcqBI1T2Yl3lvG0fqAeq8UeJt3P" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
@@ -70,10 +70,10 @@
                 
                 <!-- POST #5 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=1ghxO43kv77XfIhUDoOqt75fEG7mMuZiB" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=1ghxO43kv77XfIhUDoOqt75fEG7mMuZiB" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="https://drive.google.com/uc?export=view&id=1ghxO43kv77XfIhUDoOqt75fEG7mMuZiB" class="titolo_gc_europe" download target="_blank">
+                            <img src="https://drive.google.com/uc?export=view&id=1ghxO43kv77XfIhUDoOqt75fEG7mMuZiB" width="100%" alt="placeholder">
+                        </a>
                
                        <a href="https://drive.google.com/uc?export=view&id=1ghxO43kv77XfIhUDoOqt75fEG7mMuZiB" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
@@ -82,10 +82,10 @@
                 
                 <!-- POST #6 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=1iy_D8ehz7IYLEOT1CW8RY0HvjiAL-opq" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=1iy_D8ehz7IYLEOT1CW8RY0HvjiAL-opq" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="https://drive.google.com/uc?export=view&id=1iy_D8ehz7IYLEOT1CW8RY0HvjiAL-opq" class="titolo_gc_europe" download target="_blank">
+                            <img src="https://drive.google.com/uc?export=view&id=1iy_D8ehz7IYLEOT1CW8RY0HvjiAL-opq" width="100%" alt="placeholder">
+                        </a>
                
                        <a href="https://drive.google.com/uc?export=view&id=1iy_D8ehz7IYLEOT1CW8RY0HvjiAL-opq" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
@@ -94,10 +94,10 @@
                 
                 <!-- POST #7 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=1dIhMg_VZpC5AiIg9e-K3alrdjdIXvkMJ" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=1dIhMg_VZpC5AiIg9e-K3alrdjdIXvkMJ" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="https://drive.google.com/uc?export=view&id=1dIhMg_VZpC5AiIg9e-K3alrdjdIXvkMJ" class="titolo_gc_europe" download target="_blank">
+                            <img src="https://drive.google.com/uc?export=view&id=1dIhMg_VZpC5AiIg9e-K3alrdjdIXvkMJ" width="100%" alt="placeholder">
+                        </a>
                
                        <a href="https://drive.google.com/uc?export=view&id=1dIhMg_VZpC5AiIg9e-K3alrdjdIXvkMJ" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
@@ -106,10 +106,10 @@
 
                 <!-- POST #8 -->
                 <div class="riga">
-					 <div class="tweet2">
-	                    <a href="https://drive.google.com/uc?export=view&id=1KEcEWOFMuIOlOAgbE9zABX1e4gThNOjT" class="titolo_gc_europe" download target="_blank">
-		                    <img src="https://drive.google.com/uc?export=view&id=1KEcEWOFMuIOlOAgbE9zABX1e4gThNOjT" width="100%" alt="placeholder">
-		                </a>
+                     <div class="tweet2">
+                        <a href="https://drive.google.com/uc?export=view&id=1KEcEWOFMuIOlOAgbE9zABX1e4gThNOjT" class="titolo_gc_europe" download target="_blank">
+                            <img src="https://drive.google.com/uc?export=view&id=1KEcEWOFMuIOlOAgbE9zABX1e4gThNOjT" width="100%" alt="placeholder">
+                        </a>
                
                        <a href="https://drive.google.com/uc?export=view&id=1KEcEWOFMuIOlOAgbE9zABX1e4gThNOjT" class="titolo_gc_europe" download target="_blank">Download Pic</a>
 
