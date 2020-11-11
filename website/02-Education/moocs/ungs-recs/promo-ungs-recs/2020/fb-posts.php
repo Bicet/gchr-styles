@@ -67,7 +67,7 @@
                         </div>
                         <br>
                         <p id="fp2">The UN Global Study on Children Deprived of Liberty provides a roadmap for new laws, policies, and practices that can help States dramatically reduce the number of children behind bars and locked doors. Keeping the conversation going and monitoring the enactment of the Study’s recommendations is key to ensure that children worldwide are no longer deprived of their childhood.<br>Be part of this change, enrol in the <span class="titolo_gc_europe">#GCHumanRights</span> MOOC Children Deprived of Liberty: Enacting the Recommendations of the UN Global Study!<br><span class="titolo_gc_europe">gchumanrights.org/mooc-ungs-recs<br><br>#ChildRights #HumanRightsEducation<br>@gchumanrights</span></p><br>
-                         <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1hu7pqB9Zbb3zHXrxjUKlld475wL4E0mU" class="titolo_gc_europe" download target="_blank">Download Pic</a>
+                         <a onclick="copyToClipboard('#fp2')" class="titolo_gc_europe" style="cursor: pointer;">Copy Caption</a> - <a href="https://drive.google.com/open?id=1hu7pqB9Zbb3zHXrxjUKlld475wL4E0mU" class="titolo_gc_europe" download target="_blank">Download Video</a>
 
                     </div><!-- CLOSE POST #2 -->
 
